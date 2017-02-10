@@ -1,0 +1,284 @@
+[04/02/2015 13:23:48][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/02/2015 13:23:48][                          Main] Calling GetEntitiesDetails() 
+[04/02/2015 13:23:48][          GetEntitiesDetails()] Starting Function 
+[04/02/2015 13:23:48][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[04/02/2015 13:23:48][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[04/02/2015 13:23:48][      ExecExecuteSQLQuery_DT()] Starting Function...
+[04/02/2015 13:23:49][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[04/02/2015 13:23:49][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[04/02/2015 13:23:49][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[04/02/2015 13:23:49][      ExecExecuteSQLQuery_DT()] Starting Function...
+[04/02/2015 13:23:49][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[04/02/2015 13:23:49][          GetEntitiesDetails()] Completed With SUCCESS
+[04/02/2015 13:23:49][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[04/02/2015 13:23:50][IdentifyExcelFile_JournalEntry()] Starting Function 
+[04/02/2015 13:23:50][IdentifyExcelFile_JournalEntry()] Attempting File Name - SK-GL Payroll Posting file-Svc LLP-Jul14.xls
+[04/02/2015 13:23:50][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[04/02/2015 13:23:51][          GetDataViewFromExcel] Starting Function 
+[04/02/2015 13:23:53][          GetDataViewFromExcel] OU Code  Entity is Empty in Line 1
+[04/02/2015 13:24:36][          GetDataViewFromExcel] No GL Account Found  5031  Line No 1
+[04/02/2015 13:24:37][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:24:37][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:24:37][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:24:37][          GetDataViewFromExcel] No GL Account Found  6334  Line No 1
+[04/02/2015 13:24:37][          GetDataViewFromExcel] No GL Account Found  5173  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  6830  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:40][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:41][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:24:41][          GetDataViewFromExcel] No GL Account Found  3838  Line No 1
+[04/02/2015 13:27:34][IdentifyExcelFile_JournalEntry()] Getting Distinct of Entity 
+[04/02/2015 13:27:52][IdentifyExcelFile_JournalEntry()] Calling ConnectToTargetCompany()
+[04/02/2015 13:27:54][      ConnectToTargetCompany()] Starting function
+[04/02/2015 13:27:54][      ConnectToTargetCompany()]  Calling GetCompanyDetails 
+[04/02/2015 13:27:54][           GetCompanyDetails()] Starting Function 
+[04/02/2015 13:27:54][           GetCompanyDetails()] Completed With SUCCESS
+[04/02/2015 13:27:54][      ConnectToTargetCompany()] Initializing the Company Object
+[04/02/2015 13:27:54][      ConnectToTargetCompany()] Assigning the representing database name
+[04/02/2015 13:27:54][      ConnectToTargetCompany()] Connecting to the Company Database.
+[04/02/2015 13:28:35][      ConnectToTargetCompany()] Completed with SUCCESS
+[04/02/2015 13:28:52][IdentifyExcelFile_JournalEntry()] Execting the Query  SELECT T0.[TransId],T0.[Number] FROM OJDT T0 WHERE T0.[U_AB_FileName] ='SK-GL Payroll Posting file-Svc LLP-Jul14.xls'
+[04/02/2015 13:29:03][IdentifyExcelFile_JournalEntry()] Filtering data with respective Entity -  SVSL
+[04/02/2015 13:29:09][IdentifyExcelFile_JournalEntry()] Calling Function JournalEntry_Posting() 
+[04/02/2015 13:29:16][          JournalEntry_Posting] Starting Function 
+[04/02/2015 13:29:16][          JournalEntry_Posting] Series SQL SELECT T0.[Series] FROM NNM1 T0 WHERE T0.[ObjectCode] =30 and  T0.[SeriesName] = 'GJ'
+[04/02/2015 13:29:17][          JournalEntry_Posting] Total Credit Amount 4837656.93
+[04/02/2015 13:29:17][          JournalEntry_Posting] Total Debit Amount 4837656.93
+[04/02/2015 13:29:17][          JournalEntry_Posting] Attempting to Add the Journal Entry
+[04/02/2015 13:29:18][          JournalEntry_Posting] Completed with ERROR Invalid Account Code
+[04/02/2015 13:29:59][IdentifyExcelFile_JournalEntry()] Calling SendEmailNotification for Sending mail with Attachment
+[04/02/2015 13:30:33][       SendEmailNotification()] Starting Function...
+[04/02/2015 13:30:39][       SendEmailNotification()] Email Notification Sent to srinivasanm@abeo-electra.com
+[04/02/2015 13:30:39][       SendEmailNotification()] Completed with SUCCESS
+[04/02/2015 13:31:00][IdentifyExcelFile_JournalEntry()] Disconnecting company database SVSL
+[04/02/2015 13:31:41][IdentifyExcelFile_JournalEntry()] Calling FileMoveToArchive for moving CSV file to archive folder
+[04/02/2015 13:31:59][             FileMoveToArchive] Starting Function 
+[04/02/2015 13:32:13][             FileMoveToArchive] Moving CSV file to Fail folder
+[04/02/2015 13:32:40][                          Main] Completed with ERROR
+[04/02/2015 13:46:31][      GetSystemIntializeInfo()] Completed with SUCCESS
+[04/02/2015 13:46:31][                          Main] Calling GetEntitiesDetails() 
+[04/02/2015 13:46:31][          GetEntitiesDetails()] Starting Function 
+[04/02/2015 13:46:31][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[04/02/2015 13:46:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[04/02/2015 13:46:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[04/02/2015 13:46:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[04/02/2015 13:46:31][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[04/02/2015 13:46:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[04/02/2015 13:46:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[04/02/2015 13:46:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[04/02/2015 13:46:31][          GetEntitiesDetails()] Completed With SUCCESS
+[04/02/2015 13:46:31][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[04/02/2015 13:46:31][IdentifyExcelFile_JournalEntry()] Starting Function 
+[04/02/2015 13:46:31][IdentifyExcelFile_JournalEntry()] Attempting File Name - SK-GL Payroll Posting file-Svc LLP-Jul14_20150402013200.xls
+[04/02/2015 13:46:31][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[04/02/2015 13:46:31][          GetDataViewFromExcel] Starting Function 
+[04/02/2015 13:46:33][          GetDataViewFromExcel] OU Code  Entity is Empty in Line 1
+[04/02/2015 13:46:34][          GetDataViewFromExcel] No GL Account Found  5031  Line No 1
+[04/02/2015 13:46:35][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:46:35][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:46:35][          GetDataViewFromExcel] No GL Account Found  5181  Line No 1
+[04/02/2015 13:46:35][          GetDataViewFromExcel] No GL Account Found  6334  Line No 1
+[04/02/2015 13:46:35][          GetDataViewFromExcel] No GL Account Found  5173  Line No 1
+[04/02/2015 13:46:36][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  5015  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  6830  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:37][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:38][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:38][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:38][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:38][          GetDataViewFromExcel] No GL Account Found  3110  Line No 1
+[04/02/2015 13:46:38][          GetDataViewFromExcel] No GL Account Found  3838  Line No 1
+[04/02/2015 13:46:38][IdentifyExcelFile_JournalEntry()] Getting Distinct of Entity 
+[04/02/2015 13:46:39][IdentifyExcelFile_JournalEntry()] Calling ConnectToTargetCompany()
+[04/02/2015 13:46:39][      ConnectToTargetCompany()] Starting function
+[04/02/2015 13:46:39][      ConnectToTargetCompany()]  Calling GetCompanyDetails 
+[04/02/2015 13:46:39][           GetCompanyDetails()] Starting Function 
+[04/02/2015 13:46:39][           GetCompanyDetails()] Completed With SUCCESS
+[04/02/2015 13:46:39][      ConnectToTargetCompany()] Initializing the Company Object
+[04/02/2015 13:46:39][      ConnectToTargetCompany()] Assigning the representing database name
+[04/02/2015 13:46:39][      ConnectToTargetCompany()] Connecting to the Company Database.
+[04/02/2015 13:46:59][      ConnectToTargetCompany()] Completed with SUCCESS
+[04/02/2015 13:46:59][IdentifyExcelFile_JournalEntry()] Execting the Query  SELECT T0.[TransId],T0.[Number] FROM OJDT T0 WHERE T0.[U_AB_FileName] ='SK-GL Payroll Posting file-Svc LLP-Jul14_20150402013200.xls'
+[04/02/2015 13:46:59][IdentifyExcelFile_JournalEntry()] Starting transaction on company database SVSL
+[04/02/2015 13:46:59][IdentifyExcelFile_JournalEntry()] Filtering data with respective Entity -  SVSL
+[04/02/2015 13:46:59][IdentifyExcelFile_JournalEntry()] Calling Function JournalEntry_Posting() 
+[04/02/2015 13:51:19][          JournalEntry_Posting] Starting Function 
+[04/02/2015 13:51:19][          JournalEntry_Posting] Series SQL SELECT T0.[Series] FROM NNM1 T0 WHERE T0.[ObjectCode] =30 and  T0.[SeriesName] = 'GJ'
+[04/02/2015 13:51:20][          JournalEntry_Posting] Total Credit Amount 4837656.93
+[04/02/2015 13:51:20][          JournalEntry_Posting] Total Debit Amount 4837656.93
+[04/02/2015 13:51:20][          JournalEntry_Posting] Attempting to Add the Journal Entry
+[04/02/2015 13:51:21][          JournalEntry_Posting] Completed with ERROR Invalid Account Code
+[04/02/2015 13:55:09][IdentifyExcelFile_JournalEntry()] Disconnecting company database SVSL
+[04/02/2015 13:55:09][IdentifyExcelFile_JournalEntry()] Calling FileMoveToArchive for moving CSV file to archive folder
+[04/02/2015 13:55:09][             FileMoveToArchive] Starting Function 
+[04/02/2015 13:55:09][             FileMoveToArchive] Moving CSV file to Fail folder
+[04/02/2015 13:55:09][IdentifyExcelFile_JournalEntry()] Calling SendEmailNotification for Sending mail with Attachment
+[04/02/2015 13:55:09][IdentifyExcelFile_JournalEntry()] Completed With ERROR
+[04/02/2015 13:55:09][                          Main] Completed with ERROR
+[11/16/2015 18:15:02][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:15:02][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:15:02][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:15:02][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:15:02][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:15:02][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:15:02][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:15:02][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:15:02][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:15:02][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:15:03][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:15:03][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:15:03][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:15:03][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:17:07][IdentifyExcelFile_JournalEntry()] Attempting File Name - GL Payroll_20150129050914.xls
+[11/16/2015 18:17:08][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[11/16/2015 18:17:08][          GetDataViewFromExcel] Starting Function 
+[11/16/2015 18:17:28][IdentifyExcelFile_JournalEntry()] Completed With ERROR
+[11/16/2015 18:17:28][                          Main] Completed with ERROR
+[11/16/2015 18:17:32][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:17:32][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:17:32][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:17:32][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:17:32][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:17:32][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:17:32][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:17:32][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:17:32][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:17:32][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:17:32][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:17:32][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:17:32][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:17:32][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:17:38][IdentifyExcelFile_JournalEntry()] Attempting File Name - GL Payroll_20150129050914.xls
+[11/16/2015 18:17:39][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[11/16/2015 18:17:50][          GetDataViewFromExcel] Starting Function 
+[11/16/2015 18:19:06][IdentifyExcelFile_JournalEntry()] Completed With ERROR
+[11/16/2015 18:19:06][                          Main] Completed with ERROR
+[11/16/2015 18:19:09][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:19:09][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:19:09][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:19:09][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:19:09][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:19:09][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:19:09][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:19:09][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:19:09][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:19:09][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:19:09][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:19:09][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:19:09][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:19:09][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:19:13][IdentifyExcelFile_JournalEntry()] Attempting File Name - GL Payroll_20150129050914.xls
+[11/16/2015 18:19:13][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[11/16/2015 18:19:13][          GetDataViewFromExcel] Starting Function 
+[11/16/2015 18:19:14][IdentifyExcelFile_JournalEntry()] Completed With ERROR
+[11/16/2015 18:19:14][                          Main] Completed with ERROR
+[11/16/2015 18:19:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:19:23][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:19:23][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:19:23][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:19:23][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:19:23][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:19:23][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:19:23][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:19:23][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:19:23][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:19:23][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:19:23][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:19:23][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:19:23][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:19:30][IdentifyExcelFile_JournalEntry()] Attempting File Name - GL Payroll_20150129050914.xls
+[11/16/2015 18:19:32][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[11/16/2015 18:20:24][          GetDataViewFromExcel] Starting Function 
+[11/16/2015 18:27:11][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:27:11][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:27:11][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:27:11][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:27:11][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:27:11][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:27:11][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:27:11][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:27:11][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:27:11][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:27:11][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:27:11][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:27:11][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:27:11][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:27:15][IdentifyExcelFile_JournalEntry()] Attempting File Name - SK-GL Payroll Posting file-Svc LLP-Jul14_20150402013200.xls
+[11/16/2015 18:27:17][IdentifyExcelFile_JournalEntry()] Calling GetDataViewFromExcel() 
+[11/16/2015 18:27:25][          GetDataViewFromExcel] Starting Function 
+[11/16/2015 18:28:04][          GetDataViewFromExcel] OU Code  Entity is Empty in Line 1
+[11/16/2015 18:28:23][IdentifyExcelFile_JournalEntry()] Getting Distinct of Entity 
+[11/16/2015 18:28:24][IdentifyExcelFile_JournalEntry()] Calling ConnectToTargetCompany()
+[11/16/2015 18:28:24][      ConnectToTargetCompany()] Starting function
+[11/16/2015 18:28:24][      ConnectToTargetCompany()]  Calling GetCompanyDetails 
+[11/16/2015 18:28:24][           GetCompanyDetails()] Starting Function 
+[11/16/2015 18:28:24][           GetCompanyDetails()] Completed With SUCCESS
+[11/16/2015 18:28:24][      ConnectToTargetCompany()] Initializing the Company Object
+[11/16/2015 18:28:24][      ConnectToTargetCompany()] Assigning the representing database name
+[11/16/2015 18:28:24][      ConnectToTargetCompany()] Connecting to the Company Database.
+[11/16/2015 18:28:30][      ConnectToTargetCompany()] Completed with SUCCESS
+[11/16/2015 18:28:30][IdentifyExcelFile_JournalEntry()] Execting the Query  SELECT T0.[TransId],T0.[Number] FROM OJDT T0 WHERE T0.[U_AB_FileName] ='SK-GL Payroll Posting file-Svc LLP-Jul14_20150402013200.xls'
+[11/16/2015 18:28:30][IdentifyExcelFile_JournalEntry()] Starting transaction on company database SVSL
+[11/16/2015 18:28:30][IdentifyExcelFile_JournalEntry()] Filtering data with respective Entity -  SVSL
+[11/16/2015 18:28:30][IdentifyExcelFile_JournalEntry()] Calling Function JournalEntry_Posting() 
+[11/16/2015 18:28:30][          JournalEntry_Posting] Starting Function 
+[11/16/2015 18:28:30][          JournalEntry_Posting] Series SQL SELECT T0.[Series] FROM NNM1 T0 WHERE T0.[ObjectCode] =30 and  T0.[SeriesName] = 'GJ'
+[11/16/2015 18:28:31][          JournalEntry_Posting] Total Credit Amount 6111888.82
+[11/16/2015 18:28:31][          JournalEntry_Posting] Total Debit Amount 6111888.82
+[11/16/2015 18:28:31][          JournalEntry_Posting] Attempting to Add the Journal Entry
+[11/16/2015 18:28:31][          JournalEntry_Posting] Completed with ERROR Update the exchange rate 
+[11/16/2015 18:28:31][IdentifyExcelFile_JournalEntry()] Disconnecting company database SVSL
+[11/16/2015 18:28:31][IdentifyExcelFile_JournalEntry()] Calling FileMoveToArchive for moving CSV file to archive folder
+[11/16/2015 18:28:31][             FileMoveToArchive] Starting Function 
+[11/16/2015 18:28:31][             FileMoveToArchive] Moving CSV file to Fail folder
+[11/16/2015 18:28:31][IdentifyExcelFile_JournalEntry()] Calling SendEmailNotification for Sending mail with Attachment
+[11/16/2015 18:28:31][IdentifyExcelFile_JournalEntry()] Completed With ERROR
+[11/16/2015 18:28:31][                          Main] Completed with ERROR
+[11/16/2015 18:34:30][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:34:30][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:34:30][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:34:30][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:34:30][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:34:30][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:34:30][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:34:30][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:34:30][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:34:30][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:34:30][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:34:30][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:34:30][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:34:30][IdentifyExcelFile_JournalEntry()] Starting Function 
+[11/16/2015 18:35:54][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/16/2015 18:35:54][                          Main] Calling GetEntitiesDetails() 
+[11/16/2015 18:35:54][          GetEntitiesDetails()] Starting Function 
+[11/16/2015 18:35:54][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/16/2015 18:35:54][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/16/2015 18:35:54][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:35:54][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:35:54][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.[ExportCode] FROM OACT T0
+[11/16/2015 18:35:54][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[11/16/2015 18:35:54][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/16/2015 18:35:54][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/16/2015 18:35:54][          GetEntitiesDetails()] Completed With SUCCESS
+[11/16/2015 18:35:54][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/16/2015 18:35:54][IdentifyExcelFile_JournalEntry()] Starting Function 

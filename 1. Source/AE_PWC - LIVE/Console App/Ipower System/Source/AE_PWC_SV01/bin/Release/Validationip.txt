@@ -1,0 +1,14 @@
+
+Validation Error!  The following OU Codes are not Existing / No Entities Tagged for this OU Codes  
+
+Line No.  OU Code        Message                                                       
+=======================================================================================
+ 
+1208      52152            OU Code not Exists in Company DB :- PWCL                 
+1213      52152            OU Code not Exists in Company DB :- PWCL                 
+2048      52316            OU Code not Exists in Company DB :- PWCL                 
+25988     52283            OU Code not Exists in Company DB :- PWCL                 
+25989     52283            OU Code not Exists in Company DB :- PWCL                 
+ 
+========================================================================================
+Please Check.

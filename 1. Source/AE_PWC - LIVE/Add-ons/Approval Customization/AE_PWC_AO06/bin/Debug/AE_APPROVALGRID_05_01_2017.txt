@@ -1,0 +1,369 @@
+CREATE PROCEDURE [dbo].[AE_APPROVALGRID](@APPTYPE NVARCHAR(100),@APPCODE NVARCHAR(100),@APPROVER NVARCHAR(100),@CREATOR NVARCHAR(100),@DOCUMENT NVARCHAR(10),@DRAFTNO NVARCHAR(10),@VENDOR NVARCHAR(100),@FROMDATE DATE,@TODATE DATE,@ENTITY NVARCHAR(100))
+AS
+BEGIN
+--AE_APPROVALGRID 'ALL','ADM3','Goh Li Ling','','ALL','','','2016-01-01','2016-11-10',''
+
+--DECLARE @APPTYPE NVARCHAR(100),@APPCODE NVARCHAR(100),@APPROVER NVARCHAR(100),@CREATOR NVARCHAR(100),@DOCUMENT NVARCHAR(10),@DRAFTNO NVARCHAR(10),@VENDOR NVARCHAR(100),@FROMDATE DATE,@TODATE DATE,@ENTITY NVARCHAR(100)
+--SET @APPROVER = 'Marcus HC Lam'
+--SET @DOCUMENT = 'ALL'
+--SET @ENTITY = 'GHRS'
+--SET @DRAFTNO = ''
+--SET @CREATOR = '' 
+--SET @VENDOR = ''
+--SET @FROMDATE = '2015-01-01'
+--SET @TODATE = '2016-11-27'
+--SET @APPTYPE = 'ALL'
+--SET @APPCODE = 'ADM5'
+
+DECLARE @SQL NVARCHAR(MAX) ,@SQL1 NVARCHAR(MAX)
+
+CREATE TABLE #TABLE(ENTITY NVARCHAR(50),[DOCUMENT TYPE] NVARCHAR(100),[SELECT] NVARCHAR(2),[DRAFT NO] INTEGER,[DOCUMENT NO] NVARCHAR(50),
+				    [CREATOR NAME] NVARCHAR(100),[POSTING DATE] DATE,[VENDOR NAME] NVARCHAR(100),[AMOUNT(BEFORE GST)] NUMERIC(18,3),[APPROVAL GRID] NVARCHAR(100),
+					[APPROVALCODE] NVARCHAR(100),[USERCODE] NVARCHAR(100),[STATUS] NVARCHAR(100),REMARKS NVARCHAR(255),APPROVER NVARCHAR(100), 
+					[REMARKS BY APPROVER] NVARCHAR(254),APPSEQ INTEGER,SEQ INTEGER,STEPCODE INTEGER,ACODE NVARCHAR(240),Astatus NVARCHAR(10))
+
+
+CREATE TABLE #TABLEF(ENTITY NVARCHAR(50),[DOCUMENT TYPE] NVARCHAR(100),[SELECT] NVARCHAR(2),[DRAFT NO] INTEGER,[DOCUMENT NO] NVARCHAR(50),
+				    [CREATOR NAME] NVARCHAR(100),[POSTING DATE] DATE,[VENDOR NAME] NVARCHAR(100),[AMOUNT(BEFORE GST)] NUMERIC(18,3),[APPROVAL GRID] NVARCHAR(100),
+					[APPROVALCODE] NVARCHAR(100),[USERCODE] NVARCHAR(100),[STATUS] NVARCHAR(100),REMARKS NVARCHAR(255),APPROVER NVARCHAR(100), 
+					[REMARKS BY APPROVER] NVARCHAR(254),APPSEQ INTEGER,SEQ INTEGER,STEPCODE INTEGER,ACODE NVARCHAR(240),Astatus NVARCHAR(10))
+
+CREATE TABLE #FINAL(ENTITY NVARCHAR(50),[ENTITY NAME] NVARCHAR(240),[DOCUMENT TYPE] NVARCHAR(100),[SELECT] NVARCHAR(2),[DRAFT NO] INTEGER,[DOCUMENT NO] NVARCHAR(50),
+				    [CREATOR NAME] NVARCHAR(100),[POSTING DATE] DATE,[VENDOR NAME] NVARCHAR(100),[AMOUNT(BEFORE GST)] NUMERIC(18,3),[APPROVED BY] NVARCHAR(100),[APPROVAL GRID] NVARCHAR(100),
+					[APPROVALCODE] NVARCHAR(100),[USERCODE] NVARCHAR(100),[APPROVAL TYPE] NVARCHAR(100),[STATUS] NVARCHAR(100),REMARKS NVARCHAR(255),
+					[REASON FOR NOT APPROVING] NVARCHAR(254),SEQ INTEGER)
+
+
+IF ISNULL(@ENTITY, '') <> ''
+BEGIN
+SET @SQL = 'SELECT A.DocEntry, CASE WHEN A.ObjType = ''22'' THEN ''PURCHASE ORDER'' WHEN A.ObjType = ''1470000113'' THEN ''PURCHASE REQUEST'' END [Document Type],
+A.ObjType, A.DocEntry [Draft No],F.SeriesName + '' - '' + cast(A.DocNum as nvarchar(30)) [Document No],
+B.U_NAME [Creator Name],A.DocDate [Posting Date],CardName [Vendor Name],A.Doctotal -A.VatSum [DocTotal] , A.U_AB_APPROVALCODE , c.WddCode ,E.U_NAME ,E.USERID ,
+ E.USER_CODE , ''Pending'' [Status] , A.Comments [Remarks] , D.Status [AStatus] , 
+ --ROW_NUMBER() OVER(partition by c.WddCode order by c.WddCode) AS AppSeq,
+ ROW_NUMBER() OVER(partition by c.WddCode order by H.SortId) AS AppSeq,
+ cast( cast(c.WddCode as nvarchar(20)) + cast(D.[StepCode] as nvarchar(20)) as integer) [StepCode],H.SortId
+INTO #TmpInitialise
+FROM ' + @Entity + '..ODRF A
+INNER JOIN ' + @Entity + '..OUSR B ON B.USERID = A.UserSign
+LEFT JOIN ' + @Entity + '..OWDD C ON A.DocEntry = C.DocEntry 
+JOIN ' + @Entity + '..WDD1 D ON C.WddCode = D.WddCode 
+JOIN ' + @Entity + '..WTM2 H ON H.WtmCode = C.WtmCode AND D.StepCode = H.WstCode
+JOIN ' + @Entity + '..OUSR E ON E.USERID = D.UserID 
+JOIN ' + @Entity + '..NNM1 F ON F.Series = A.Series 
+LEFT OUTER JOIN PWCL ..[@AB_APPROVALMATRIX] G ON G.U_ApprGridCode  =  A.U_AB_APPROVALCODE 		
+WHERE DocStatus = ''O''
+AND A.DocDate >= '''+ CAST(@FROMDATE AS VARCHAR(50))+''' AND A.DocDate <= '''+ CAST(@TODATE AS VARCHAR(50))+'''
+AND A.ObjType IN  (22,1470000113) '
+
+SET @SQL = @SQL + 'SELECT ''' + @ENTITY + ''' [Entity], [Document Type],'''' [Select], [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,U_AB_APPROVALCODE,WddCode,U_NAME,
+USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId
+into #TmpApproval
+FROM #TmpInitialise
+WHERE ObjType = (CASE WHEN ''' + @DOCUMENT + ''' = ''ALL'' THEN ObjType WHEN ''' + @DOCUMENT + ''' = ''PR'' THEN ''1470000113'' WHEN ''' + @DOCUMENT + ''' = ''PO'' THEN ''22'' END) 
+AND [Creator Name] = (CASE WHEN ISNULL(''' + @CREATOR + ''','''') = '''' THEN  [Creator Name] ELSE ''' + @CREATOR + ''' END)
+AND DocEntry = (CASE WHEN ISNULL(''' + @DRAFTNO + ''','''') = '''' THEN DocEntry ELSE ''' + @DRAFTNO + ''' END)
+AND ISNULL([Vendor Name],'''') = (CASE WHEN ISNULL(''' + @VENDOR + ''','''') = '''' THEN ISNULL([Vendor Name],'''') ELSE ''' + @VENDOR + ''' END)
+
+--select *  , dense_rank() OVER (PARTITION BY [draft no] ORDER BY stepcode ) [seq] into #TmpApprovalF 
+select [Entity], [Document Type], [Select], [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,U_AB_APPROVALCODE,WddCode,U_NAME,
+USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId [seq] into #TmpApprovalF
+from #TmpApproval 
+group by [Entity],[Select], [Document Type],  [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,
+U_AB_APPROVALCODE,WddCode,U_NAME,USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId
+order by [Draft No] , AppSeq 
+
+select * into #TmpApprovalF1 from #TmpApprovalF
+ 
+INSERT INTO #TABLE
+select Entity,[Document Type],[Select],[Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal,U_AB_APPROVALCODE,
+WddCode,U_NAME,[Status],[Remarks],
+(select top 1 U_Name from #TmpApprovalF1 T0 where T0.[Seq] = T1.[Seq] -1 and T0.[Draft No] = T1.[Draft No]  and T0.AStatus = ''Y'' group by U_Name) as [Approvedby] 
+,'''' [ApproverRemarks],AppSeq,Seq,StepCode,USER_CODE, AStatus
+from #TmpApprovalF T1 -- where AStatus = ''W'' AND U_NAME =  ''' + @APPROVER + '''
+order by [Draft No] , AppSeq 
+
+select [DRAFT NO],seq, stepcode , case when AStatus in (''Y'',''N'') then ''1'' else ''0'' end [RC], AStatus into #TmpCR from #table 
+
+delete from #TmpCR where stepcode in (select stepcode from #TmpCR where RC  = ''1'' )
+'
+set @SQL1 = '  INSERT INTO #TABLEF
+select x.*  from(
+select * from #TABLE WHERE SEQ=1 AND [DRAFT NO] NOT IN (select [DRAFT NO] from #TABLE WHERE SEQ=1 AND AStatus= ''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=2 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=1 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=3 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=2 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=4 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=3 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=5 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=4 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=6 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=5 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=7 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=6 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=8 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=7 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=9 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=8 AND AStatus=''Y'')) x --join #TmpCR y on x.stepcode = y.stepcode
+ WHERE   X.ACODE = ''' + @APPCODE +  ''' AND X.STEPCODE IN ( SELECT STEPCODE FROM #TMPCR    ) order by x.[Draft No],x.[AppSeq]
+
+delete from #TABLEF where StepCode in (select T0.StepCode from #TABLEF T0 where T0.AStatus in (''Y'',''N''))
+
+Drop table #TmpApprovalF1
+Drop table #TmpApprovalF
+Drop table #TmpApproval
+Drop table #TmpInitialise 
+drop table #TmpCR
+'
+--SELECT @SQL + @SQL1
+
+EXEC(@SQL + @SQL1)
+END
+ELSE IF ISNULL(@ENTITY,'') = ''
+BEGIN
+
+DECLARE @ENTITYNAME NVARCHAR(MAX)
+
+DECLARE C1 CURSOR FOR
+SELECT A.Name FROM PWCL ..[@AB_COMPANYDATA] A
+INNER JOIN [SBO-COMMON].dbo.SRGC B ON B.dbName = A.Name
+
+OPEN C1;
+FETCH NEXT FROM C1 INTO @ENTITYNAME
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+SET @SQL = 'SELECT A.DocEntry, CASE WHEN A.ObjType = ''22'' THEN ''PURCHASE ORDER'' WHEN A.ObjType = ''1470000113'' THEN ''PURCHASE REQUEST'' END [Document Type],
+A.ObjType, A.DocEntry [Draft No],F.SeriesName + '' - '' + cast(A.DocNum as nvarchar(30)) [Document No],
+B.U_NAME [Creator Name],A.DocDate [Posting Date],CardName [Vendor Name],A.Doctotal -A.VatSum [DocTotal] , A.U_AB_APPROVALCODE , c.WddCode ,E.U_NAME ,E.USERID ,
+ E.USER_CODE , ''Pending'' [Status] , A.Comments [Remarks] , D.Status [AStatus] , 
+ --ROW_NUMBER() OVER(partition by c.WddCode order by c.WddCode) AS AppSeq,
+ ROW_NUMBER() OVER(partition by c.WddCode order by H.SortId) AS AppSeq,
+ cast( cast(c.WddCode as nvarchar(20)) + cast(D.[StepCode] as nvarchar(20)) as integer) [StepCode],H.SortId
+INTO #TmpInitialise
+FROM ' + @ENTITYNAME + '..ODRF A
+INNER JOIN ' + @ENTITYNAME + '..OUSR B ON B.USERID = A.UserSign
+LEFT JOIN ' + @ENTITYNAME + '..OWDD C ON A.DocEntry = C.DocEntry 
+JOIN ' + @ENTITYNAME + '..WDD1 D ON C.WddCode = D.WddCode 
+JOIN ' + @ENTITYNAME + '..WTM2 H ON H.WtmCode = C.WtmCode AND D.StepCode = H.WstCode
+JOIN ' + @ENTITYNAME + '..OUSR E ON E.USERID = D.UserID 
+JOIN ' + @ENTITYNAME + '..NNM1 F ON F.Series = A.Series 
+LEFT OUTER JOIN PWCL ..[@AB_APPROVALMATRIX] G ON G.U_ApprGridCode  =  A.U_AB_APPROVALCODE 
+WHERE DocStatus = ''O''
+AND A.DocDate >= '''+ CAST(@FROMDATE AS VARCHAR(50))+''' AND A.DocDate <= '''+ CAST(@TODATE AS VARCHAR(50))+'''
+AND A.ObjType IN  (22,1470000113) 
+
+SELECT ''' + @ENTITYNAME + ''' [Entity], [Document Type],'''' [Select], [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,U_AB_APPROVALCODE,WddCode,U_NAME,
+USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId
+into #TmpApproval
+FROM #TmpInitialise
+WHERE ObjType = (CASE WHEN ''' + @DOCUMENT + ''' = ''ALL'' THEN ObjType WHEN ''' + @DOCUMENT + ''' = ''PR'' THEN ''1470000113'' WHEN ''' + @DOCUMENT + ''' = ''PO'' THEN ''22'' END) 
+AND [Creator Name] = (CASE WHEN ISNULL(''' + @CREATOR + ''','''') = '''' THEN  [Creator Name] ELSE ''' + @CREATOR + ''' END)
+AND DocEntry = (CASE WHEN ISNULL(''' + @DRAFTNO + ''','''') = '''' THEN DocEntry ELSE ''' + @DRAFTNO + ''' END)
+AND ISNULL([Vendor Name],'''') = (CASE WHEN ISNULL(''' + @VENDOR + ''','''') = '''' THEN ISNULL([Vendor Name],'''') ELSE ''' + @VENDOR + ''' END)
+
+--select *  , dense_rank() OVER (PARTITION BY [draft no] ORDER BY stepcode ) [seq] into #TmpApprovalF 
+select [Entity], [Document Type], [Select], [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,U_AB_APPROVALCODE,WddCode,U_NAME,
+USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId [seq] into #TmpApprovalF
+from #TmpApproval 
+group by [Entity],[Select], [Document Type],  [Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal ,
+U_AB_APPROVALCODE,WddCode,U_NAME,USERID,USER_CODE , Status , Remarks ,[AStatus],AppSeq,StepCode,SortId
+order by [Draft No] , AppSeq 
+
+select * into #TmpApprovalF1 from #TmpApprovalF'
+set @SQL1 = '  INSERT INTO #TABLE
+select Entity,[Document Type],[Select],[Draft No],[Document No],[Creator Name],[Posting Date],[Vendor Name],DocTotal,U_AB_APPROVALCODE,
+WddCode,U_NAME,[Status],[Remarks],
+(select top 1 U_Name from #TmpApprovalF1 T0 where T0.[Seq] = T1.[Seq] -1 and T0.[Draft No] = T1.[Draft No]  and T0.AStatus = ''Y'' group by U_Name) as [Approvedby] 
+,'''' [ApproverRemarks],AppSeq,Seq,StepCode,USER_CODE, AStatus
+from #TmpApprovalF T1 -- where AStatus = ''W'' AND U_NAME =  ''' + @APPROVER + '''
+order by [Draft No] , AppSeq 
+select [DRAFT NO],seq, stepcode , case when AStatus in (''Y'',''N'') then ''1'' else ''0'' end [RC], AStatus into #TmpCR from #table 
+delete from #TmpCR where stepcode in (select stepcode from #TmpCR where RC  = ''1'' )
+INSERT INTO #TABLEF
+select x.*  from(
+select * from #TABLE WHERE SEQ=1 AND [DRAFT NO] NOT IN (select [DRAFT NO] from #TABLE WHERE SEQ=1 AND AStatus= ''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=2 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=1 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=3 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=2 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=4 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=3 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=5 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=4 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=6 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=5 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=7 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=6 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=8 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=7 AND AStatus=''Y'') UNION ALL
+select * from #TABLE WHERE SEQ=9 AND [DRAFT NO] IN (select [DRAFT NO] from #TABLE WHERE SEQ=8 AND AStatus=''Y'')) x --join #TmpCR y on x.stepcode = y.stepcode
+ WHERE   X.ACODE = ''' + @APPCODE +  ''' AND X.STEPCODE IN ( SELECT STEPCODE FROM #TMPCR    ) order by x.[Draft No],x.[AppSeq]
+ delete from #TABLEF where StepCode in (select T0.StepCode from #TABLEF T0 where T0.AStatus in (''Y'',''N''))
+Drop table #TmpApprovalF1
+Drop table #TmpApprovalF
+Drop table #TmpApproval
+Drop table #TmpInitialise 
+ DELETE FROM #TABLE
+drop table #TmpCR
+'
+
+EXEC (@SQL + @sql1)
+
+FETCH NEXT FROM C1 INTO @ENTITYNAME
+END
+CLOSE C1;
+DEALLOCATE C1;
+
+END
+SELECT * INTO #TMPCOMPANY FROM PWCL ..[@AB_COMPANYDATA]
+
+
+SELECT  ENTITY, U_AB_COMPANYNAME [ENTITY NAME],[DOCUMENT TYPE],[SELECT],[DRAFT NO],[DOCUMENT NO],[CREATOR NAME],[POSTING DATE],[VENDOR NAME],[AMOUNT(BEFORE GST)],
+case when isnull(APPROVER,'') = '' then 'You Are The First Approver' else APPROVER end [APPROVED BY],
+[APPROVAL GRID],APPROVALCODE,USERCODE,'' [APPROVAL TYPE], [STATUS], REMARKS,[REMARKS BY APPROVER] [REASON FOR NOT APPROVING],SEQ 
+INTO #BEFOREFINAL
+FROM #TABLEF 
+LEFT OUTER JOIN #TMPCOMPANY ON #TABLEF.ENTITY COLLATE DATABASE_DEFAULT = #TMPCOMPANY.NAME COLLATE DATABASE_DEFAULT
+ORDER BY ENTITY,[DRAFT NO],APPSEQ 
+
+DECLARE @SEQUENCE NVARCHAR(MAX),@BEFDRAFTNO NVARCHAR(MAX),@BEFENTITIY NVARCHAR(MAX),@WDDCODE NVARCHAR(MAX),@LINEAPPROVALTYPE NVARCHAR(MAX)
+DECLARE @APPRGRIDCODE NVARCHAR(25)
+
+DECLARE C2 CURSOR FOR
+SELECT DISTINCT SEQ,ENTITY,[DRAFT NO],APPROVALCODE,[APPROVAL GRID] FROM #BEFOREFINAL 
+
+OPEN C2;
+FETCH NEXT FROM C2 INTO @SEQUENCE,@BEFENTITIY,@BEFDRAFTNO,@WDDCODE,@APPRGRIDCODE
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+SET @SQL = 'DECLARE @COLS NVARCHAR(MAX) 
+			SELECT  @COLS = COALESCE(@COLS + '','' + B.U_NAME + '''','''' + B.U_NAME + '''' ) 
+			FROM '+ @BEFENTITIY +'..WDD1 A 
+			INNER JOIN '+ @BEFENTITIY +'..OUSR B ON B.USERID = A.UserID 
+			WHERE A.WddCode IN(SELECT WddCode FROM '+ @BEFENTITIY +'..OWDD WHERE DocEntry = '+ @BEFDRAFTNO +') AND A.Status = ''Y'' 
+			AND A.WddCode = ''' + @WDDCODE + '''
+			
+			UPDATE #BEFOREFINAL SET [APPROVED BY] = (CASE WHEN ISNULL(@COLS,'''') <> '''' THEN ISNULL(@COLS,'''') ELSE ''You Are The First Approver'' END)
+			WHERE [DRAFT NO] = ''' + @BEFDRAFTNO + ''' AND ENTITY = ''' + @BEFENTITIY + ''' '
+
+EXEC (@SQL)
+
+IF @APPTYPE = 'MAIN'
+BEGIN
+	SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+END
+ELSE IF @APPTYPE = 'BACKUP'
+BEGIN
+	SET @LINEAPPROVALTYPE = 'BACKUP APPROVER'
+END
+ELSE
+BEGIN
+DECLARE @COUNT_MAIN INTEGER,@COUNT_BACKUP INTEGER
+	SET @COUNT_MAIN = 0
+	SET @COUNT_BACKUP = 0
+	IF @SEQUENCE = 1
+	BEGIN
+		SELECT @COUNT_MAIN = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr1,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		SELECT @COUNT_BACKUP = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr1B,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		IF @COUNT_MAIN >= 1	AND @COUNT_BACKUP = 0
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+		ELSE IF @COUNT_MAIN = 0	AND @COUNT_BACKUP >= 1
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'BACKUP APPROVER'
+		END
+		ELSE
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+	END
+	ELSE IF @SEQUENCE = 2
+	BEGIN
+		SELECT @COUNT_MAIN = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr2,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		SELECT @COUNT_BACKUP = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr2B,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		IF @COUNT_MAIN >= 1	AND @COUNT_BACKUP = 0
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+		ELSE IF @COUNT_MAIN = 0	AND @COUNT_BACKUP >= 1
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'BACKUP APPROVER'
+		END
+		ELSE
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+	END
+	ELSE IF @SEQUENCE >= 3
+	BEGIN
+		SELECT @COUNT_MAIN = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr3,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		SELECT @COUNT_BACKUP = COUNT(*) FROM PWCL ..[@AB_APPROVALMATRIX] WHERE isnull(U_Appr3B,'') = @APPCODE AND U_ApprGridCode = @APPRGRIDCODE
+		IF @COUNT_MAIN >= 1	AND @COUNT_BACKUP = 0
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+		ELSE IF @COUNT_MAIN = 0	AND @COUNT_BACKUP >= 1
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'BACKUP APPROVER'
+		END
+		ELSE
+		BEGIN
+			SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+		END
+	END
+END
+
+SET @SQL = 'INSERT INTO #FINAL 
+SELECT A.ENTITY, A.[ENTITY NAME],A.[DOCUMENT TYPE],A.[SELECT],A.[DRAFT NO],A.[DOCUMENT NO],A.[CREATOR NAME],A.[POSTING DATE],A.[VENDOR NAME],A.[AMOUNT(BEFORE GST)],
+[APPROVED BY],A.[APPROVAL GRID],A.APPROVALCODE,A.USERCODE,'''+ @LINEAPPROVALTYPE +''' [APPROVAL TYPE], A.[STATUS], A.REMARKS,A.[REASON FOR NOT APPROVING],SEQ
+FROM #BEFOREFINAL A
+LEFT OUTER JOIN PWCL ..[@AB_APPROVALMATRIX] B ON B.U_ApprGridCode COLLATE DATABASE_DEFAULT =  A.[APPROVAL GRID] COLLATE DATABASE_DEFAULT 
+WHERE A.[DRAFT NO] = '+ @BEFDRAFTNO +' '
+
+IF @APPTYPE = 'MAIN'
+BEGIN
+	SET @LINEAPPROVALTYPE = 'MAIN APPROVER'
+
+	IF @SEQUENCE = 1
+	BEGIN
+		SET @SQL = @SQL + ' and (isnull(U_Appr1,'''') = '''+ @APPCODE +''')'
+	END
+	ELSE IF @SEQUENCE = 2
+	BEGIN
+		SET @SQL = @SQL + ' AND (isnull(U_Appr2,'''') = '''+ @APPCODE +''' )'
+	END
+	ELSE IF @SEQUENCE >= 3
+	BEGIN
+		SET @SQL = @SQL + ' and (isnull(U_Appr3,'''') = '''+ @APPCODE +''')'
+	END
+END
+ELSE IF @APPTYPE = 'BACKUP'
+BEGIN
+	SET @LINEAPPROVALTYPE = 'BACKUP APPROVER'
+	IF @SEQUENCE = 1
+	BEGIN
+		SET @SQL = @SQL + ' and (isnull(U_Appr1B,'''') = '''+ @APPCODE +''' )'
+	END
+	ELSE IF @SEQUENCE = 2
+	BEGIN
+		SET @SQL = @SQL + ' and (isnull(U_Appr2B,'''') = '''+ @APPCODE +''')'
+	END
+	ELSE IF @SEQUENCE >= 3
+	BEGIN
+		SET @SQL = @SQL + ' and (isnull(U_Appr3B,'''') = '''+ @APPCODE +''')'
+	END
+END
+ELSE
+BEGIN  
+	SET @SQL = @SQL + ' and (isnull(U_Appr1,'''') = '''+ @APPCODE +''' or isnull(U_Appr2,'''') = '''+ @APPCODE +''' or isnull(U_Appr3,'''') = '''+ @APPCODE +''' or isnull(U_Appr1B,'''') = '''+ @APPCODE +''' or isnull(U_Appr2B,'''') = '''+ @APPCODE +''' or isnull(U_Appr3B,'''') = '''+ @APPCODE +''')'
+END
+
+--SELECT @SQL
+
+EXEC (@SQL)
+
+FETCH NEXT FROM C2 INTO @SEQUENCE,@BEFENTITIY,@BEFDRAFTNO,@WDDCODE,@APPRGRIDCODE
+END;
+CLOSE C2;
+DEALLOCATE C2;
+
+SELECT [APPROVAL TYPE],ENTITY, [ENTITY NAME],[DOCUMENT TYPE],[SELECT],[DRAFT NO],[DOCUMENT NO],[POSTING DATE],[VENDOR NAME],[AMOUNT(BEFORE GST)],[APPROVED BY],
+[APPROVAL GRID],APPROVALCODE,USERCODE,[STATUS], REMARKS,[CREATOR NAME], [REASON FOR NOT APPROVING]
+ FROM #FINAL
+
+DROP TABLE #TABLEF
+DROP TABLE #TABLE
+DROP TABLE #TMPCOMPANY
+DROP TABLE #BEFOREFINAL
+DROP TABLE #FINAL
+
+END

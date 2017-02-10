@@ -1,0 +1,54 @@
+﻿
+                                    ' MsgBox(oMatrix.Columns.Item("1").Cells.Item(1).Specific.string.ToString.Trim())
+                                    ''  If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug(" Authorizer Email SQL " & sSQL, sFuncName)
+                                    ''sSQL = "SELECT DISTINCT TT.[WtmCode]," & _
+                                    ''  "SUBSTRING (" & _
+                                    ''  "( " & _
+                                    ''  "SELECT  ',' + T3.E_Mail AS [text()]" & _
+                                    ''  "FROM [dbo].[OWTM]  T0 " & _
+                                    ''  "INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode] " & _
+                                    ''  "INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] " & _
+                                    ''  "INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID " & _
+                                    ''  " WHERE T0.[WtmCode] = '" & oMatrix.Columns.Item("1").Cells.Item(1).Specific.string.ToString.Trim() & "' for XML PATH ('')" & _
+                                    ''  "), 2,10000) [Email] from [OWTM] TT where  TT.[WtmCode] = '" & oMatrix.Columns.Item("1").Cells.Item(1).Specific.string.ToString.Trim() & "'"
+                                    ''For imjs As Integer = 1 To oMatrix.RowCount
+                                    ''    If Not String.IsNullOrEmpty(oMatrix.Columns.Item("1").Cells.Item(imjs).Specific.string.ToString.Trim()) Then
+                                    ''        sStage += oMatrix.Columns.Item("1").Cells.Item(imjs).Specific.string.ToString.Trim() & ","
+                                    ''    End If
+                                    ''Next
+
+                                    ''sStage = Left(sStage, sStage.Length - 1)
+
+                                    ' ''sSQL = "SELECT ROW_NUMBER() OVER (ORDER BY T3.[USER_CODE]) [Seq], T3.[USER_CODE] [User], T3.E_Mail AS [Email] " & _
+                                    ' '' "FROM [dbo].[OWTM]  T0 " & _
+                                    ' '' "INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode] " & _
+                                    ' '' "INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] " & _
+                                    ' '' "INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID " & _
+                                    ' '' " WHERE T0.[WtmCode] in ( '" & sStage & "' )"
+                                    ''sSQL = "SELECT  T3.[USER_CODE] [User], T3.E_Mail AS [Email], 'Authorizer' [Cat], T3.[U_NAME] [Name],  " & _
+                                    '' "FROM [dbo].[OWTM]  T0 " & _
+                                    '' "INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode] " & _
+                                    '' "INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] " & _
+                                    '' "INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID " & _
+                                    '' " WHERE T0.[WtmCode] in ( '" & sStage & "') " & _
+                                    ''" union all " & _
+                                    ''"select  T3.[USER_CODE] [User], T3.E_Mail AS [Email], 'Originator' [Cat], T3.[U_NAME] [Name] from [OUSR] T3 where [USER_CODE] = '" & p_oDICompany.UserName & "'"
+
+                                    ''-------------------------------- Approval template
+                                    ' ''                                    sSQL = " SELECT distinct TT1.SortId ,  SUBSTRING (( SELECT  '/' + T3.[USER_CODE] AS [text()]FROM [dbo].[OWTM]  T0 INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode] " & _
+                                    ' '' " INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID  WHERE T0.[WtmCode] = TT0.[WtmCode]  " & _
+                                    ' ''  "and T1.SortId = tt1.SortId  for XML PATH ('')), 2,10000)  [User],  " & _
+                                    ' ''  "SUBSTRING (( SELECT  ',' + T3.E_Mail AS [text()]FROM [dbo].[OWTM]  T0 INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode]  " & _
+                                    ' ''  "INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID  WHERE T0.[WtmCode] = TT0.[WtmCode]  " & _
+                                    ' ''  "and T1.SortId = tt1.SortId  for XML PATH ('')), 2,10000) [Email], " & _
+                                    ' '' "'Authorizer' [Cat],  " & _
+                                    ' ''  " SUBSTRING (( SELECT  '/' + T3.[U_NAME] AS [text()]FROM [dbo].[OWTM]  T0 INNER JOIN WTM2 T1 ON T0.[WtmCode] = T1.[WtmCode]  " & _
+                                    ' ''  "INNER JOIN  WST1 T2 on T1.[WstCode]  = T2.[WstCode] INNER JOIN OUSR T3 ON T3.[USERID] = T2.UserID  WHERE T0.[WtmCode] = TT0.[WtmCode]  " & _
+                                    ' ''  "and T1.SortId = tt1.SortId  for XML PATH ('')), 2,10000)  " & _
+                                    ' ''  " [Name]  FROM [dbo].[OWTM]  TT0  " & _
+                                    ' ''"INNER JOIN WTM2 TT1 ON TT0.[WtmCode] = TT1.[WtmCode] INNER JOIN  WST1 TT2 on TT1.[WstCode]  = TT2.[WstCode] INNER JOIN OUSR TT3 ON TT3.[USERID] = TT2.UserID " & _
+                                    ' ''  "WHERE TT0.[WtmCode] in ( '" & sStage & "')   " & _
+                                    ' ''  "union all select  1000000 [SortId], T3.[USER_CODE] [User], T3.E_Mail AS [Email], 'Originator' [Cat], T3.[U_NAME] [Name] from [OUSR] T3  " & _
+                                    ' ''  "where [USER_CODE] = '" & p_oDICompany.UserName & "' order by [SortId]   "
+                                    '-------------------------------------------------------------------------
+

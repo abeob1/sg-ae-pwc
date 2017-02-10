@@ -1,0 +1,266 @@
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\ResGen.read.1.tlog
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\ResGen.write.1.tlog
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\ ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\ae-sgpwcinterface\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Console Application\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+D:\J\PWC\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\office.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_V03.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Console App\Imports Statistics\Source\AE_PWC_V03\obj\x86\Debug\AE_PWC_SV03.pdb

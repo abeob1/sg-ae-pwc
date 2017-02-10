@@ -1,0 +1,7 @@
+Error while Sync Sales Employee Master data
+      
+      
+Entity Code        Entity                                            Item Code           Error Msg
+======================================================================================================================================================
+      
+GHRS                PwC GHRS Pte Ltd                                  GMC                 

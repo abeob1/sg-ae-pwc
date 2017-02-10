@@ -1,0 +1,12 @@
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.exe.config
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.exe
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.pdb
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.xml
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_V01.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_SV01.Resources.resources
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_V01.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_SV01.exe
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_SV01.xml
+E:\Abeo-Projects\PWC\SVN\Ipower System\Source\AE_PWC_SV01\obj\x86\Release\AE_PWC_SV01.pdb

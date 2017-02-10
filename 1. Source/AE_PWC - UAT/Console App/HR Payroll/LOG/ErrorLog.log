@@ -1,0 +1,14 @@
+[04/02/2015 13:29:18][          JournalEntry_Posting] Completed with ERROR ---Invalid Account Code
+[04/02/2015 13:32:40][                          Main] Invalid Account Code
+[04/02/2015 13:51:21][          JournalEntry_Posting] Completed with ERROR ---Invalid Account Code
+[04/02/2015 13:55:09][IdentifyExcelFile_JournalEntry()] Object reference not set to an instance of an object.
+[04/02/2015 13:55:09][                          Main] Object reference not set to an instance of an object.
+[11/16/2015 18:17:28][IdentifyExcelFile_JournalEntry()] Object reference not set to an instance of an object.
+[11/16/2015 18:17:28][                          Main] Object reference not set to an instance of an object.
+[11/16/2015 18:19:06][IdentifyExcelFile_JournalEntry()] Object reference not set to an instance of an object.
+[11/16/2015 18:19:06][                          Main] Object reference not set to an instance of an object.
+[11/16/2015 18:19:14][IdentifyExcelFile_JournalEntry()] Object reference not set to an instance of an object.
+[11/16/2015 18:19:14][                          Main] Object reference not set to an instance of an object.
+[11/16/2015 18:28:31][          JournalEntry_Posting] Completed with ERROR ---Update the exchange rate 
+[11/16/2015 18:28:31][IdentifyExcelFile_JournalEntry()] Object reference not set to an instance of an object.
+[11/16/2015 18:28:31][                          Main] Object reference not set to an instance of an object.

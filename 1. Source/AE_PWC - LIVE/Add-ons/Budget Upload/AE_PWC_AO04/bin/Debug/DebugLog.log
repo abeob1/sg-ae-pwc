@@ -1,0 +1,970 @@
+[06/15/2015 11:39:28][                                  Main()] Starting Addon startup function
+[06/15/2015 11:39:28][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:39:28][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:39:28][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:39:28][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:39:28][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:39:31][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:39:31][                                  Main()] Creating Event handler class
+[06/15/2015 11:39:31][                      Class_Initialize()] Starting function
+[06/15/2015 11:39:31][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:39:31][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:39:31][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:39:31][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:39:31][                                  Main()] Addon started successfully
+[06/15/2015 11:39:31][                                  Main()] Initializing Recordset 
+[06/15/2015 11:40:10][                                  Main()] Starting Addon startup function
+[06/15/2015 11:40:10][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:40:10][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:40:11][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:40:11][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:40:11][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:40:13][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:40:13][                                  Main()] Creating Event handler class
+[06/15/2015 11:40:13][                      Class_Initialize()] Starting function
+[06/15/2015 11:40:13][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:40:13][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:40:13][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:40:13][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:40:13][                                  Main()] Addon started successfully
+[06/15/2015 11:40:13][                                  Main()] Initializing Recordset 
+[06/15/2015 11:40:55][                                  Main()] Starting Addon startup function
+[06/15/2015 11:40:55][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:40:55][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:40:56][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:40:56][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:40:56][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:40:59][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:40:59][                                  Main()] Creating Event handler class
+[06/15/2015 11:40:59][                      Class_Initialize()] Starting function
+[06/15/2015 11:40:59][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:40:59][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:40:59][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:40:59][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:40:59][                                  Main()] Addon started successfully
+[06/15/2015 11:40:59][                                  Main()] Initializing Recordset 
+[06/15/2015 11:42:47][                                  Main()] Starting Addon startup function
+[06/15/2015 11:42:47][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:42:47][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:42:47][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:42:47][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:42:47][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:42:50][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:42:50][                                  Main()] Creating Event handler class
+[06/15/2015 11:42:50][                      Class_Initialize()] Starting function
+[06/15/2015 11:42:50][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:42:50][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:42:50][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:42:50][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:42:50][                                  Main()] Addon started successfully
+[06/15/2015 11:42:50][                                  Main()] Initializing Recordset 
+[06/15/2015 11:42:59][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/15/2015 11:43:00][                            MyFunction()] Starting Function
+[06/15/2015 11:43:00][                            MyFunction()] Completed with SUCCESS
+[06/15/2015 11:53:23][                                  Main()] Starting Addon startup function
+[06/15/2015 11:53:23][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:53:23][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:53:24][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:53:24][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:53:24][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:53:27][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:53:27][                                  Main()] Creating Event handler class
+[06/15/2015 11:53:27][                      Class_Initialize()] Starting function
+[06/15/2015 11:53:27][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:53:27][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:53:27][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:53:27][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:53:27][                                  Main()] Addon started successfully
+[06/15/2015 11:53:27][                                  Main()] Initializing Recordset 
+[06/15/2015 11:57:10][                                  Main()] Starting Addon startup function
+[06/15/2015 11:57:10][                                  Main()] Initializing public SBO Application object
+[06/15/2015 11:57:10][                                  Main()] Retriving SBO application company handle
+[06/15/2015 11:57:11][                                  Main()] Retrived SBO application company handle
+[06/15/2015 11:57:11][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 11:57:11][                      ConnectDICompSSO()] Starting function
+[06/15/2015 11:57:13][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 11:57:13][                                  Main()] Creating Event handler class
+[06/15/2015 11:57:13][                      Class_Initialize()] Starting function
+[06/15/2015 11:57:13][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 11:57:13][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 11:57:13][                                  Main()] Calling AddMenuItems()
+[06/15/2015 11:57:13][                                  Main()] Calling SetApplication Function
+[06/15/2015 11:57:13][                                  Main()] Addon started successfully
+[06/15/2015 11:57:13][                                  Main()] Initializing Recordset 
+[06/15/2015 12:00:17][                                  Main()] Starting Addon startup function
+[06/15/2015 12:00:17][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:00:17][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:00:18][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:00:18][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:00:18][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:00:20][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:00:20][                                  Main()] Creating Event handler class
+[06/15/2015 12:00:20][                      Class_Initialize()] Starting function
+[06/15/2015 12:00:20][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:00:20][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:00:20][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:00:20][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:00:20][                                  Main()] Addon started successfully
+[06/15/2015 12:00:20][                                  Main()] Initializing Recordset 
+[06/15/2015 12:05:19][                                  Main()] Starting Addon startup function
+[06/15/2015 12:05:19][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:05:19][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:05:19][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:05:19][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:05:19][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:05:22][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:05:22][                                  Main()] Creating Event handler class
+[06/15/2015 12:05:22][                      Class_Initialize()] Starting function
+[06/15/2015 12:05:22][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:05:22][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:05:22][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:05:22][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:05:22][                                  Main()] Addon started successfully
+[06/15/2015 12:05:22][                                  Main()] Initializing Recordset 
+[06/15/2015 12:16:41][                                  Main()] Starting Addon startup function
+[06/15/2015 12:16:41][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:16:41][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:16:41][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:16:41][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:16:41][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:16:44][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:16:44][                                  Main()] Creating Event handler class
+[06/15/2015 12:16:44][                      Class_Initialize()] Starting function
+[06/15/2015 12:16:44][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:16:44][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:16:44][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:16:44][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:16:44][                                  Main()] Addon started successfully
+[06/15/2015 12:16:44][                                  Main()] Initializing Recordset 
+[06/15/2015 12:19:42][                                  Main()] Starting Addon startup function
+[06/15/2015 12:19:42][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:19:42][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:19:42][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:19:42][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:19:42][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:19:45][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:19:45][                                  Main()] Creating Event handler class
+[06/15/2015 12:19:45][                      Class_Initialize()] Starting function
+[06/15/2015 12:19:45][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:19:45][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:19:45][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:19:45][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:19:45][                                  Main()] Addon started successfully
+[06/15/2015 12:19:45][                                  Main()] Initializing Recordset 
+[06/15/2015 12:24:40][                                  Main()] Starting Addon startup function
+[06/15/2015 12:24:40][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:24:40][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:24:40][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:24:40][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:24:40][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:24:43][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:24:43][                                  Main()] Creating Event handler class
+[06/15/2015 12:24:43][                      Class_Initialize()] Starting function
+[06/15/2015 12:24:43][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:24:43][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:24:43][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:24:43][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:24:43][                                  Main()] Addon started successfully
+[06/15/2015 12:24:43][                                  Main()] Initializing Recordset 
+[06/15/2015 12:25:19][                                  Main()] Starting Addon startup function
+[06/15/2015 12:25:19][                                  Main()] Initializing public SBO Application object
+[06/15/2015 12:25:19][                                  Main()] Retriving SBO application company handle
+[06/15/2015 12:25:20][                                  Main()] Retrived SBO application company handle
+[06/15/2015 12:25:20][                                  Main()] Calling ConnectDICompSSO()
+[06/15/2015 12:25:20][                      ConnectDICompSSO()] Starting function
+[06/15/2015 12:25:22][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2015 12:25:22][                                  Main()] Creating Event handler class
+[06/15/2015 12:25:22][                      Class_Initialize()] Starting function
+[06/15/2015 12:25:22][                      Class_Initialize()] Retriving SBO Application handle
+[06/15/2015 12:25:22][                      Class_Initialize()] Completed with SUCCESS
+[06/15/2015 12:25:22][                                  Main()] Calling AddMenuItems()
+[06/15/2015 12:25:22][                                  Main()] Calling SetApplication Function
+[06/15/2015 12:25:22][                                  Main()] Addon started successfully
+[06/15/2015 12:25:22][                                  Main()] Initializing Recordset 
+[06/16/2015 10:03:53][                                  Main()] Starting Addon startup function
+[06/16/2015 10:03:53][                                  Main()] Initializing public SBO Application object
+[06/16/2015 10:03:53][                                  Main()] Retriving SBO application company handle
+[06/16/2015 10:03:54][                                  Main()] Retrived SBO application company handle
+[06/16/2015 10:03:54][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 10:03:54][                      ConnectDICompSSO()] Starting function
+[06/16/2015 10:03:56][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 10:03:56][                                  Main()] Creating Event handler class
+[06/16/2015 10:03:56][                      Class_Initialize()] Starting function
+[06/16/2015 10:03:56][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 10:03:56][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 10:03:56][                                  Main()] Calling AddMenuItems()
+[06/16/2015 10:03:57][                                  Main()] Calling SetApplication Function
+[06/16/2015 10:03:57][                                  Main()] Addon started successfully
+[06/16/2015 10:03:57][                                  Main()] Initializing Recordset 
+[06/16/2015 10:07:35][                                  Main()] Starting Addon startup function
+[06/16/2015 10:07:35][                                  Main()] Initializing public SBO Application object
+[06/16/2015 10:07:35][                                  Main()] Retriving SBO application company handle
+[06/16/2015 10:07:35][                                  Main()] Retrived SBO application company handle
+[06/16/2015 10:07:35][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 10:07:35][                      ConnectDICompSSO()] Starting function
+[06/16/2015 10:07:38][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 10:07:38][                                  Main()] Creating Event handler class
+[06/16/2015 10:07:38][                      Class_Initialize()] Starting function
+[06/16/2015 10:07:38][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 10:07:38][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 10:07:38][                                  Main()] Calling AddMenuItems()
+[06/16/2015 10:07:38][                                  Main()] Calling SetApplication Function
+[06/16/2015 10:07:38][                                  Main()] Addon started successfully
+[06/16/2015 10:07:38][                                  Main()] Initializing Recordset 
+[06/16/2015 10:09:27][                                  Main()] Starting Addon startup function
+[06/16/2015 10:09:28][                                  Main()] Initializing public SBO Application object
+[06/16/2015 10:09:28][                                  Main()] Retriving SBO application company handle
+[06/16/2015 10:09:28][                                  Main()] Retrived SBO application company handle
+[06/16/2015 10:09:28][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 10:09:28][                      ConnectDICompSSO()] Starting function
+[06/16/2015 10:09:30][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 10:09:30][                                  Main()] Creating Event handler class
+[06/16/2015 10:09:30][                      Class_Initialize()] Starting function
+[06/16/2015 10:09:30][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 10:09:30][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 10:09:30][                                  Main()] Calling AddMenuItems()
+[06/16/2015 10:09:31][                                  Main()] Calling SetApplication Function
+[06/16/2015 10:09:31][                                  Main()] Addon started successfully
+[06/16/2015 10:09:31][                                  Main()] Initializing Recordset 
+[06/16/2015 10:09:35][             SBO_Application_ItemEvent()] Calling File Open Function
+[06/16/2015 10:09:35][                        ShowFileDialog()] Starting function
+[06/16/2015 10:09:56][                        ShowFileDialog()] Completed with SUCCESS
+[06/16/2015 10:09:57][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[06/16/2015 10:10:12][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/16/2015 10:10:13][                            MyFunction()] Starting Function
+[06/16/2015 10:10:13][                            MyFunction()] Completed with SUCCESS
+[06/16/2015 10:10:13][        StreamlineBudgetInformation_PR()] Starting Function
+[06/16/2015 10:10:13][        StreamlineBudgetInformation_PR()] Completed with SUCCESS
+[06/16/2015 10:10:13][             SBO_Application_ItemEvent()] Inserting Values In the Budget Table 
+[06/16/2015 10:10:13][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '2000', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:13][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '1000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '10000', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '4000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '6000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:10:14][             SBO_Application_ItemEvent()] Successfully Inserted In the Budget Table
+[06/16/2015 10:12:45][                                  Main()] Starting Addon startup function
+[06/16/2015 10:12:45][                                  Main()] Initializing public SBO Application object
+[06/16/2015 10:12:45][                                  Main()] Retriving SBO application company handle
+[06/16/2015 10:12:46][                                  Main()] Retrived SBO application company handle
+[06/16/2015 10:12:46][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 10:12:46][                      ConnectDICompSSO()] Starting function
+[06/16/2015 10:12:48][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 10:12:48][                                  Main()] Creating Event handler class
+[06/16/2015 10:12:48][                      Class_Initialize()] Starting function
+[06/16/2015 10:12:48][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 10:12:48][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 10:12:48][                                  Main()] Calling AddMenuItems()
+[06/16/2015 10:12:48][                                  Main()] Calling SetApplication Function
+[06/16/2015 10:12:48][                                  Main()] Addon started successfully
+[06/16/2015 10:12:48][                                  Main()] Initializing Recordset 
+[06/16/2015 10:13:00][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/16/2015 10:13:01][                            MyFunction()] Starting Function
+[06/16/2015 10:13:01][                            MyFunction()] Completed with SUCCESS
+[06/16/2015 10:13:01][        StreamlineBudgetInformation_PR()] Starting Function
+[06/16/2015 10:13:01][        StreamlineBudgetInformation_PR()] Completed with SUCCESS
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Inserting Values In the Budget Table 
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '2000', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '1000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '10000', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '4000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '6000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','Non-Project', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','Non-Project', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:13:01][             SBO_Application_ItemEvent()] Successfully Inserted In the Budget Table
+[06/16/2015 10:14:29][                                  Main()] Starting Addon startup function
+[06/16/2015 10:14:29][                                  Main()] Initializing public SBO Application object
+[06/16/2015 10:14:29][                                  Main()] Retriving SBO application company handle
+[06/16/2015 10:14:30][                                  Main()] Retrived SBO application company handle
+[06/16/2015 10:14:30][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 10:14:30][                      ConnectDICompSSO()] Starting function
+[06/16/2015 10:14:32][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 10:14:32][                                  Main()] Creating Event handler class
+[06/16/2015 10:14:32][                      Class_Initialize()] Starting function
+[06/16/2015 10:14:32][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 10:14:32][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 10:14:32][                                  Main()] Calling AddMenuItems()
+[06/16/2015 10:14:32][                                  Main()] Calling SetApplication Function
+[06/16/2015 10:14:32][                                  Main()] Addon started successfully
+[06/16/2015 10:14:32][                                  Main()] Initializing Recordset 
+[06/16/2015 10:14:45][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/16/2015 10:14:45][                            MyFunction()] Starting Function
+[06/16/2015 10:14:46][                            MyFunction()] Completed with SUCCESS
+[06/16/2015 10:14:46][        StreamlineBudgetInformation_PR()] Starting Function
+[06/16/2015 10:14:46][        StreamlineBudgetInformation_PR()] Completed with SUCCESS
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Inserting Values In the Budget Table 
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '2000', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '1000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '10000', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '4000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '6000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 10:14:46][             SBO_Application_ItemEvent()] Successfully Inserted In the Budget Table
+[06/16/2015 14:08:06][                                  Main()] Starting Addon startup function
+[06/16/2015 14:08:06][                                  Main()] Initializing public SBO Application object
+[06/16/2015 14:08:06][                                  Main()] Retriving SBO application company handle
+[06/16/2015 14:08:07][                                  Main()] Retrived SBO application company handle
+[06/16/2015 14:08:07][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 14:08:07][                      ConnectDICompSSO()] Starting function
+[06/16/2015 14:08:09][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 14:08:09][                                  Main()] Creating Event handler class
+[06/16/2015 14:08:09][                      Class_Initialize()] Starting function
+[06/16/2015 14:08:09][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 14:08:09][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 14:08:09][                                  Main()] Calling AddMenuItems()
+[06/16/2015 14:08:10][                                  Main()] Calling SetApplication Function
+[06/16/2015 14:08:10][                                  Main()] Addon started successfully
+[06/16/2015 14:08:10][                                  Main()] Initializing Recordset 
+[06/16/2015 14:08:14][             SBO_Application_ItemEvent()] Calling File Open Function
+[06/16/2015 14:08:14][                        ShowFileDialog()] Starting function
+[06/16/2015 14:08:29][                        ShowFileDialog()] Completed with SUCCESS
+[06/16/2015 14:08:29][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[06/16/2015 14:08:31][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/16/2015 14:08:33][                            MyFunction()] Starting Function
+[06/16/2015 14:08:33][                            MyFunction()] Completed with SUCCESS
+[06/16/2015 14:08:33][        StreamlineBudgetInformation_PR()] Starting Function
+[06/16/2015 14:08:33][        StreamlineBudgetInformation_PR()] Completed with SUCCESS
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Inserting Values In the Budget Table 
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '2000', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '1000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '10000', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '4000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '6000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:33][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:08:34][             SBO_Application_ItemEvent()] Successfully Inserted In the Budget Table
+[06/16/2015 14:39:53][                                  Main()] Starting Addon startup function
+[06/16/2015 14:39:53][                                  Main()] Initializing public SBO Application object
+[06/16/2015 14:39:53][                                  Main()] Retriving SBO application company handle
+[06/16/2015 14:39:53][                                  Main()] Retrived SBO application company handle
+[06/16/2015 14:39:53][                                  Main()] Calling ConnectDICompSSO()
+[06/16/2015 14:39:53][                      ConnectDICompSSO()] Starting function
+[06/16/2015 14:39:56][                      ConnectDICompSSO()] Completed with SUCCESS
+[06/16/2015 14:39:56][                                  Main()] Creating Event handler class
+[06/16/2015 14:39:56][                      Class_Initialize()] Starting function
+[06/16/2015 14:39:56][                      Class_Initialize()] Retriving SBO Application handle
+[06/16/2015 14:39:56][                      Class_Initialize()] Completed with SUCCESS
+[06/16/2015 14:39:56][                                  Main()] Calling AddMenuItems()
+[06/16/2015 14:39:56][                                  Main()] Calling SetApplication Function
+[06/16/2015 14:39:56][                                  Main()] Addon started successfully
+[06/16/2015 14:39:56][                                  Main()] Initializing Recordset 
+[06/16/2015 14:40:33][             SBO_Application_ItemEvent()] Calling File Open Function
+[06/16/2015 14:40:33][                        ShowFileDialog()] Starting function
+[06/16/2015 14:40:54][                        ShowFileDialog()] Completed with SUCCESS
+[06/16/2015 14:40:54][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[06/16/2015 14:40:56][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[06/16/2015 14:40:57][                            MyFunction()] Starting Function
+[06/16/2015 14:40:57][                            MyFunction()] Completed with SUCCESS
+[06/16/2015 14:40:57][        StreamlineBudgetInformation_PR()] Starting Function
+[06/16/2015 14:40:57][        StreamlineBudgetInformation_PR()] Completed with SUCCESS
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Inserting Values In the Budget Table 
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '2000', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '1000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj001', '10000', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '4000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '6000', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '8000', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj002', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '4000', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '6000', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','','Prj003', '0', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS HR','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '200', 71111100,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '300', 71111110,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '400', 71111120,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '500', 71111200,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '600', 71111210,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Insert SQL PWCL.. [@AE_SP002_InsertintoBudgetTable]'IF', 'BudgetScenario 2015 Original Budget','Budget FY 2015','','IFS GTS','', '700', 71111300,0,0,0,0 ,0,0,0,0,0,0 ,0,0, 0
+[06/16/2015 14:40:57][             SBO_Application_ItemEvent()] Successfully Inserted In the Budget Table
+[08/12/2015 11:18:36][                                  Main()] Starting Addon startup function
+[08/12/2015 11:18:36][                                  Main()] Initializing public SBO Application object
+[08/12/2015 11:18:36][                                  Main()] Retriving SBO application company handle
+[08/12/2015 11:18:37][                                  Main()] Retrived SBO application company handle
+[08/12/2015 11:18:37][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 11:18:37][                      ConnectDICompSSO()] Starting function
+[08/12/2015 11:18:42][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 11:18:42][                                  Main()] Creating Event handler class
+[08/12/2015 11:18:42][                      Class_Initialize()] Starting function
+[08/12/2015 11:18:42][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 11:18:42][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 11:18:42][                                  Main()] Calling AddMenuItems()
+[08/12/2015 11:18:42][                                  Main()] Calling SetApplication Function
+[08/12/2015 11:18:42][                                  Main()] Addon started successfully
+[08/12/2015 11:18:42][                                  Main()] Initializing Recordset 
+[08/12/2015 11:43:14][             SBO_Application_ItemEvent()] Calling File Open Function
+[08/12/2015 11:43:14][                        ShowFileDialog()] Starting function
+[08/12/2015 11:43:27][                        ShowFileDialog()] Completed with SUCCESS
+[08/12/2015 11:43:27][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[08/12/2015 11:43:37][             SBO_Application_ItemEvent()] Calling File Open Function
+[08/12/2015 11:43:37][                        ShowFileDialog()] Starting function
+[08/12/2015 11:43:42][                        ShowFileDialog()] Completed with SUCCESS
+[08/12/2015 11:43:42][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[08/12/2015 11:43:47][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 11:43:47][                            MyFunction()] Starting Function
+[08/12/2015 11:43:48][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 11:43:48][           StreamlineBudgetInformation()] Starting Function
+[08/12/2015 11:43:48][           StreamlineBudgetInformation()] Error occured while reading content of  Input string was not in a correct format.Couldn't store <(142,298,000)> in BudgetAmount Column.  Expected type is Decimal.
+[08/12/2015 11:45:54][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 11:45:55][                            MyFunction()] Starting Function
+[08/12/2015 11:45:55][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 11:46:45][           StreamlineBudgetInformation()] Starting Function
+[08/12/2015 11:49:03][             SBO_Application_ItemEvent()] Completed with ERROR
+[08/12/2015 11:49:30][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 11:49:31][                            MyFunction()] Starting Function
+[08/12/2015 11:49:31][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 11:49:31][           StreamlineBudgetInformation()] Starting Function
+[08/12/2015 11:49:31][           StreamlineBudgetInformation()] Error occured while reading content of  Input string was not in a correct format.Couldn't store <(142,298,000)> in BudgetAmount Column.  Expected type is Decimal.
+[08/12/2015 11:52:09][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 11:52:09][                            MyFunction()] Starting Function
+[08/12/2015 11:52:09][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 11:52:09][           StreamlineBudgetInformation()] Starting Function
+[08/12/2015 11:54:36][                                  Main()] Starting Addon startup function
+[08/12/2015 11:54:36][                                  Main()] Initializing public SBO Application object
+[08/12/2015 11:54:36][                                  Main()] Retriving SBO application company handle
+[08/12/2015 11:54:37][                                  Main()] Retrived SBO application company handle
+[08/12/2015 11:54:37][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 11:54:37][                      ConnectDICompSSO()] Starting function
+[08/12/2015 11:54:39][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 11:54:39][                                  Main()] Creating Event handler class
+[08/12/2015 11:54:39][                      Class_Initialize()] Starting function
+[08/12/2015 11:54:39][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 11:54:39][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 11:54:39][                                  Main()] Calling AddMenuItems()
+[08/12/2015 11:54:39][                                  Main()] Calling SetApplication Function
+[08/12/2015 11:54:39][                                  Main()] Addon started successfully
+[08/12/2015 11:54:39][                                  Main()] Initializing Recordset 
+[08/12/2015 11:54:41][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 11:54:42][                            MyFunction()] Starting Function
+[08/12/2015 11:54:42][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 11:54:42][           StreamlineBudgetInformation()] Starting Function
+[08/12/2015 11:57:55][                                  Main()] Starting Addon startup function
+[08/12/2015 11:57:55][                                  Main()] Initializing public SBO Application object
+[08/12/2015 11:57:55][                                  Main()] Retriving SBO application company handle
+[08/12/2015 11:57:55][                                  Main()] Retrived SBO application company handle
+[08/12/2015 11:57:55][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 11:57:55][                      ConnectDICompSSO()] Starting function
+[08/12/2015 11:57:58][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 11:57:58][                                  Main()] Creating Event handler class
+[08/12/2015 11:57:58][                      Class_Initialize()] Starting function
+[08/12/2015 11:57:58][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 11:57:58][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 11:57:58][                                  Main()] Calling AddMenuItems()
+[08/12/2015 11:57:58][                                  Main()] Calling SetApplication Function
+[08/12/2015 11:57:58][                                  Main()] Addon started successfully
+[08/12/2015 11:57:58][                                  Main()] Initializing Recordset 
+[08/12/2015 12:06:41][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 12:07:00][                            MyFunction()] Starting Function
+[08/12/2015 12:13:17][                                  Main()] Starting Addon startup function
+[08/12/2015 12:13:18][                                  Main()] Initializing public SBO Application object
+[08/12/2015 12:13:18][                                  Main()] Retriving SBO application company handle
+[08/12/2015 12:13:18][                                  Main()] Retrived SBO application company handle
+[08/12/2015 12:13:18][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 12:13:18][                      ConnectDICompSSO()] Starting function
+[08/12/2015 12:13:22][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 12:13:22][                                  Main()] Creating Event handler class
+[08/12/2015 12:13:22][                      Class_Initialize()] Starting function
+[08/12/2015 12:13:22][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 12:13:22][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 12:13:22][                                  Main()] Calling AddMenuItems()
+[08/12/2015 12:13:22][                                  Main()] Calling SetApplication Function
+[08/12/2015 12:13:22][                                  Main()] Addon started successfully
+[08/12/2015 12:13:22][                                  Main()] Initializing Recordset 
+[08/12/2015 12:13:47][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 12:13:55][                            MyFunction()] Starting Function
+[08/12/2015 13:15:33][                                  Main()] Starting Addon startup function
+[08/12/2015 13:15:33][                                  Main()] Initializing public SBO Application object
+[08/12/2015 13:15:33][                                  Main()] Retriving SBO application company handle
+[08/12/2015 13:15:34][                                  Main()] Retrived SBO application company handle
+[08/12/2015 13:15:34][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 13:15:34][                      ConnectDICompSSO()] Starting function
+[08/12/2015 13:15:37][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 13:15:37][                                  Main()] Creating Event handler class
+[08/12/2015 13:15:37][                      Class_Initialize()] Starting function
+[08/12/2015 13:15:37][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 13:15:37][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 13:15:37][                                  Main()] Calling AddMenuItems()
+[08/12/2015 13:15:37][                                  Main()] Calling SetApplication Function
+[08/12/2015 13:15:37][                                  Main()] Addon started successfully
+[08/12/2015 13:15:37][                                  Main()] Initializing Recordset 
+[08/12/2015 13:15:41][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 13:15:41][                            MyFunction()] Starting Function
+[08/12/2015 13:16:42][                                  Main()] Starting Addon startup function
+[08/12/2015 13:16:42][                                  Main()] Initializing public SBO Application object
+[08/12/2015 13:16:42][                                  Main()] Retriving SBO application company handle
+[08/12/2015 13:16:43][                                  Main()] Retrived SBO application company handle
+[08/12/2015 13:16:43][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 13:16:43][                      ConnectDICompSSO()] Starting function
+[08/12/2015 13:16:46][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 13:16:46][                                  Main()] Creating Event handler class
+[08/12/2015 13:16:46][                      Class_Initialize()] Starting function
+[08/12/2015 13:16:46][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 13:16:46][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 13:16:46][                                  Main()] Calling AddMenuItems()
+[08/12/2015 13:16:46][                                  Main()] Calling SetApplication Function
+[08/12/2015 13:16:46][                                  Main()] Addon started successfully
+[08/12/2015 13:16:46][                                  Main()] Initializing Recordset 
+[08/12/2015 13:16:52][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 13:16:52][                            MyFunction()] Starting Function
+[08/12/2015 13:17:14][                                  Main()] Starting Addon startup function
+[08/12/2015 13:17:14][                                  Main()] Initializing public SBO Application object
+[08/12/2015 13:17:14][                                  Main()] Retriving SBO application company handle
+[08/12/2015 13:17:15][                                  Main()] Retrived SBO application company handle
+[08/12/2015 13:17:15][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 13:17:15][                      ConnectDICompSSO()] Starting function
+[08/12/2015 13:17:17][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 13:17:17][                                  Main()] Creating Event handler class
+[08/12/2015 13:17:17][                      Class_Initialize()] Starting function
+[08/12/2015 13:17:17][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 13:17:17][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 13:17:17][                                  Main()] Calling AddMenuItems()
+[08/12/2015 13:17:17][                                  Main()] Calling SetApplication Function
+[08/12/2015 13:17:17][                                  Main()] Addon started successfully
+[08/12/2015 13:17:17][                                  Main()] Initializing Recordset 
+[08/12/2015 13:17:19][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 13:17:19][                            MyFunction()] Starting Function
+[08/12/2015 13:17:59][                                  Main()] Starting Addon startup function
+[08/12/2015 13:17:59][                                  Main()] Initializing public SBO Application object
+[08/12/2015 13:17:59][                                  Main()] Retriving SBO application company handle
+[08/12/2015 13:18:00][                                  Main()] Retrived SBO application company handle
+[08/12/2015 13:18:00][                                  Main()] Calling ConnectDICompSSO()
+[08/12/2015 13:18:00][                      ConnectDICompSSO()] Starting function
+[08/12/2015 13:18:03][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/12/2015 13:18:03][                                  Main()] Creating Event handler class
+[08/12/2015 13:18:03][                      Class_Initialize()] Starting function
+[08/12/2015 13:18:03][                      Class_Initialize()] Retriving SBO Application handle
+[08/12/2015 13:18:03][                      Class_Initialize()] Completed with SUCCESS
+[08/12/2015 13:18:03][                                  Main()] Calling AddMenuItems()
+[08/12/2015 13:18:03][                                  Main()] Calling SetApplication Function
+[08/12/2015 13:18:03][                                  Main()] Addon started successfully
+[08/12/2015 13:18:03][                                  Main()] Initializing Recordset 
+[08/12/2015 13:18:08][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[08/12/2015 13:18:09][                            MyFunction()] Starting Function
+[08/12/2015 13:19:23][                            MyFunction()] Completed with SUCCESS
+[08/12/2015 13:19:40][           StreamlineBudgetInformation()] Starting Function
+[07/07/2016 16:04:19][                                  Main()] Starting Addon startup function
+[07/07/2016 16:04:19][                                  Main()] Initializing public SBO Application object
+[07/07/2016 16:04:19][                                  Main()] Retriving SBO application company handle
+[07/07/2016 16:04:20][                                  Main()] Retrived SBO application company handle
+[07/07/2016 16:04:20][                                  Main()] Calling ConnectDICompSSO()
+[07/07/2016 16:04:20][                      ConnectDICompSSO()] Starting function
+[07/07/2016 16:04:23][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/07/2016 16:04:23][                                  Main()] Creating Event handler class
+[07/07/2016 16:04:23][                      Class_Initialize()] Starting function
+[07/07/2016 16:04:23][                      Class_Initialize()] Retriving SBO Application handle
+[07/07/2016 16:04:23][                      Class_Initialize()] Completed with SUCCESS
+[07/07/2016 16:04:23][                                  Main()] Calling AddMenuItems()
+[07/07/2016 16:04:23][                                  Main()] Calling SetApplication Function
+[07/07/2016 16:04:23][                                  Main()] Addon started successfully
+[07/07/2016 16:04:23][                                  Main()] Initializing Recordset 
+[07/07/2016 16:05:44][             SBO_Application_ItemEvent()] Calling File Open Function
+[07/07/2016 16:05:44][                        ShowFileDialog()] Starting function
+[07/07/2016 16:05:56][                        ShowFileDialog()] Completed with SUCCESS
+[07/07/2016 16:05:56][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[07/07/2016 16:06:00][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[07/07/2016 16:06:00][                            MyFunction()] Starting Function
+[07/07/2016 16:06:13][                            MyFunction()] Completed with SUCCESS
+[07/07/2016 16:06:52][        StreamlineBudgetInformation_PR()] Starting Function
+[07/07/2016 16:24:11][                                  Main()] Starting Addon startup function
+[07/07/2016 16:24:11][                                  Main()] Initializing public SBO Application object
+[07/07/2016 16:24:11][                                  Main()] Retriving SBO application company handle
+[07/07/2016 16:24:11][                                  Main()] Retrived SBO application company handle
+[07/07/2016 16:24:11][                                  Main()] Calling ConnectDICompSSO()
+[07/07/2016 16:24:11][                      ConnectDICompSSO()] Starting function
+[07/07/2016 16:24:15][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/07/2016 16:24:15][                                  Main()] Creating Event handler class
+[07/07/2016 16:24:15][                      Class_Initialize()] Starting function
+[07/07/2016 16:24:15][                      Class_Initialize()] Retriving SBO Application handle
+[07/07/2016 16:24:15][                      Class_Initialize()] Completed with SUCCESS
+[07/07/2016 16:24:15][                                  Main()] Calling AddMenuItems()
+[07/07/2016 16:24:15][                                  Main()] Calling SetApplication Function
+[07/07/2016 16:24:15][                                  Main()] Addon started successfully
+[07/07/2016 16:24:15][                                  Main()] Initializing Recordset 
+[07/07/2016 16:24:43][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[07/07/2016 16:24:44][                            MyFunction()] Starting Function
+[07/07/2016 16:24:46][                            MyFunction()] Completed with SUCCESS
+[07/07/2016 16:24:46][        StreamlineBudgetInformation_PR()] Starting Function
+[07/07/2016 16:28:41][                                  Main()] Starting Addon startup function
+[07/07/2016 16:28:41][                                  Main()] Initializing public SBO Application object
+[07/07/2016 16:28:41][                                  Main()] Retriving SBO application company handle
+[07/07/2016 16:28:41][                                  Main()] Retrived SBO application company handle
+[07/07/2016 16:28:41][                                  Main()] Calling ConnectDICompSSO()
+[07/07/2016 16:28:41][                      ConnectDICompSSO()] Starting function
+[07/07/2016 16:28:44][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/07/2016 16:28:44][                                  Main()] Creating Event handler class
+[07/07/2016 16:28:44][                      Class_Initialize()] Starting function
+[07/07/2016 16:28:44][                      Class_Initialize()] Retriving SBO Application handle
+[07/07/2016 16:28:44][                      Class_Initialize()] Completed with SUCCESS
+[07/07/2016 16:28:44][                                  Main()] Calling AddMenuItems()
+[07/07/2016 16:28:44][                                  Main()] Calling SetApplication Function
+[07/07/2016 16:28:44][                                  Main()] Addon started successfully
+[07/07/2016 16:28:44][                                  Main()] Initializing Recordset 
+[07/07/2016 16:29:11][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[07/07/2016 16:29:12][                            MyFunction()] Starting Function
+[07/07/2016 16:29:14][                            MyFunction()] Completed with SUCCESS
+[07/07/2016 16:29:14][        StreamlineBudgetInformation_PR()] Starting Function
+[07/07/2016 16:30:05][                                  Main()] Starting Addon startup function
+[07/07/2016 16:30:05][                                  Main()] Initializing public SBO Application object
+[07/07/2016 16:30:05][                                  Main()] Retriving SBO application company handle
+[07/07/2016 16:30:05][                                  Main()] Retrived SBO application company handle
+[07/07/2016 16:30:05][                                  Main()] Calling ConnectDICompSSO()
+[07/07/2016 16:30:05][                      ConnectDICompSSO()] Starting function
+[07/07/2016 16:30:09][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/07/2016 16:30:09][                                  Main()] Creating Event handler class
+[07/07/2016 16:30:09][                      Class_Initialize()] Starting function
+[07/07/2016 16:30:09][                      Class_Initialize()] Retriving SBO Application handle
+[07/07/2016 16:30:09][                      Class_Initialize()] Completed with SUCCESS
+[07/07/2016 16:30:09][                                  Main()] Calling AddMenuItems()
+[07/07/2016 16:30:09][                                  Main()] Calling SetApplication Function
+[07/07/2016 16:30:09][                                  Main()] Addon started successfully
+[07/07/2016 16:30:09][                                  Main()] Initializing Recordset 
+[07/07/2016 16:38:14][                                  Main()] Starting Addon startup function
+[07/07/2016 16:38:14][                                  Main()] Initializing public SBO Application object
+[07/07/2016 16:38:14][                                  Main()] Retriving SBO application company handle
+[07/07/2016 16:38:14][                                  Main()] Retrived SBO application company handle
+[07/07/2016 16:38:14][                                  Main()] Calling ConnectDICompSSO()
+[07/07/2016 16:38:14][                      ConnectDICompSSO()] Starting function
+[07/07/2016 16:38:18][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/07/2016 16:38:18][                                  Main()] Creating Event handler class
+[07/07/2016 16:38:18][                      Class_Initialize()] Starting function
+[07/07/2016 16:38:18][                      Class_Initialize()] Retriving SBO Application handle
+[07/07/2016 16:38:18][                      Class_Initialize()] Completed with SUCCESS
+[07/07/2016 16:38:18][                                  Main()] Calling AddMenuItems()
+[07/07/2016 16:38:18][                                  Main()] Calling SetApplication Function
+[07/07/2016 16:38:18][                                  Main()] Addon started successfully
+[07/07/2016 16:38:18][                                  Main()] Initializing Recordset 
+[07/07/2016 16:38:24][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[07/07/2016 16:38:24][                            MyFunction()] Starting Function
+[07/07/2016 16:38:36][                            MyFunction()] Completed with SUCCESS
+[07/07/2016 16:38:37][        StreamlineBudgetInformation_PR()] Starting Function
+[07/11/2016 13:50:18][                                  Main()] Starting Addon startup function
+[07/11/2016 13:50:18][                                  Main()] Initializing public SBO Application object
+[07/11/2016 13:50:18][                                  Main()] Retriving SBO application company handle
+[07/11/2016 13:50:19][                                  Main()] Retrived SBO application company handle
+[07/11/2016 13:50:19][                                  Main()] Calling ConnectDICompSSO()
+[07/11/2016 13:50:19][                      ConnectDICompSSO()] Starting function
+[07/11/2016 13:50:23][                      ConnectDICompSSO()] Completed with SUCCESS
+[07/11/2016 13:50:23][                                  Main()] Creating Event handler class
+[07/11/2016 13:50:23][                      Class_Initialize()] Starting function
+[07/11/2016 13:50:23][                      Class_Initialize()] Retriving SBO Application handle
+[07/11/2016 13:50:23][                      Class_Initialize()] Completed with SUCCESS
+[07/11/2016 13:50:23][                                  Main()] Calling AddMenuItems()
+[07/11/2016 13:50:24][                                  Main()] Calling SetApplication Function
+[07/11/2016 13:50:24][                                  Main()] Addon started successfully
+[07/11/2016 13:50:24][                                  Main()] Initializing Recordset 
+[01/25/2017 16:08:03][                                  Main()] Starting Addon startup function
+[01/25/2017 16:08:03][                                  Main()] Initializing public SBO Application object
+[01/25/2017 16:08:03][                                  Main()] Retriving SBO application company handle
+[01/25/2017 16:08:03][                                  Main()] Retrived SBO application company handle
+[01/25/2017 16:08:03][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 16:08:03][                      ConnectDICompSSO()] Starting function
+[01/25/2017 16:08:08][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 16:08:08][                                  Main()] Creating Event handler class
+[01/25/2017 16:08:08][                      Class_Initialize()] Starting function
+[01/25/2017 16:08:08][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 16:08:08][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 16:08:08][                                  Main()] Calling AddMenuItems()
+[01/25/2017 16:08:08][                                  Main()] Calling SetApplication Function
+[01/25/2017 16:08:08][                                  Main()] Addon started successfully
+[01/25/2017 16:08:08][                                  Main()] Initializing Recordset 
+[01/25/2017 16:08:19][             SBO_Application_ItemEvent()] Calling File Open Function
+[01/25/2017 16:08:19][                        ShowFileDialog()] Starting function
+[01/25/2017 16:08:37][                        ShowFileDialog()] Completed with SUCCESS
+[01/25/2017 16:08:37][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[01/25/2017 16:08:39][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 16:08:44][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 16:08:47][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 16:49:17][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 16:49:20][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 16:56:25][                                  Main()] Starting Addon startup function
+[01/25/2017 16:56:25][                                  Main()] Initializing public SBO Application object
+[01/25/2017 16:56:25][                                  Main()] Retriving SBO application company handle
+[01/25/2017 16:56:26][                                  Main()] Retrived SBO application company handle
+[01/25/2017 16:56:26][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 16:56:26][                      ConnectDICompSSO()] Starting function
+[01/25/2017 16:56:31][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 16:56:31][                                  Main()] Creating Event handler class
+[01/25/2017 16:56:31][                      Class_Initialize()] Starting function
+[01/25/2017 16:56:31][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 16:56:31][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 16:56:31][                                  Main()] Calling AddMenuItems()
+[01/25/2017 16:56:31][                                  Main()] Calling SetApplication Function
+[01/25/2017 16:56:31][                                  Main()] Addon started successfully
+[01/25/2017 16:56:31][                                  Main()] Initializing Recordset 
+[01/25/2017 16:57:19][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 16:57:21][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 16:59:31][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:12:06][                                  Main()] Starting Addon startup function
+[01/25/2017 17:12:06][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:12:06][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:12:06][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:12:06][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:12:06][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:12:11][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:12:11][                                  Main()] Creating Event handler class
+[01/25/2017 17:12:11][                      Class_Initialize()] Starting function
+[01/25/2017 17:12:11][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:12:11][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:12:11][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:12:11][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:12:11][                                  Main()] Addon started successfully
+[01/25/2017 17:12:11][                                  Main()] Initializing Recordset 
+[01/25/2017 17:19:29][             SBO_Application_ItemEvent()] Calling File Open Function
+[01/25/2017 17:19:30][                        ShowFileDialog()] Starting function
+[01/25/2017 17:19:45][                        ShowFileDialog()] Completed with SUCCESS
+[01/25/2017 17:19:45][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[01/25/2017 17:19:49][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:19:49][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:20:06][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:20:39][                                  Main()] Starting Addon startup function
+[01/25/2017 17:20:39][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:20:39][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:20:40][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:20:40][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:20:40][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:20:45][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:20:45][                                  Main()] Creating Event handler class
+[01/25/2017 17:20:45][                      Class_Initialize()] Starting function
+[01/25/2017 17:20:45][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:20:45][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:20:45][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:20:45][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:20:45][                                  Main()] Addon started successfully
+[01/25/2017 17:20:45][                                  Main()] Initializing Recordset 
+[01/25/2017 17:20:48][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:20:49][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:20:57][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:26:51][                                  Main()] Starting Addon startup function
+[01/25/2017 17:26:51][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:26:51][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:26:52][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:26:52][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:26:52][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:26:57][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:26:57][                                  Main()] Creating Event handler class
+[01/25/2017 17:26:57][                      Class_Initialize()] Starting function
+[01/25/2017 17:26:57][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:26:57][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:26:57][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:26:57][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:26:57][                                  Main()] Addon started successfully
+[01/25/2017 17:26:57][                                  Main()] Initializing Recordset 
+[01/25/2017 17:27:19][             SBO_Application_ItemEvent()] Calling File Open Function
+[01/25/2017 17:27:19][                        ShowFileDialog()] Starting function
+[01/25/2017 17:27:55][                        ShowFileDialog()] Completed with SUCCESS
+[01/25/2017 17:27:55][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[01/25/2017 17:28:00][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:28:01][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:35:30][                                  Main()] Starting Addon startup function
+[01/25/2017 17:35:30][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:35:30][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:35:30][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:35:30][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:35:30][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:35:36][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:35:36][                                  Main()] Creating Event handler class
+[01/25/2017 17:35:36][                      Class_Initialize()] Starting function
+[01/25/2017 17:35:36][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:35:36][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:35:36][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:35:36][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:35:36][                                  Main()] Addon started successfully
+[01/25/2017 17:35:36][                                  Main()] Initializing Recordset 
+[01/25/2017 17:35:43][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:35:44][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:36:43][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:36:43][             SBO_Application_ItemEvent()] No Datas in the Budget Template file
+[01/25/2017 17:37:33][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:37:34][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:37:40][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:38:19][           StreamlineBudgetInformation()] Starting Function
+[01/25/2017 17:44:06][                                  Main()] Starting Addon startup function
+[01/25/2017 17:44:06][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:44:06][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:44:06][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:44:06][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:44:06][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:44:11][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:44:11][                                  Main()] Creating Event handler class
+[01/25/2017 17:44:11][                      Class_Initialize()] Starting function
+[01/25/2017 17:44:11][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:44:11][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:44:11][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:44:11][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:44:11][                                  Main()] Addon started successfully
+[01/25/2017 17:44:11][                                  Main()] Initializing Recordset 
+[01/25/2017 17:44:26][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:44:27][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:44:36][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:44:51][           StreamlineBudgetInformation()] Starting Function
+[01/25/2017 17:47:22][                                  Main()] Starting Addon startup function
+[01/25/2017 17:47:22][                                  Main()] Initializing public SBO Application object
+[01/25/2017 17:47:22][                                  Main()] Retriving SBO application company handle
+[01/25/2017 17:47:23][                                  Main()] Retrived SBO application company handle
+[01/25/2017 17:47:23][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 17:47:23][                      ConnectDICompSSO()] Starting function
+[01/25/2017 17:47:28][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 17:47:28][                                  Main()] Creating Event handler class
+[01/25/2017 17:47:28][                      Class_Initialize()] Starting function
+[01/25/2017 17:47:28][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 17:47:28][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 17:47:28][                                  Main()] Calling AddMenuItems()
+[01/25/2017 17:47:28][                                  Main()] Calling SetApplication Function
+[01/25/2017 17:47:28][                                  Main()] Addon started successfully
+[01/25/2017 17:47:28][                                  Main()] Initializing Recordset 
+[01/25/2017 17:47:33][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 17:47:35][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 17:47:39][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 17:47:46][           StreamlineBudgetInformation()] Starting Function
+[01/25/2017 18:35:12][                                  Main()] Starting Addon startup function
+[01/25/2017 18:35:12][                                  Main()] Initializing public SBO Application object
+[01/25/2017 18:35:12][                                  Main()] Retriving SBO application company handle
+[01/25/2017 18:35:13][                                  Main()] Retrived SBO application company handle
+[01/25/2017 18:35:13][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 18:35:13][                      ConnectDICompSSO()] Starting function
+[01/25/2017 18:35:18][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 18:35:18][                                  Main()] Creating Event handler class
+[01/25/2017 18:35:18][                      Class_Initialize()] Starting function
+[01/25/2017 18:35:18][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 18:35:18][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 18:35:18][                                  Main()] Calling AddMenuItems()
+[01/25/2017 18:35:18][                                  Main()] Calling SetApplication Function
+[01/25/2017 18:35:18][                                  Main()] Addon started successfully
+[01/25/2017 18:35:18][                                  Main()] Initializing Recordset 
+[01/25/2017 18:37:26][             SBO_Application_ItemEvent()] Calling File Open Function
+[01/25/2017 18:37:26][                        ShowFileDialog()] Starting function
+[01/25/2017 18:37:42][                        ShowFileDialog()] Completed with SUCCESS
+[01/25/2017 18:37:43][             SBO_Application_ItemEvent()] Completed With Success File Open Function
+[01/25/2017 18:37:47][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 18:37:48][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 18:37:57][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 18:37:57][             SBO_Application_ItemEvent()] No Datas in the Budget Template file
+[01/25/2017 18:38:54][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 18:38:55][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 18:39:06][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 18:39:28][           StreamlineBudgetInformation()] Starting Function
+[01/25/2017 18:41:36][                                  Main()] Starting Addon startup function
+[01/25/2017 18:41:36][                                  Main()] Initializing public SBO Application object
+[01/25/2017 18:41:36][                                  Main()] Retriving SBO application company handle
+[01/25/2017 18:41:36][                                  Main()] Retrived SBO application company handle
+[01/25/2017 18:41:36][                                  Main()] Calling ConnectDICompSSO()
+[01/25/2017 18:41:36][                      ConnectDICompSSO()] Starting function
+[01/25/2017 18:41:42][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/25/2017 18:41:42][                                  Main()] Creating Event handler class
+[01/25/2017 18:41:42][                      Class_Initialize()] Starting function
+[01/25/2017 18:41:42][                      Class_Initialize()] Retriving SBO Application handle
+[01/25/2017 18:41:42][                      Class_Initialize()] Completed with SUCCESS
+[01/25/2017 18:41:42][                                  Main()] Calling AddMenuItems()
+[01/25/2017 18:41:42][                                  Main()] Calling SetApplication Function
+[01/25/2017 18:41:42][                                  Main()] Addon started successfully
+[01/25/2017 18:41:42][                                  Main()] Initializing Recordset 
+[01/25/2017 18:41:50][             SBO_Application_ItemEvent()] Calling GetDataViewFromCSV Function
+[01/25/2017 18:41:51][                   GetDatasetFromExcel()] Starting Function
+[01/25/2017 18:42:01][                   GetDatasetFromExcel()] Completed with SUCCESS
+[01/25/2017 18:42:15][           StreamlineBudgetInformation()] Starting Function

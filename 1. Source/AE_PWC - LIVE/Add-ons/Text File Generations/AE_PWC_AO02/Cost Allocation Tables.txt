@@ -1,0 +1,12 @@
+﻿
+Table Name : AB_COSTALLOCATION
+Desc       : AB_ Cost Allocation
+
+Fields
+  Transid 
+  JE TransID
+  Alphanumeric (20)
+
+  PrcCode
+  Cost Center
+  Alphanumeric (20)

@@ -1,0 +1,31 @@
+[02/10/2016 15:51:04][                        Main()] 
+[02/10/2016 15:51:04][                        Main()] 
+[02/11/2016 11:59:36][                              ] Object reference not set to an instance of an object.
+[02/11/2016 12:00:37][                              ] Object reference not set to an instance of an object.
+[02/11/2016 12:01:21][                              ] Object reference not set to an instance of an object.
+[03/30/2016 15:57:13][            ConnectDICompSSO()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[03/30/2016 15:57:13][                        Main()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[03/30/2016 15:58:25][            ConnectDICompSSO()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[03/30/2016 15:58:25][                        Main()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[03/30/2016 15:58:55][            ConnectDICompSSO()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[03/30/2016 15:58:55][                        Main()] Connect of Single SignOn failed : Access to company database is not permitted; log on to SAP Business One and sign end user license agreement (EULA)
+[06/09/2016 19:34:39][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:40:58][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:44][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:45][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:46][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:46][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:47][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:47][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:42:48][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:48:41][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:48:52][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 19:50:32][    POValidation_Competitive()] Item - Form item is not editable
+[06/09/2016 22:07:14][                              ] Cancel the Approval form & Try again 
+[06/09/2016 22:09:51][                              ] Close the Approval form and Try again 
+[06/09/2016 22:13:08][                              ] Close the Approval form and Try again 
+[06/09/2016 22:15:50][                              ] Update the Email Address in the below Users 
+'GTS2','GTS4','GTS5'
+[06/09/2016 22:16:39][                              ] Update the Email Address in the below Users 
+'GTS2','GTS4','GTS5'
+[06/09/2016 22:18:42][                              ] Close the Approval form and Try again 

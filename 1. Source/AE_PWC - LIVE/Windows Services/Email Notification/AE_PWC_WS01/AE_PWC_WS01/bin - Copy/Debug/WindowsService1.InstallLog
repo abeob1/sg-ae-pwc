@@ -1,0 +1,34 @@
+﻿Installing assembly 'D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service AE_EmailTrigger...
+Service AE_EmailTrigger has been successfully installed.
+Creating EventLog source AE_EmailTrigger in log Application...
+Committing assembly 'D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Uninstalling assembly 'D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Removing EventLog source AE_EmailTrigger.
+Service AE_EmailTrigger is being removed from the system...
+Service AE_EmailTrigger was successfully removed from the system.
+Installing assembly 'D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service AE_EmailTrigger...
+Service AE_EmailTrigger has been successfully installed.
+Creating EventLog source AE_EmailTrigger in log Application...
+Committing assembly 'D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe

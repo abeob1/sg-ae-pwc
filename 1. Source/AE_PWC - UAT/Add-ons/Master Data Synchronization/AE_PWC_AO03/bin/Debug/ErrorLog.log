@@ -1,0 +1,28 @@
+[12/11/2015 10:11:37][                           BPMaterSync()] Completed with ERROR ---Enter valid code  [OCRB.BankCode]  [الرسالة 173-36]
+[12/11/2015 10:42:28][                           BPMaterSync()] Conversion from string "19000101" to type 'Date' is not valid.
+[12/11/2015 12:47:25][                             UsersSync()] Completed with ERROR ---10000651 - A user was added outside the application. Delete it, or perform 'Restore Numbering' [OUSR.INTERNAL_K]
+[12/11/2015 12:50:51][                             UsersSync()] Completed with ERROR ---10000651 - A user was added outside the application. Delete it, or perform 'Restore Numbering' [OUSR.INTERNAL_K]
+[12/14/2015 13:13:15][                           BPMaterSync()] Completed with ERROR ---[Microsoft][SQL Server Native Client 11.0][SQL Server]Cannot insert the value NULL into column 'Name', table 'SVSL.dbo.OCPR'; column does not allow nulls. INSERT fails.
+[05/27/2016 11:21:36][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:21:36][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:21:42][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:21:42][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:26:18][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:26:18][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:32:40][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/27/2016 11:32:40][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[05/28/2016 16:51:08][                      DistributionSync()] Enter number in "Value" field  [OOCR.OcrTotal]
+[05/28/2016 16:51:52][                      DistributionSync()] Enter number in "Value" field  [OOCR.OcrTotal]
+[06/02/2016 13:36:07][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[06/02/2016 13:36:07][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	 Error during SBO user authentication
+[02/10/2017 19:25:18][                                  Main()] Index was outside the bounds of the array.

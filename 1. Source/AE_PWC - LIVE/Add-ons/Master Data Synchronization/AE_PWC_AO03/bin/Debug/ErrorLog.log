@@ -1,0 +1,172 @@
+[09/26/2016 13:40:41][                      DistributionSync()] Invalid row
+[09/26/2016 15:10:36][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 15:12:13][                      DistributionSync()] Invalid row
+[09/26/2016 15:12:20][                      DistributionSync()] Invalid row
+[09/26/2016 15:12:26][                      DistributionSync()] Invalid row
+[09/26/2016 15:12:33][                      DistributionSync()] Invalid row
+[09/26/2016 15:12:41][                      DistributionSync()] Invalid row
+[09/26/2016 15:12:43][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/26/2016 15:12:44][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/26/2016 15:12:51][                      DistributionSync()] Invalid row
+[09/26/2016 15:17:50][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 15:24:17][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:24][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:30][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:37][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:45][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:52][                      DistributionSync()] Invalid row
+[09/26/2016 15:24:58][                      DistributionSync()] Invalid row
+[09/26/2016 15:25:06][                      DistributionSync()] Invalid row
+[09/26/2016 16:00:01][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 16:05:56][                      DistributionSync()] Invalid row
+[09/26/2016 16:09:19][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 16:16:02][                      DistributionSync()] Invalid row
+[09/26/2016 16:22:49][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 16:37:15][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 16:40:16][                      DistributionSync()] Invalid row
+[09/26/2016 16:54:31][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/26/2016 16:57:28][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 13:52:20][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 13:54:03][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 13:55:05][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 13:55:45][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 13:56:08][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 13:58:21][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 14:03:38][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 14:38:56][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 14:41:20][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 14:50:45][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 14:53:37][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 15:23:13][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 15:24:57][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 15:57:38][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 16:01:05][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/27/2016 16:17:56][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 16:19:50][                      DistributionSync()] No matching records found (ODBC -2028)
+[09/27/2016 16:24:14][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/27/2016 16:31:54][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 11:36:31][                      DistributionSync()] Invalid row
+[09/28/2016 11:44:39][                      DistributionSync()] Invalid row
+[09/28/2016 12:13:19][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 12:13:26][                      DistributionSync()] Invalid row
+[09/28/2016 12:13:32][                      DistributionSync()] Invalid row
+[09/28/2016 12:13:39][                      DistributionSync()] Invalid row
+[09/28/2016 12:13:45][                      DistributionSync()] Invalid row
+[09/28/2016 12:13:53][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:00][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:06][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:14][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:22][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:29][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:30][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/28/2016 12:14:31][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/28/2016 12:14:39][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:45][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:52][                      DistributionSync()] Invalid row
+[09/28/2016 12:14:52][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/28/2016 12:14:59][                      DistributionSync()] Invalid row
+[09/28/2016 12:34:28][                      DistributionSync()] Invalid row
+[09/28/2016 12:59:47][                      DistributionSync()] Invalid row
+[09/28/2016 13:23:45][                      DistributionSync()] Invalid row
+[09/28/2016 13:25:27][                      DistributionSync()] Invalid row
+[09/28/2016 15:00:28][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 15:01:11][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/28/2016 15:03:02][                      DistributionSync()] Lines of Distribution Rule have a different Valid From value 
+[09/28/2016 15:49:55][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 15:51:54][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 15:53:36][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 15:57:43][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 15:59:16][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 16:00:52][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 16:01:10][                      DistributionSync()] Invalid row
+[09/28/2016 17:48:02][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 17:57:49][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 17:59:53][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:05:07][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:05:25][                      DistributionSync()] Invalid row
+[09/28/2016 18:07:37][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:12:15][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:17:47][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:19:18][                      DistributionSync()] Invalid row
+[09/28/2016 18:28:00][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 18:51:01][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/28/2016 19:10:19][                      DistributionSync()] Invalid row
+[09/29/2016 11:14:38][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/29/2016 12:36:35][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/29/2016 12:41:09][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/29/2016 12:43:47][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[09/29/2016 15:40:16][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 15:40:22][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 19:20:25][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 19:49:25][                      DistributionSync()] Invalid row
+[09/29/2016 19:52:45][                      DistributionSync()] Invalid row
+[09/29/2016 20:02:07][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 20:02:35][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 20:03:57][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 20:04:11][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 20:04:11][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/29/2016 20:04:12][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/29/2016 20:04:12][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/29/2016 20:04:12][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/29/2016 20:04:13][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/29/2016 20:04:27][                      DistributionSync()] Cannot remove a distribution rule used in transactions 
+[09/29/2016 20:05:00][                      DistributionSync()] Duplicate Distribution Rule Code 
+[09/30/2016 17:59:25][                      ConnectDICompSSO()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 17:59:25][                                  Main()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 17:59:47][                      ConnectDICompSSO()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 17:59:47][                                  Main()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 18:02:06][                      ConnectDICompSSO()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 18:02:06][                                  Main()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 18:02:27][                      ConnectDICompSSO()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 18:02:27][                                  Main()] Could not connect to the database server; check the connection  [131-183]
+[09/30/2016 18:17:53][                      DistributionSync()] 540000081 - Effective periods may not overlap each other; adjust one of the periods to avoid overlap
+[10/03/2016 10:55:08][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[10/03/2016 11:07:44][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[10/03/2016 11:14:59][                      DistributionSync()] 10001397 - Cannot update a distribution rule used in transactions
+[10/17/2016 15:02:00][                           BPMaterSync()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_SYNCCODE'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[10/17/2016 15:05:08][                           BPMaterSync()] Completed with ERROR ---1320000199 - Sales employee has already been removed; select another sales employee [OHEM.salesPrson]
+[12/26/2016 18:29:38][                        MasterDataSync()] Conversion from string "FIN GST" to type 'Integer' is not valid.
+[12/26/2016 18:33:22][                        MasterDataSync()] Conversion from string "FIN GST" to type 'Integer' is not valid.
+[12/27/2016 16:43:02][                           BPMaterSync()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_SYNCCODE'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[12/27/2016 16:44:42][                           BPMaterSync()] Exception from HRESULT: 0xFFFFFB9E
+[12/27/2016 16:44:42][                        MasterDataSync()] Object reference not set to an instance of an object.
+[12/27/2016 16:45:23][                           BPMaterSync()] Exception from HRESULT: 0xFFFFFB9E
+[12/27/2016 16:45:23][                        MasterDataSync()] Object reference not set to an instance of an object.
+[12/27/2016 16:47:01][                           BPMaterSync()] Exception from HRESULT: 0xFFFFFB9E
+[12/27/2016 16:47:01][                        MasterDataSync()] Object reference not set to an instance of an object.
+[12/27/2016 16:53:49][                           BPMaterSync()] Completed with ERROR ---To generate this document, first define the numbering series in the Administration module
+[01/02/2017 16:02:32][                           BPMaterSync()] Completed with ERROR ---To generate this document, first define the numbering series in the Administration module
+[01/02/2017 16:27:02][                           BPMaterSync()] Completed with ERROR ---To generate this document, first define the numbering series in the Administration module
+[01/03/2017 12:29:03][                           BPMaterSync()] Completed with ERROR ---To generate this document, first define the numbering series in the Administration module
+[01/03/2017 12:41:04][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	 Error during SBO user authentication
+[01/03/2017 12:41:04][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	 Error during SBO user authentication
+[01/03/2017 12:43:04][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	 Error during SBO user authentication
+[01/03/2017 12:43:04][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	 Error during SBO user authentication
+[01/03/2017 12:48:06][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	 Error during SBO user authentication
+[01/04/2017 11:10:43][                                  Main()] Connection - Could not find SBO that match the connection string
+[01/19/2017 13:15:40][                ConnectToTargetCompany()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[01/19/2017 13:15:40][             SBO_Application_ItemEvent()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[01/19/2017 13:16:32][                        MasterDataSync()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the varchar value 'GMC' to data type int.
+
+[01/19/2017 13:37:30][                     SalesEmployeeSync()] Invalid field name
+[01/19/2017 13:47:09][                     SalesEmployeeSync()] Completed with ERROR ---No matching records found in the holding DB 41
+[01/19/2017 14:47:43][                     SalesEmployeeSync()] Completed with ERROR ---Data is not available; modify selection criteria and re-enter 
+[01/19/2017 14:49:31][                     SalesEmployeeSync()] Completed with ERROR ---Data is not available; modify selection criteria and re-enter 
+[01/19/2017 15:08:16][                     SalesEmployeeSync()] Completed with ERROR ---Data is not available; modify selection criteria and re-enter 
+[01/19/2017 15:14:54][                           BPMaterSync()] Invalid XML file
+[01/19/2017 15:30:22][                           BPMaterSync()] Invalid XML file
+[01/19/2017 15:39:14][                           BPMaterSync()] Invalid XML file
+[01/19/2017 16:09:36][                     SalesEmployeeSync()] Completed with ERROR ---

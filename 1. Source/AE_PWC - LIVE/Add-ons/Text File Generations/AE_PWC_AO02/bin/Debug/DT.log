@@ -1,0 +1,562 @@
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 18:53:01][                       MAtrixToDataTable] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 18:53:20][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 18:53:46][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 18:54:44][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 19:02:28][                       MAtrixToDataTable] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 19:02:35][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.02
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.04
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.12
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 19:02:35][                                        ] Credit
+[09/22/2016 19:02:35][                                        ] Credit Amount 
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.14
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.46
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.7
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.72
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 19:02:35][                                        ] Credit
+[09/22/2016 19:02:35][                                        ] Credit Amount 
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.74
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.82
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 0.84
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 1.16
+[09/22/2016 19:02:35][JournalEntry_Posting_NONJV_Source Inside] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 19:02:35][                                        ] Debit
+[09/22/2016 19:02:35][                                        ] Debit Amount 1.4
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 1.42
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 1.44
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 1.52
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 19:02:36][                                        ] Credit
+[09/22/2016 19:02:36][                                        ] Credit Amount 
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 1.54
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 1.86
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Source Inside] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 19:02:36][                                        ] Debit
+[09/22/2016 19:02:36][                                        ] Debit Amount 2.1
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.08  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  -0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52114  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52114  0.32  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52114  0.24  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  -0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52115  0.08  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52115  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52115  0.32  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52115  0.24  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  0.08  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52120  -0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52120  0.02  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52120  0.32  11111200
+[09/22/2016 19:02:36][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52120  0.24  11111200
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.02
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151200  0.32  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151230  0.24  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.02
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151200  0.32  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151230  0.24  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.02
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.02  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151200  0.32  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151230  0.24  0
+[09/22/2016 19:02:36][JournalEntry_Posting_NONJV_Target_Inside] 21132000  0  2.04
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 71111100  71111100  52112  -0.08  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72111300  72111300  52112  -0.01  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72111300  72111300  52112  0.01  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72111300  72111300  52112  0.03  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72111300  72111300  52112  0.08  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72111300  72111300  52112  1.02  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72151200  72151200  52112  0.16  11111605
+[10/24/2016 17:34:43][                       MAtrixToDataTable] 72151230  72151230  52112  0.61  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 71111100  71111100  52112  -0.08  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72111300  72111300  52112  -0.01  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72111300  72111300  52112  0.01  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72111300  72111300  52112  0.03  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72111300  72111300  52112  0.08  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72111300  72111300  52112  1.02  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72151200  72151200  52112  0.16  11111605
+[10/24/2016 17:45:52][                       MAtrixToDataTable] 72151230  72151230  52112  0.61  11111605
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 71111100  71111100  52113  0.08  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 71111100  71111100  52113  -0.08  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72111300  72111300  52113  -0.01  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72111300  72111300  52113  0.01  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72111300  72111300  52113  0.03  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72111300  72111300  52113  0.08  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72111300  72111300  52113  1.02  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72151200  72151200  52113  0.16  11111200
+[10/24/2016 18:35:31][                       MAtrixToDataTable] 72151230  72151230  52113  0.61  11111200
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 71111100  71111100  52113  0.08  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 71111100  71111100  52113  -0.08  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72111300  72111300  52113  -0.01  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72111300  72111300  52113  0.01  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72111300  72111300  52113  0.03  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72111300  72111300  52113  0.08  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72111300  72111300  52113  1.02  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72151200  72151200  52113  0.16  11111605
+[10/24/2016 18:36:45][                       MAtrixToDataTable] 72151230  72151230  52113  0.61  11111605
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:00:38][                       MAtrixToDataTable] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:02:19][                       MAtrixToDataTable] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:02:23][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:02:26][                                        ] Debit
+[11/03/2016 15:02:26][                                        ] Debit Amount 0.18
+[11/03/2016 15:02:26][                                        ] Debit
+[11/03/2016 15:02:26][                                        ] Debit Amount 0.36
+[11/03/2016 15:02:26][                                        ] Debit
+[11/03/2016 15:02:26][                                        ] Debit Amount 1.25
+[11/03/2016 15:02:26][                                        ] Debit
+[11/03/2016 15:02:26][                                        ] Debit Amount 2.14
+[11/03/2016 15:02:26][                                        ] Debit
+[11/03/2016 15:02:26][                                        ] Debit Amount 3.03
+[11/03/2016 15:02:26][                                        ] Credit Amount 0.02
+[11/03/2016 15:02:27][                                        ] Credit Amount 0.2
+[11/03/2016 15:02:27][                                        ] Debit
+[11/03/2016 15:02:27][                                        ] Debit Amount 3.92
+[11/03/2016 15:02:27][                                        ] Debit
+[11/03/2016 15:02:27][                                        ] Debit Amount 4.19
+[11/03/2016 15:02:27][                                        ] Debit
+[11/03/2016 15:02:27][                                        ] Debit Amount 4.28
+[11/03/2016 15:02:27][                                        ] Debit
+[11/03/2016 15:02:27][                                        ] Debit Amount 7.84
+[11/03/2016 15:02:27][                                        ] Debit
+[11/03/2016 15:02:27][                                        ] Debit Amount 10.51
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:11:04][                       MAtrixToDataTable] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:11:17][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 0.18
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 0.36
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 1.25
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 2.14
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 3.03
+[11/03/2016 15:11:19][                                        ] Credit Amount 0.02
+[11/03/2016 15:11:19][                                        ] Credit Amount 0.2
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 3.92
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 4.19
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 4.28
+[11/03/2016 15:11:19][                                        ] Debit
+[11/03/2016 15:11:19][                                        ] Debit Amount 7.84
+[11/03/2016 15:11:20][                                        ] Debit
+[11/03/2016 15:11:20][                                        ] Debit Amount 10.51
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 15:11:24][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.18  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.18  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.89  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.89  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.89  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.02
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.18
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 71111300  0.89  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.27  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.09  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 72151200  3.56  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 72151230  2.67  0
+[11/03/2016 15:11:24][JournalEntry_Posting_NONJV_Target_Inside] 31111401  0  10.31
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0.02  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0.02  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  0  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111100  71111100  52112  -0.02  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 71111300  71111300  52112  0.08  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 72111300  72111300  52112  0.02  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 72111300  72111300  52112  0.01  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 72151200  72151200  52112  0.32  11111605
+[11/03/2016 16:29:21][                       MAtrixToDataTable] 72151230  72151230  52112  0.24  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.02  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.02  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0.08  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  0  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111100  71111100  52112  -0.02  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 71111300  71111300  52112  0.08  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 72111300  72111300  52112  0.02  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 72111300  72111300  52112  0.01  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 72151200  72151200  52112  0.32  11111605
+[11/03/2016 16:33:43][                       MAtrixToDataTable] 72151230  72151230  52112  0.24  11111605
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 16:46:15][                       MAtrixToDataTable] 72151230  72151230  52111  2.67  11111603
+[11/03/2016 16:46:55][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 16:47:03][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.18  11111603
+[11/03/2016 16:47:03][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:47:03][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.02  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.18  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 71111300  71111300  52111  0.89  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.27  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.09  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52111  3.56  11111603
+[11/03/2016 16:47:04][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52111  2.67  11111603
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  0  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111100  71111100  52114  -0.02  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 71111300  71111300  52114  0.08  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 72111300  72111300  52114  0.02  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 72111300  72111300  52114  0.01  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 72151200  72151200  52114  0.32  11111200
+[11/22/2016 12:02:33][                       MAtrixToDataTable] 72151230  72151230  52114  0.24  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  0  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52114  -0.02  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 71111300  71111300  52114  0.08  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52114  0.02  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52114  0.01  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52114  0.32  11111200
+[11/22/2016 12:02:35][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52114  0.24  11111200
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.02
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.04
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.12
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.2
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.28
+[11/22/2016 12:02:35][                                        ] Credit Amount 0
+[11/22/2016 12:02:35][                                        ] Credit Amount 0.02
+[11/22/2016 12:02:35][                                        ] Debit
+[11/22/2016 12:02:35][                                        ] Debit Amount 0.36
+[11/22/2016 12:02:36][                                        ] Debit
+[11/22/2016 12:02:36][                                        ] Debit Amount 0.38
+[11/22/2016 12:02:36][                                        ] Debit
+[11/22/2016 12:02:36][                                        ] Debit Amount 0.39
+[11/22/2016 12:02:36][                                        ] Debit
+[11/22/2016 12:02:36][                                        ] Debit Amount 0.71
+[11/22/2016 12:02:36][                                        ] Debit
+[11/22/2016 12:02:36][                                        ] Debit Amount 0.95
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.02  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0.08  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  0  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52114  -0.02  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 71111300  71111300  52114  0.08  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52114  0.02  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52114  0.01  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52114  0.32  11111200
+[11/22/2016 12:02:36][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52114  0.24  11111200
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.02  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.08  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.02
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 71111300  0.08  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.02  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.01  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151200  0.32  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 72151230  0.24  0
+[11/22/2016 12:02:36][JournalEntry_Posting_NONJV_Target_Inside] 31111401  0  0.93
+[11/28/2016 16:45:00][                       MAtrixToDataTable] 71111100  71111100  52113  -0.08  11111605
+[11/28/2016 16:45:00][                       MAtrixToDataTable] 72151230  72151230  52113  0.02  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0.02  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0.02  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0.08  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0.08  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0.08  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  0  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111100  71111100  52113  -0.02  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 71111300  71111300  52113  0.08  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 72111300  72111300  52113  0.02  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 72111300  72111300  52113  0.01  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 72151200  72151200  52113  0.32  11111605
+[11/28/2016 17:27:49][                       MAtrixToDataTable] 72151230  72151230  52113  0.24  11111605
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 71111100  71111100  52111  0.89  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 71111100  71111100  52111  -0.89  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72111300  72111300  52111  -0.09  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72111300  72111300  52111  0.09  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72111300  72111300  52111  0.29  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72111300  72111300  52111  0.89  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72111300  72111300  52111  11.17  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72151200  72151200  52111  1.78  11111603
+[11/28/2016 17:46:31][                       MAtrixToDataTable] 72151230  72151230  52111  6.67  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  0.89  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 71111100  71111100  52111  -0.89  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  -0.09  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.09  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.29  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  0.89  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72111300  72111300  52111  11.17  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72151200  72151200  52111  1.78  11111603
+[11/28/2016 17:46:34][       JournalEntry_Posting_NONJV_Source] 72151230  72151230  52111  6.67  11111603
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 0.89
+[11/28/2016 17:46:34][                                        ] Credit Amount 0.89
+[11/28/2016 17:46:34][                                        ] Credit Amount 0.98
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 0.98
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 1.27
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 2.16
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 13.33
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 15.11
+[11/28/2016 17:46:34][                                        ] Debit
+[11/28/2016 17:46:34][                                        ] Debit Amount 21.78
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  0.89  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 71111100  71111100  52111  -0.89  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  -0.09  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  0.09  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  0.29  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  0.89  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72111300  72111300  52111  11.17  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72151200  72151200  52111  1.78  11111603
+[11/28/2016 17:46:35][       JournalEntry_Posting_NONJV_Target] 72151230  72151230  52111  6.67  11111603
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0.89  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 71111100  0  0.89
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0  0.09
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.09  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.29  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72111300  0.89  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72111300  11.17  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72151200  1.78  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 72151230  6.67  0
+[11/28/2016 17:46:35][JournalEntry_Posting_NONJV_Target_Inside] 31111401  0  20.8

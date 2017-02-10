@@ -1,0 +1,7 @@
+Error while Sync Distribution Rule 
+      
+      
+Entity Code        Entity                                            Item Code           Error Msg
+======================================================================================================================================================
+      
+IAS7                PwC International Assignment Services Pte Ltd     HC2                 Enter number in "Value" field  [OOCR.OcrTotal]

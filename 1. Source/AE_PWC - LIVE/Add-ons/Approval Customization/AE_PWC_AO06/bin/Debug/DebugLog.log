@@ -1,0 +1,750 @@
+[11/25/2016 19:12:33][                                    Main] Starting Addon startup function
+[11/25/2016 19:12:33][                                    Main] Initializing public SBO Application object
+[11/25/2016 19:12:33][                                    Main] Retriving SBO application company handle
+[11/25/2016 19:12:33][                                    Main] Retrived SBO application company handle
+[11/25/2016 19:12:33][                                    Main] Calling ConnectDICompSSO()
+[11/25/2016 19:12:33][                      ConnectDICompSSO()] Starting function
+[11/25/2016 19:12:36][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/25/2016 19:12:36][                                    Main] Creating Event handler class
+[11/25/2016 19:12:36][                      Class_Initialize()] Starting function
+[11/25/2016 19:12:36][                      Class_Initialize()] Retriving SBO Application handle
+[11/25/2016 19:12:36][                      Class_Initialize()] Completed with SUCCESS
+[11/25/2016 19:12:36][                                    Main] Creating FMS
+[11/25/2016 19:12:36][                                  AddFMS] Starting Function
+[11/25/2016 19:12:36][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:12:36][                                  AddFMS] Completed with Success
+[11/25/2016 19:12:36][                                  AddFMS] Starting Function
+[11/25/2016 19:12:36][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:12:36][                                  AddFMS] Completed with Success
+[11/25/2016 19:12:36][                                  AddFMS] Starting Function
+[11/25/2016 19:12:36][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:12:36][                                  AddFMS] Completed with Success
+[11/25/2016 19:12:36][                                    Main] Creating table
+[11/25/2016 19:12:36][                                    Main] Creating Procedure
+[11/25/2016 19:12:36][                         CreateProcedure] Starting Function
+[11/25/2016 19:12:37][                                    Main] Calling AddMenuItems()
+[11/25/2016 19:12:37][                                    Main] Calling SetApplication Function
+[11/25/2016 19:12:37][                                  Main()] Addon started successfully
+[11/25/2016 19:12:37][                                  Main()] Initializing Recordset 
+[11/25/2016 19:12:39][                          Initializeform] Starting Function
+[11/25/2016 19:12:46][                              LoadGrid()] Starting Function
+[11/25/2016 19:12:46][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:12:48][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is GHRS
+[11/25/2016 19:13:40][                              LoadGrid()] Starting Function
+[11/25/2016 19:13:40][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:13:51][                              LoadGrid()] Starting Function
+[11/25/2016 19:13:51][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:14:00][                              LoadGrid()] Starting Function
+[11/25/2016 19:14:01][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:14:09][                              LoadGrid()] Starting Function
+[11/25/2016 19:14:09][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:14:30][                              LoadGrid()] Starting Function
+[11/25/2016 19:14:30][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:15:58][                                    Main] Starting Addon startup function
+[11/25/2016 19:15:58][                                    Main] Initializing public SBO Application object
+[11/25/2016 19:15:58][                                    Main] Retriving SBO application company handle
+[11/25/2016 19:15:58][                                    Main] Retrived SBO application company handle
+[11/25/2016 19:15:58][                                    Main] Calling ConnectDICompSSO()
+[11/25/2016 19:15:58][                      ConnectDICompSSO()] Starting function
+[11/25/2016 19:16:02][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/25/2016 19:16:02][                                    Main] Creating Event handler class
+[11/25/2016 19:16:02][                      Class_Initialize()] Starting function
+[11/25/2016 19:16:02][                      Class_Initialize()] Retriving SBO Application handle
+[11/25/2016 19:16:02][                      Class_Initialize()] Completed with SUCCESS
+[11/25/2016 19:16:02][                                    Main] Creating FMS
+[11/25/2016 19:16:02][                                  AddFMS] Starting Function
+[11/25/2016 19:16:02][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:16:02][                                  AddFMS] Completed with Success
+[11/25/2016 19:16:02][                                  AddFMS] Starting Function
+[11/25/2016 19:16:02][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:16:02][                                  AddFMS] Completed with Success
+[11/25/2016 19:16:02][                                  AddFMS] Starting Function
+[11/25/2016 19:16:02][                                  AddFMS] Error while adding FMS
+[11/25/2016 19:16:02][                                  AddFMS] Completed with Success
+[11/25/2016 19:16:02][                                    Main] Creating table
+[11/25/2016 19:16:02][                                    Main] Creating Procedure
+[11/25/2016 19:16:02][                         CreateProcedure] Starting Function
+[11/25/2016 19:16:02][                                    Main] Calling AddMenuItems()
+[11/25/2016 19:16:02][                                    Main] Calling SetApplication Function
+[11/25/2016 19:16:02][                                  Main()] Addon started successfully
+[11/25/2016 19:16:02][                                  Main()] Initializing Recordset 
+[11/25/2016 19:16:04][                          Initializeform] Starting Function
+[11/25/2016 19:16:11][                              LoadGrid()] Starting Function
+[11/25/2016 19:16:11][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:16:19][                              LoadGrid()] Starting Function
+[11/25/2016 19:16:19][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'BACKUP','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25',''
+[11/25/2016 19:16:20][                              LoadGrid()] Completed with ERROR
+[11/25/2016 19:16:24][                              LoadGrid()] Starting Function
+[11/25/2016 19:16:24][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'BACKUP','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/25/2016 19:16:39][                              LoadGrid()] Starting Function
+[11/25/2016 19:16:39][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'BACKUP','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-25','GHRS'
+[11/28/2016 11:25:35][                                    Main] Starting Addon startup function
+[11/28/2016 11:25:35][                                    Main] Initializing public SBO Application object
+[11/28/2016 11:25:35][                                    Main] Retriving SBO application company handle
+[11/28/2016 11:25:35][                                    Main] Retrived SBO application company handle
+[11/28/2016 11:25:35][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 11:25:35][                      ConnectDICompSSO()] Starting function
+[11/28/2016 11:25:39][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 11:25:39][                                    Main] Creating Event handler class
+[11/28/2016 11:25:39][                      Class_Initialize()] Starting function
+[11/28/2016 11:25:39][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 11:25:39][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 11:25:39][                                    Main] Creating FMS
+[11/28/2016 11:25:39][                                  AddFMS] Starting Function
+[11/28/2016 11:25:39][                                  AddFMS] Error while adding FMS
+[11/28/2016 11:25:39][                                  AddFMS] Completed with Success
+[11/28/2016 11:25:39][                                  AddFMS] Starting Function
+[11/28/2016 11:25:39][                                  AddFMS] Error while adding FMS
+[11/28/2016 11:25:39][                                  AddFMS] Completed with Success
+[11/28/2016 11:25:39][                                  AddFMS] Starting Function
+[11/28/2016 11:25:39][                                  AddFMS] Error while adding FMS
+[11/28/2016 11:25:39][                                  AddFMS] Completed with Success
+[11/28/2016 11:25:39][                                    Main] Creating table
+[11/28/2016 11:25:39][                                    Main] Creating Procedure
+[11/28/2016 11:25:39][                         CreateProcedure] Starting Function
+[11/28/2016 11:25:39][                                    Main] Calling AddMenuItems()
+[11/28/2016 11:25:39][                                    Main] Calling SetApplication Function
+[11/28/2016 11:25:39][                                  Main()] Addon started successfully
+[11/28/2016 11:25:39][                                  Main()] Initializing Recordset 
+[11/28/2016 12:18:19][                          Initializeform] Starting Function
+[11/28/2016 12:18:23][                              LoadGrid()] Starting Function
+[11/28/2016 12:18:23][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28',''
+[11/28/2016 12:18:24][                              LoadGrid()] Completed with ERROR
+[11/28/2016 12:18:30][                              LoadGrid()] Starting Function
+[11/28/2016 12:18:30][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28','PWCL'
+[11/28/2016 12:18:37][            ApprovalWindow_SBO_ItemEvent] Entity is PWCL and Connected Company is PWCL
+[11/28/2016 12:19:14][            ApprovalWindow_SBO_ItemEvent] Entity is PWCL and Connected Company is PWCL
+[11/28/2016 12:19:23][                              LoadGrid()] Starting Function
+[11/28/2016 12:19:23][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 12:19:27][                              LoadGrid()] Starting Function
+[11/28/2016 12:19:27][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28','SEAC'
+[11/28/2016 12:19:32][                              LoadGrid()] Starting Function
+[11/28/2016 12:19:33][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28','IAS7'
+[11/28/2016 12:23:23][                                    Main] Starting Addon startup function
+[11/28/2016 12:23:23][                                    Main] Initializing public SBO Application object
+[11/28/2016 12:23:23][                                    Main] Retriving SBO application company handle
+[11/28/2016 12:23:23][                                    Main] Retrived SBO application company handle
+[11/28/2016 12:23:23][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 12:23:23][                      ConnectDICompSSO()] Starting function
+[11/28/2016 12:23:26][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 12:23:26][                                    Main] Creating Event handler class
+[11/28/2016 12:23:26][                      Class_Initialize()] Starting function
+[11/28/2016 12:23:26][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 12:23:26][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 12:23:26][                                    Main] Creating FMS
+[11/28/2016 12:23:26][                                  AddFMS] Starting Function
+[11/28/2016 12:23:26][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:23:26][                                  AddFMS] Completed with Success
+[11/28/2016 12:23:26][                                  AddFMS] Starting Function
+[11/28/2016 12:23:26][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:23:26][                                  AddFMS] Completed with Success
+[11/28/2016 12:23:26][                                  AddFMS] Starting Function
+[11/28/2016 12:23:26][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:23:26][                                  AddFMS] Completed with Success
+[11/28/2016 12:23:27][                                    Main] Creating table
+[11/28/2016 12:23:27][                                    Main] Creating Procedure
+[11/28/2016 12:23:27][                         CreateProcedure] Starting Function
+[11/28/2016 12:23:27][                                    Main] Calling AddMenuItems()
+[11/28/2016 12:23:27][                                    Main] Calling SetApplication Function
+[11/28/2016 12:23:27][                                  Main()] Addon started successfully
+[11/28/2016 12:23:27][                                  Main()] Initializing Recordset 
+[11/28/2016 12:23:36][                          Initializeform] Starting Function
+[11/28/2016 12:23:40][                              LoadGrid()] Starting Function
+[11/28/2016 12:23:40][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28',''
+[11/28/2016 12:23:40][                              LoadGrid()] Completed with ERROR
+[11/28/2016 12:23:46][                              LoadGrid()] Starting Function
+[11/28/2016 12:23:46][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','ghrs'
+[11/28/2016 12:23:49][            ApprovalWindow_SBO_ItemEvent] Entity is ghrs and Connected Company is PWCL
+[11/28/2016 12:23:49][                          Initializeform] Starting Function
+[11/28/2016 12:23:50][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM ghrs.dbo.ODRF A  INNER JOIN ghrs.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN ghrs.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 12:23:50][                              LoadValues] Loading Line values
+[11/28/2016 12:23:50][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM ghrs.dbo.ODRF A  INNER JOIN ghrs.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN ghrs.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 12:23:50][                              LoadValues] Loading Header values
+[11/28/2016 12:23:57][                          Initializeform] Starting Function
+[11/28/2016 12:30:45][                                    Main] Starting Addon startup function
+[11/28/2016 12:30:45][                                    Main] Initializing public SBO Application object
+[11/28/2016 12:30:45][                                    Main] Retriving SBO application company handle
+[11/28/2016 12:30:45][                                    Main] Retrived SBO application company handle
+[11/28/2016 12:30:45][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 12:30:45][                      ConnectDICompSSO()] Starting function
+[11/28/2016 12:30:48][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 12:30:48][                                    Main] Creating Event handler class
+[11/28/2016 12:30:48][                      Class_Initialize()] Starting function
+[11/28/2016 12:30:48][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 12:30:48][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 12:30:48][                                    Main] Creating FMS
+[11/28/2016 12:30:48][                                  AddFMS] Starting Function
+[11/28/2016 12:30:48][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:30:48][                                  AddFMS] Completed with Success
+[11/28/2016 12:30:48][                                  AddFMS] Starting Function
+[11/28/2016 12:30:48][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:30:48][                                  AddFMS] Completed with Success
+[11/28/2016 12:30:48][                                  AddFMS] Starting Function
+[11/28/2016 12:30:48][                                  AddFMS] Error while adding FMS
+[11/28/2016 12:30:48][                                  AddFMS] Completed with Success
+[11/28/2016 12:30:48][                                    Main] Creating table
+[11/28/2016 12:30:48][                                    Main] Creating Procedure
+[11/28/2016 12:30:48][                         CreateProcedure] Starting Function
+[11/28/2016 12:30:48][                                    Main] Calling AddMenuItems()
+[11/28/2016 12:30:48][                                    Main] Calling SetApplication Function
+[11/28/2016 12:30:48][                                  Main()] Addon started successfully
+[11/28/2016 12:30:48][                                  Main()] Initializing Recordset 
+[11/28/2016 12:59:41][                          Initializeform] Starting Function
+[11/28/2016 12:59:45][                              LoadGrid()] Starting Function
+[11/28/2016 12:59:45][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28',''
+[11/28/2016 12:59:45][                              LoadGrid()] Completed with ERROR
+[11/28/2016 12:59:52][                              LoadGrid()] Starting Function
+[11/28/2016 12:59:52][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 12:59:55][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is PWCL
+[11/28/2016 12:59:55][                          Initializeform] Starting Function
+[11/28/2016 12:59:57][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '31' 
+[11/28/2016 12:59:57][                              LoadValues] Loading Line values
+[11/28/2016 12:59:57][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '31' 
+[11/28/2016 12:59:57][                              LoadValues] Loading Header values
+[11/28/2016 13:00:01][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is PWCL
+[11/28/2016 13:00:01][                          Initializeform] Starting Function
+[11/28/2016 13:00:03][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:00:03][                              LoadValues] Loading Line values
+[11/28/2016 13:00:03][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:00:03][                              LoadValues] Loading Header values
+[11/28/2016 13:00:11][                                    Main] Starting Addon startup function
+[11/28/2016 13:00:11][                                    Main] Initializing public SBO Application object
+[11/28/2016 13:00:11][                                    Main] Retriving SBO application company handle
+[11/28/2016 13:00:11][                                    Main] Retrived SBO application company handle
+[11/28/2016 13:00:11][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 13:00:11][                      ConnectDICompSSO()] Starting function
+[11/28/2016 13:00:15][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 13:00:15][                                    Main] Creating Event handler class
+[11/28/2016 13:00:15][                      Class_Initialize()] Starting function
+[11/28/2016 13:00:15][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 13:00:15][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 13:00:15][                                    Main] Creating FMS
+[11/28/2016 13:00:15][                                  AddFMS] Starting Function
+[11/28/2016 13:00:15][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:00:15][                                  AddFMS] Completed with Success
+[11/28/2016 13:00:15][                                  AddFMS] Starting Function
+[11/28/2016 13:00:15][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:00:15][                                  AddFMS] Completed with Success
+[11/28/2016 13:00:15][                                  AddFMS] Starting Function
+[11/28/2016 13:00:15][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:00:15][                                  AddFMS] Completed with Success
+[11/28/2016 13:00:15][                                    Main] Creating table
+[11/28/2016 13:00:15][                                    Main] Creating Procedure
+[11/28/2016 13:00:15][                         CreateProcedure] Starting Function
+[11/28/2016 13:00:15][                                    Main] Calling AddMenuItems()
+[11/28/2016 13:00:15][                                    Main] Calling SetApplication Function
+[11/28/2016 13:00:15][                                  Main()] Addon started successfully
+[11/28/2016 13:00:15][                                  Main()] Initializing Recordset 
+[11/28/2016 13:00:16][                          Initializeform] Starting Function
+[11/28/2016 13:00:19][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:19][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28',''
+[11/28/2016 13:00:20][                              LoadGrid()] Completed with ERROR
+[11/28/2016 13:00:24][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:24][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','ghrs'
+[11/28/2016 13:00:32][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:32][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:00:36][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:37][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'BACKUP','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:00:41][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:41][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:00:48][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is PWCL
+[11/28/2016 13:00:48][                          Initializeform] Starting Function
+[11/28/2016 13:00:49][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '31' 
+[11/28/2016 13:00:49][                              LoadValues] Loading Line values
+[11/28/2016 13:00:50][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '31' 
+[11/28/2016 13:00:50][                              LoadValues] Loading Header values
+[11/28/2016 13:00:57][                              LoadGrid()] Starting Function
+[11/28/2016 13:00:57][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'BACKUP','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:01:01][                              LoadGrid()] Starting Function
+[11/28/2016 13:01:01][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:01:48][                              LoadGrid()] Starting Function
+[11/28/2016 13:01:48][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:02:16][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is PWCL
+[11/28/2016 13:02:17][                          Initializeform] Starting Function
+[11/28/2016 13:02:18][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:02:18][                              LoadValues] Loading Line values
+[11/28/2016 13:02:18][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:02:18][                              LoadValues] Loading Header values
+[11/28/2016 13:57:03][                                    Main] Starting Addon startup function
+[11/28/2016 13:57:03][                                    Main] Initializing public SBO Application object
+[11/28/2016 13:57:03][                                    Main] Retriving SBO application company handle
+[11/28/2016 13:57:04][                                    Main] Retrived SBO application company handle
+[11/28/2016 13:57:04][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 13:57:04][                      ConnectDICompSSO()] Starting function
+[11/28/2016 13:57:07][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 13:57:07][                                    Main] Creating Event handler class
+[11/28/2016 13:57:07][                      Class_Initialize()] Starting function
+[11/28/2016 13:57:07][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 13:57:07][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 13:57:07][                                    Main] Creating FMS
+[11/28/2016 13:57:07][                                  AddFMS] Starting Function
+[11/28/2016 13:57:07][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:57:07][                                  AddFMS] Completed with Success
+[11/28/2016 13:57:07][                                  AddFMS] Starting Function
+[11/28/2016 13:57:07][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:57:07][                                  AddFMS] Completed with Success
+[11/28/2016 13:57:07][                                  AddFMS] Starting Function
+[11/28/2016 13:57:07][                                  AddFMS] Error while adding FMS
+[11/28/2016 13:57:07][                                  AddFMS] Completed with Success
+[11/28/2016 13:57:07][                                    Main] Creating table
+[11/28/2016 13:57:07][                                    Main] Creating Procedure
+[11/28/2016 13:57:07][                         CreateProcedure] Starting Function
+[11/28/2016 13:57:07][                                    Main] Calling AddMenuItems()
+[11/28/2016 13:57:07][                                    Main] Calling SetApplication Function
+[11/28/2016 13:57:07][                                  Main()] Addon started successfully
+[11/28/2016 13:57:07][                                  Main()] Initializing Recordset 
+[11/28/2016 13:57:33][                          Initializeform] Starting Function
+[11/28/2016 13:57:42][                              LoadGrid()] Starting Function
+[11/28/2016 13:57:42][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','PWCL'
+[11/28/2016 13:57:50][                              LoadGrid()] Starting Function
+[11/28/2016 13:57:50][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-11-28','GHRS'
+[11/28/2016 13:57:52][            ApprovalWindow_SBO_ItemEvent] Entity is GHRS and Connected Company is PWCL
+[11/28/2016 13:57:52][                          Initializeform] Starting Function
+[11/28/2016 13:57:53][                              LoadValues] Executing query SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:57:53][                              LoadValues] Loading Line values
+[11/28/2016 13:57:53][                              LoadValues] Executing SQL in Recordset SELECT A.DocEntry,A.DocNum, REPLACE(CONVERT(CHAR(10), A.DocDate, 103), '/', '') DocDate,A.CardName,A.NumAtCard,A.DocCur,A.U_AB_WAIVER,ISNULL(A.U_AB_APPROVALAMT,0.0) [U_AB_APPROVALAMT],  A.U_AB_BudgetedCost,A.U_AB_BudgetExceeded,A.U_AB_APPROVALCODE ,A.U_AB_PREAPPROVED ,A.Comments,A.ReqName ,REPLACE(CONVERT(CHAR(10), A.ReqDate, 103), '/', '') ReqDate ,C.U_NAME,A.U_AB_PURCHASEDEPT, B.ItemCode,B.Dscription,B.AcctCode,B.U_AB_NONPROJECT ,B.Project,B.U_AB_BALANCE,B.U_AB_OUName ,B.Quantity,B.Price,B.LineTotal,  B.U_AB_PQ1AMT,B.U_AB_PQ_SUP1,B.U_AB_PQ2AMT,B.U_AB_PQ_SUP2  FROM GHRS.dbo.ODRF A  INNER JOIN GHRS.dbo.DRF1 B ON B.DocEntry = A.DocEntry  INNER JOIN GHRS.dbo.OUSR C ON C.USERID = A.UserSign  WHERE A.DocEntry = '26' 
+[11/28/2016 13:57:53][                              LoadValues] Loading Header values
+[11/28/2016 15:13:29][                                    Main] Starting Addon startup function
+[11/28/2016 15:13:29][                                    Main] Initializing public SBO Application object
+[11/28/2016 15:13:29][                                    Main] Retriving SBO application company handle
+[11/28/2016 15:13:30][                                    Main] Retrived SBO application company handle
+[11/28/2016 15:13:30][                                    Main] Calling ConnectDICompSSO()
+[11/28/2016 15:13:30][                      ConnectDICompSSO()] Starting function
+[11/28/2016 15:13:33][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/28/2016 15:13:33][                                    Main] Creating Event handler class
+[11/28/2016 15:13:33][                      Class_Initialize()] Starting function
+[11/28/2016 15:13:33][                      Class_Initialize()] Retriving SBO Application handle
+[11/28/2016 15:13:33][                      Class_Initialize()] Completed with SUCCESS
+[11/28/2016 15:13:33][                                    Main] Creating FMS
+[11/28/2016 15:13:33][                                  AddFMS] Starting Function
+[11/28/2016 15:13:33][                                  AddFMS] Error while adding FMS
+[11/28/2016 15:13:33][                                  AddFMS] Completed with Success
+[11/28/2016 15:13:33][                                  AddFMS] Starting Function
+[11/28/2016 15:13:33][                                  AddFMS] Error while adding FMS
+[11/28/2016 15:13:33][                                  AddFMS] Completed with Success
+[11/28/2016 15:13:33][                                  AddFMS] Starting Function
+[11/28/2016 15:13:33][                                  AddFMS] Error while adding FMS
+[11/28/2016 15:13:33][                                  AddFMS] Completed with Success
+[11/28/2016 15:13:33][                                    Main] Creating table
+[11/28/2016 15:13:33][                                    Main] Creating Procedure
+[11/28/2016 15:13:33][                         CreateProcedure] Starting Function
+[11/28/2016 15:13:33][                                    Main] Calling AddMenuItems()
+[11/28/2016 15:13:33][                                    Main] Calling SetApplication Function
+[11/28/2016 15:13:33][                                  Main()] Addon started successfully
+[11/28/2016 15:13:33][                                  Main()] Initializing Recordset 
+[11/28/2016 15:14:51][                          Initializeform] Starting Function
+[11/28/2016 15:14:54][                              LoadGrid()] Starting Function
+[11/28/2016 15:14:54][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28',''
+[11/28/2016 15:14:55][                              LoadGrid()] Completed with ERROR
+[11/28/2016 15:15:01][                              LoadGrid()] Starting Function
+[11/28/2016 15:15:01][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-11-28','PWCL'
+[11/28/2016 15:15:04][            ApprovalWindow_SBO_ItemEvent] Entity is PWCL and Connected Company is PWCL
+[11/28/2016 15:26:45][            ApprovalWindow_SBO_ItemEvent] Entity is PWCL and Connected Company is PWCL
+[11/28/2016 15:32:13][            ApprovalWindow_SBO_ItemEvent] Entity is PWCL and Connected Company is PWCL
+[12/02/2016 10:59:41][                                    Main] Starting Addon startup function
+[12/02/2016 10:59:41][                                    Main] Initializing public SBO Application object
+[12/02/2016 10:59:41][                                    Main] Retriving SBO application company handle
+[12/02/2016 10:59:42][                                    Main] Retrived SBO application company handle
+[12/02/2016 10:59:42][                                    Main] Calling ConnectDICompSSO()
+[12/02/2016 10:59:42][                      ConnectDICompSSO()] Starting function
+[12/02/2016 10:59:45][                      ConnectDICompSSO()] Completed with SUCCESS
+[12/02/2016 10:59:45][                                    Main] Creating Event handler class
+[12/02/2016 10:59:45][                      Class_Initialize()] Starting function
+[12/02/2016 10:59:45][                      Class_Initialize()] Retriving SBO Application handle
+[12/02/2016 10:59:45][                      Class_Initialize()] Completed with SUCCESS
+[12/02/2016 10:59:45][                                    Main] Creating FMS
+[12/02/2016 10:59:45][                                  AddFMS] Starting Function
+[12/02/2016 10:59:45][                                  AddFMS] Error while adding FMS
+[12/02/2016 10:59:45][                                  AddFMS] Completed with Success
+[12/02/2016 10:59:45][                                  AddFMS] Starting Function
+[12/02/2016 10:59:46][                                  AddFMS] Error while adding FMS
+[12/02/2016 10:59:46][                                  AddFMS] Completed with Success
+[12/02/2016 10:59:46][                                  AddFMS] Starting Function
+[12/02/2016 10:59:46][                                  AddFMS] Error while adding FMS
+[12/02/2016 10:59:46][                                  AddFMS] Completed with Success
+[12/02/2016 10:59:46][                                    Main] Creating table
+[12/02/2016 10:59:46][                                    Main] Creating Procedure
+[12/02/2016 10:59:46][                         CreateProcedure] Starting Function
+[12/02/2016 10:59:46][                                    Main] Calling AddMenuItems()
+[12/02/2016 10:59:46][                                    Main] Calling SetApplication Function
+[12/02/2016 10:59:46][                                  Main()] Addon started successfully
+[12/02/2016 10:59:46][                                  Main()] Initializing Recordset 
+[12/02/2016 10:59:49][                          Initializeform] Starting Function
+[12/02/2016 10:59:54][                              LoadGrid()] Starting Function
+[12/02/2016 10:59:54][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-12-02',''
+[12/02/2016 11:00:01][                              LoadGrid()] Completed with ERROR
+[12/02/2016 11:00:07][                              LoadGrid()] Starting Function
+[12/02/2016 11:00:07][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','manager','manager Name','','ALL','','','1899-12-30','2016-12-02','pwcl'
+[12/02/2016 11:01:51][                                    Main] Starting Addon startup function
+[12/02/2016 11:01:51][                                    Main] Initializing public SBO Application object
+[12/02/2016 11:01:51][                                    Main] Retriving SBO application company handle
+[12/02/2016 11:01:51][                                    Main] Retrived SBO application company handle
+[12/02/2016 11:01:51][                                    Main] Calling ConnectDICompSSO()
+[12/02/2016 11:01:51][                      ConnectDICompSSO()] Starting function
+[12/02/2016 11:01:54][                      ConnectDICompSSO()] Completed with SUCCESS
+[12/02/2016 11:01:54][                                    Main] Creating Event handler class
+[12/02/2016 11:01:54][                      Class_Initialize()] Starting function
+[12/02/2016 11:01:54][                      Class_Initialize()] Retriving SBO Application handle
+[12/02/2016 11:01:54][                      Class_Initialize()] Completed with SUCCESS
+[12/02/2016 11:01:54][                                    Main] Creating FMS
+[12/02/2016 11:01:54][                                  AddFMS] Starting Function
+[12/02/2016 11:01:54][                                  AddFMS] Error while adding FMS
+[12/02/2016 11:01:54][                                  AddFMS] Completed with Success
+[12/02/2016 11:01:54][                                  AddFMS] Starting Function
+[12/02/2016 11:01:54][                                  AddFMS] Error while adding FMS
+[12/02/2016 11:01:54][                                  AddFMS] Completed with Success
+[12/02/2016 11:01:54][                                  AddFMS] Starting Function
+[12/02/2016 11:01:54][                                  AddFMS] Error while adding FMS
+[12/02/2016 11:01:54][                                  AddFMS] Completed with Success
+[12/02/2016 11:01:54][                                    Main] Creating table
+[12/02/2016 11:01:54][                                    Main] Creating Procedure
+[12/02/2016 11:01:54][                         CreateProcedure] Starting Function
+[12/02/2016 11:01:54][                                    Main] Calling AddMenuItems()
+[12/02/2016 11:01:54][                                    Main] Calling SetApplication Function
+[12/02/2016 11:01:54][                                  Main()] Addon started successfully
+[12/02/2016 11:01:54][                                  Main()] Initializing Recordset 
+[12/02/2016 11:02:01][                          Initializeform] Starting Function
+[12/02/2016 11:02:10][                              LoadGrid()] Starting Function
+[12/02/2016 11:02:10][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-12-02','PWCL'
+[12/02/2016 11:02:18][                              LoadGrid()] Starting Function
+[12/02/2016 11:02:18][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-12-02','GHRS'
+[12/02/2016 11:02:29][                              LoadGrid()] Starting Function
+[12/02/2016 11:02:29][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-12-02','SEAC'
+[12/02/2016 11:02:35][                              LoadGrid()] Starting Function
+[12/02/2016 11:02:35][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-12-02','GHRS'
+[12/02/2016 11:03:05][                              LoadGrid()] Starting Function
+[12/02/2016 11:03:05][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','ADM5','Tan Wan Chin','','ALL','','','1899-12-30','2016-12-02','GHRS'
+[12/29/2016 18:55:24][                                    Main] Starting Addon startup function
+[12/29/2016 18:55:24][                                    Main] Initializing public SBO Application object
+[12/29/2016 18:55:24][                                    Main] Retriving SBO application company handle
+[12/29/2016 18:55:24][                                    Main] Retrived SBO application company handle
+[12/29/2016 18:55:24][                                    Main] Calling ConnectDICompSSO()
+[12/29/2016 18:55:24][                      ConnectDICompSSO()] Starting function
+[12/29/2016 18:55:28][                      ConnectDICompSSO()] Completed with SUCCESS
+[12/29/2016 18:55:28][                                    Main] Creating Event handler class
+[12/29/2016 18:55:28][                      Class_Initialize()] Starting function
+[12/29/2016 18:55:28][                      Class_Initialize()] Retriving SBO Application handle
+[12/29/2016 18:55:28][                      Class_Initialize()] Completed with SUCCESS
+[12/29/2016 18:55:28][                                    Main] Creating FMS
+[12/29/2016 18:55:28][                                  AddFMS] Starting Function
+[12/29/2016 18:55:28][                                  AddFMS] Error while adding FMS
+[12/29/2016 18:55:28][                                  AddFMS] Completed with Success
+[12/29/2016 18:55:28][                                  AddFMS] Starting Function
+[12/29/2016 18:55:28][                                  AddFMS] Error while adding FMS
+[12/29/2016 18:55:28][                                  AddFMS] Completed with Success
+[12/29/2016 18:55:28][                                  AddFMS] Starting Function
+[12/29/2016 18:55:28][                                  AddFMS] Error while adding FMS
+[12/29/2016 18:55:28][                                  AddFMS] Completed with Success
+[12/29/2016 18:55:28][                                    Main] Creating table
+[12/29/2016 18:55:28][                                    Main] Creating Procedure
+[12/29/2016 18:55:28][                         CreateProcedure] Starting Function
+[12/29/2016 18:55:28][                                    Main] Calling AddMenuItems()
+[12/29/2016 18:55:28][                                    Main] Calling SetApplication Function
+[12/29/2016 18:55:28][                                  Main()] Addon started successfully
+[12/29/2016 18:55:28][                                  Main()] Initializing Recordset 
+[12/29/2016 19:07:41][                          Initializeform] Starting Function
+[12/29/2016 19:07:50][                              LoadGrid()] Starting Function
+[12/29/2016 19:07:50][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2016-12-29','pwcl'
+[01/02/2017 13:38:06][                                    Main] Starting Addon startup function
+[01/02/2017 13:38:06][                                    Main] Initializing public SBO Application object
+[01/02/2017 13:38:06][                                    Main] Retriving SBO application company handle
+[01/02/2017 13:38:07][                                    Main] Retrived SBO application company handle
+[01/02/2017 13:38:07][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 13:38:07][                      ConnectDICompSSO()] Starting function
+[01/02/2017 13:39:03][                                    Main] Starting Addon startup function
+[01/02/2017 13:39:08][                                    Main] Initializing public SBO Application object
+[01/02/2017 13:39:08][                                    Main] Retriving SBO application company handle
+[01/02/2017 13:39:09][                                    Main] Retrived SBO application company handle
+[01/02/2017 13:39:09][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 13:39:09][                      ConnectDICompSSO()] Starting function
+[01/02/2017 13:40:29][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/02/2017 13:40:29][                                    Main] Creating Event handler class
+[01/02/2017 13:40:29][                      Class_Initialize()] Starting function
+[01/02/2017 13:40:29][                      Class_Initialize()] Retriving SBO Application handle
+[01/02/2017 13:40:29][                      Class_Initialize()] Completed with SUCCESS
+[01/02/2017 13:40:29][                                    Main] Creating FMS
+[01/02/2017 13:40:29][                                  AddFMS] Starting Function
+[01/02/2017 13:40:29][                                  AddFMS] Error while adding FMS
+[01/02/2017 13:40:29][                                  AddFMS] Completed with Success
+[01/02/2017 13:40:29][                                  AddFMS] Starting Function
+[01/02/2017 13:40:29][                                  AddFMS] Error while adding FMS
+[01/02/2017 13:40:29][                                  AddFMS] Completed with Success
+[01/02/2017 13:40:29][                                  AddFMS] Starting Function
+[01/02/2017 13:40:29][                                  AddFMS] Error while adding FMS
+[01/02/2017 13:40:29][                                  AddFMS] Completed with Success
+[01/02/2017 13:40:29][                                    Main] Creating table
+[01/02/2017 13:40:29][                                    Main] Creating Procedure
+[01/02/2017 13:40:29][                         CreateProcedure] Starting Function
+[01/02/2017 13:40:29][                                    Main] Calling AddMenuItems()
+[01/02/2017 13:40:29][                                    Main] Calling SetApplication Function
+[01/02/2017 13:40:29][                                  Main()] Addon started successfully
+[01/02/2017 13:40:29][                                  Main()] Initializing Recordset 
+[01/02/2017 13:50:17][                          Initializeform] Starting Function
+[01/02/2017 13:50:41][                          Initializeform] Starting Function
+[01/02/2017 13:51:01][                              LoadGrid()] Starting Function
+[01/02/2017 13:51:01][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager2','manager2 NAme','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 13:53:59][                       DocumentsApproval] Starting Function
+[01/02/2017 13:53:59][                ConnectToTargetCompany()] Starting function
+[01/02/2017 13:53:59][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[01/02/2017 13:53:59][                ConnectToTargetCompany()] Initializing the Company Object
+[01/02/2017 13:53:59][                ConnectToTargetCompany()] Assigning the representing database name : PWCL
+[01/02/2017 13:53:59][                ConnectToTargetCompany()] Connecting to the Company Database.
+[01/02/2017 13:54:07][                ConnectToTargetCompany()] Connection established with PwC LLP
+[01/02/2017 13:54:07][                ConnectToTargetCompany()] Completed with SUCCESS
+[01/02/2017 13:54:07][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 13:54:17][                             EmailToUser] Starting Function
+[01/02/2017 13:54:52][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq =  (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager2/%' and draftkey = '144'  and DocType = 'PO' and Entity = 'PwC LLP')  and draftkey = '144' and DocType = 'PO'  and Entity = 'PwC LLP' and  [Status] = 'Pending' 
+[01/02/2017 13:55:00][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 13:55:00][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 13:55:00][                              LoadGrid()] Starting Function
+[01/02/2017 13:55:01][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager2','manager2 NAme','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:45:41][                                    Main] Starting Addon startup function
+[01/02/2017 14:45:42][                                    Main] Initializing public SBO Application object
+[01/02/2017 14:45:42][                                    Main] Retriving SBO application company handle
+[01/02/2017 14:45:43][                                    Main] Retrived SBO application company handle
+[01/02/2017 14:45:43][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 14:45:43][                      ConnectDICompSSO()] Starting function
+[01/02/2017 14:45:47][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/02/2017 14:45:47][                                    Main] Creating Event handler class
+[01/02/2017 14:45:47][                      Class_Initialize()] Starting function
+[01/02/2017 14:45:47][                      Class_Initialize()] Retriving SBO Application handle
+[01/02/2017 14:45:47][                      Class_Initialize()] Completed with SUCCESS
+[01/02/2017 14:45:47][                                    Main] Creating FMS
+[01/02/2017 14:45:47][                                  AddFMS] Starting Function
+[01/02/2017 14:45:47][                                  AddFMS] Error while adding FMS
+[01/02/2017 14:45:47][                                  AddFMS] Completed with Success
+[01/02/2017 14:45:47][                                  AddFMS] Starting Function
+[01/02/2017 14:45:47][                                  AddFMS] Error while adding FMS
+[01/02/2017 14:45:47][                                  AddFMS] Completed with Success
+[01/02/2017 14:45:47][                                  AddFMS] Starting Function
+[01/02/2017 14:45:47][                                  AddFMS] Error while adding FMS
+[01/02/2017 14:45:47][                                  AddFMS] Completed with Success
+[01/02/2017 14:45:47][                                    Main] Creating table
+[01/02/2017 14:45:47][                                    Main] Creating Procedure
+[01/02/2017 14:45:47][                         CreateProcedure] Starting Function
+[01/02/2017 14:45:47][                                    Main] Calling AddMenuItems()
+[01/02/2017 14:45:47][                                    Main] Calling SetApplication Function
+[01/02/2017 14:45:47][                                  Main()] Addon started successfully
+[01/02/2017 14:45:47][                                  Main()] Initializing Recordset 
+[01/02/2017 14:51:43][                          Initializeform] Starting Function
+[01/02/2017 14:51:57][                              LoadGrid()] Starting Function
+[01/02/2017 14:51:57][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:52:03][                              LoadGrid()] Starting Function
+[01/02/2017 14:52:03][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:52:05][                              LoadGrid()] Starting Function
+[01/02/2017 14:52:05][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:52:06][                              LoadGrid()] Starting Function
+[01/02/2017 14:52:06][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:52:06][                              LoadGrid()] Starting Function
+[01/02/2017 14:52:06][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:54:50][                              LoadGrid()] Starting Function
+[01/02/2017 14:54:50][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:54:52][                              LoadGrid()] Starting Function
+[01/02/2017 14:54:52][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'ALL','GTS2','GTS2','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 14:59:59][                                    Main] Starting Addon startup function
+[01/02/2017 14:59:59][                                    Main] Initializing public SBO Application object
+[01/02/2017 14:59:59][                                    Main] Retriving SBO application company handle
+[01/02/2017 14:59:59][                                    Main] Retrived SBO application company handle
+[01/02/2017 14:59:59][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 14:59:59][                      ConnectDICompSSO()] Starting function
+[01/02/2017 15:00:03][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/02/2017 15:00:03][                                    Main] Creating Event handler class
+[01/02/2017 15:00:03][                      Class_Initialize()] Starting function
+[01/02/2017 15:00:03][                      Class_Initialize()] Retriving SBO Application handle
+[01/02/2017 15:00:03][                      Class_Initialize()] Completed with SUCCESS
+[01/02/2017 15:00:03][                                    Main] Creating FMS
+[01/02/2017 15:00:03][                                  AddFMS] Starting Function
+[01/02/2017 15:00:04][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:00:04][                                  AddFMS] Completed with Success
+[01/02/2017 15:00:04][                                  AddFMS] Starting Function
+[01/02/2017 15:00:04][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:00:04][                                  AddFMS] Completed with Success
+[01/02/2017 15:00:04][                                  AddFMS] Starting Function
+[01/02/2017 15:00:04][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:00:04][                                  AddFMS] Completed with Success
+[01/02/2017 15:00:04][                                    Main] Creating table
+[01/02/2017 15:00:04][                                    Main] Creating Procedure
+[01/02/2017 15:00:04][                         CreateProcedure] Starting Function
+[01/02/2017 15:00:04][                                    Main] Calling AddMenuItems()
+[01/02/2017 15:00:04][                                    Main] Calling SetApplication Function
+[01/02/2017 15:00:04][                                  Main()] Addon started successfully
+[01/02/2017 15:00:04][                                  Main()] Initializing Recordset 
+[01/02/2017 15:00:07][                          Initializeform] Starting Function
+[01/02/2017 15:00:18][                              LoadGrid()] Starting Function
+[01/02/2017 15:00:18][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:00:45][                       DocumentsApproval] Starting Function
+[01/02/2017 15:00:45][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:00:50][                             EmailToUser] Starting Function
+[01/02/2017 15:00:50][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq = (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager3/%' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP') and  draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP' and  [Status]='Pending'
+[01/02/2017 15:00:50][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:00:50][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:00:50][                              LoadGrid()] Starting Function
+[01/02/2017 15:00:50][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:03:54][                              LoadGrid()] Starting Function
+[01/02/2017 15:03:54][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:04:28][                       DocumentsApproval] Starting Function
+[01/02/2017 15:04:28][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:04:32][                             EmailToUser] Starting Function
+[01/02/2017 15:05:12][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq = (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager3/%' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP') and  draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP' and  [Status]='Pending'
+[01/02/2017 15:05:16][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:05:16][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:05:16][                              LoadGrid()] Starting Function
+[01/02/2017 15:05:16][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:05:48][                              LoadGrid()] Starting Function
+[01/02/2017 15:05:49][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:05:53][                       DocumentsApproval] Starting Function
+[01/02/2017 15:05:53][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:06:04][                             EmailToUser] Starting Function
+[01/02/2017 15:06:35][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq = (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager3/%' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP') and  draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP' and  [Status]='Pending'
+[01/02/2017 15:06:35][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:06:35][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:06:35][                              LoadGrid()] Starting Function
+[01/02/2017 15:06:35][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:13:51][                          Initializeform] Starting Function
+[01/02/2017 15:14:03][                              LoadGrid()] Starting Function
+[01/02/2017 15:14:03][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:14:30][                       DocumentsApproval] Starting Function
+[01/02/2017 15:14:30][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:14:36][                             EmailToUser] Starting Function
+[01/02/2017 15:14:36][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq = (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager3/%' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP') and  draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP' and  [Status]='Pending'
+[01/02/2017 15:14:36][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:14:36][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:14:36][                              LoadGrid()] Starting Function
+[01/02/2017 15:14:36][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:14:58][                              LoadGrid()] Starting Function
+[01/02/2017 15:14:58][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:15:32][                       DocumentsApproval] Starting Function
+[01/02/2017 15:15:32][                       DocumentsApproval] Completed with ERROR
+[01/02/2017 15:15:32][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[01/02/2017 15:15:32][             SBO_Application_ItemEvent()] Completed with ERROR
+[01/02/2017 15:15:44][                       DocumentsApproval] Starting Function
+[01/02/2017 15:15:44][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:15:48][                             EmailToUser] Starting Function
+[01/02/2017 15:15:48][                             EmailToUser] Changing Status to Closed update PWCL ..[AB_EmailStatus] set [Status] = 'Closed' where Status = 'Pending' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:15:48][                             EmailToUser] Triggering to Originator update PWCL ..[AB_EmailStatus] set [Status] = 'Open', [EmailBody] = '<div align=left style=''font-size:10.0pt;font-family:Arial''> Dear Sir/Madam,<br /><br />Monday, Jan 02, 2017 15:15:48 <br /><br />  <B> Rejected your PR approval in SAP . </B><br /><br /> <B> PR Draft No. : 145 </B> (Can be viewed under Main Menu/ Administration/ Approval Procedures/ Approval Status Report) <br />  Doc Rejected by : manager3 <br />  Entity          : PwC LLP  Remarks         : Testing<br /><br />Thank you.<br /><br /> Please do not reply to this email. <div/>', [EmailSub] = 'PR Draft No. 145  PwC LLP has been Rejected ' where seq = (select top (1) seq  from PWCL ..[AB_EmailStatus] where draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'  order by cast(Seq as integer) Desc)  and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:15:48][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:15:48][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:15:48][                              LoadGrid()] Starting Function
+[01/02/2017 15:15:48][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:30:21][                                    Main] Starting Addon startup function
+[01/02/2017 15:30:21][                                    Main] Initializing public SBO Application object
+[01/02/2017 15:30:21][                                    Main] Retriving SBO application company handle
+[01/02/2017 15:30:21][                                    Main] Retrived SBO application company handle
+[01/02/2017 15:30:21][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 15:30:21][                      ConnectDICompSSO()] Starting function
+[01/02/2017 15:30:26][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/02/2017 15:30:26][                                    Main] Creating Event handler class
+[01/02/2017 15:30:26][                      Class_Initialize()] Starting function
+[01/02/2017 15:30:26][                      Class_Initialize()] Retriving SBO Application handle
+[01/02/2017 15:30:26][                      Class_Initialize()] Completed with SUCCESS
+[01/02/2017 15:30:26][                                    Main] Creating FMS
+[01/02/2017 15:30:26][                                  AddFMS] Starting Function
+[01/02/2017 15:30:26][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:30:26][                                  AddFMS] Completed with Success
+[01/02/2017 15:30:26][                                  AddFMS] Starting Function
+[01/02/2017 15:30:26][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:30:26][                                  AddFMS] Completed with Success
+[01/02/2017 15:30:26][                                  AddFMS] Starting Function
+[01/02/2017 15:30:26][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:30:26][                                  AddFMS] Completed with Success
+[01/02/2017 15:30:26][                                    Main] Creating table
+[01/02/2017 15:30:26][                                    Main] Creating Procedure
+[01/02/2017 15:30:26][                         CreateProcedure] Starting Function
+[01/02/2017 15:30:26][                                    Main] Calling AddMenuItems()
+[01/02/2017 15:30:26][                                    Main] Calling SetApplication Function
+[01/02/2017 15:30:26][                                  Main()] Addon started successfully
+[01/02/2017 15:30:26][                                  Main()] Initializing Recordset 
+[01/02/2017 15:30:40][                              LoadGrid()] Starting Function
+[01/02/2017 15:30:40][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:30:53][                       DocumentsApproval] Starting Function
+[01/02/2017 15:30:53][                       DocumentsApproval] Completed with ERROR
+[01/02/2017 15:30:53][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[01/02/2017 15:30:53][             SBO_Application_ItemEvent()] Completed with ERROR
+[01/02/2017 15:31:05][                       DocumentsApproval] Starting Function
+[01/02/2017 15:31:05][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:31:08][                             EmailToUser] Starting Function
+[01/02/2017 15:31:08][                             EmailToUser] Update Next level update PWCL ..[AB_EmailStatus] set [Status] = 'Open' where seq = (select top (1) seq + 1 from PWCL ..[AB_EmailStatus] where [sUser] like '%/manager3/%' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP') and  draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP' and  [Status]='Pending'
+[01/02/2017 15:31:08][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:31:08][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:31:08][                              LoadGrid()] Starting Function
+[01/02/2017 15:31:08][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:31:32][                              LoadGrid()] Starting Function
+[01/02/2017 15:31:32][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:31:41][                       DocumentsApproval] Starting Function
+[01/02/2017 15:31:41][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:31:46][                             EmailToUser] Starting Function
+[01/02/2017 15:31:46][                             EmailToUser] Changing Status to Closed update PWCL ..[AB_EmailStatus] set [Status] = 'Closed' where Status = 'Pending' and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:31:46][                             EmailToUser] Triggering to Originator update PWCL ..[AB_EmailStatus] set [Status] = 'Open', [EmailBody] = '<div align=left style=''font-size:10.0pt;font-family:Arial''> Dear Sir/Madam,<br /><br />Monday, Jan 02, 2017 15:31:46 <br /><br />  <B> Rejected your PR approval in SAP . </B><br /><br /> <B> PR Draft No. : 145 </B> (Can be viewed under Main Menu/ Administration/ Approval Procedures/ Approval Status Report) <br />  Doc Rejected by : manager3 <br />  Entity          : PwC LLP  Remarks         : 5555555<br /><br />Thank you.<br /><br /> Please do not reply to this email. <div/>', [EmailSub] = 'PR Draft No. 145  PwC LLP has been Rejected ' where seq = (select top (1) seq  from PWCL ..[AB_EmailStatus] where draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'  order by cast(Seq as integer) Desc)  and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:31:46][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:31:46][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:31:46][                              LoadGrid()] Starting Function
+[01/02/2017 15:31:46][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:40:03][                                    Main] Starting Addon startup function
+[01/02/2017 15:40:03][                                    Main] Initializing public SBO Application object
+[01/02/2017 15:40:03][                                    Main] Retriving SBO application company handle
+[01/02/2017 15:40:03][                                    Main] Retrived SBO application company handle
+[01/02/2017 15:40:03][                                    Main] Calling ConnectDICompSSO()
+[01/02/2017 15:40:03][                      ConnectDICompSSO()] Starting function
+[01/02/2017 15:40:08][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/02/2017 15:40:08][                                    Main] Creating Event handler class
+[01/02/2017 15:40:08][                      Class_Initialize()] Starting function
+[01/02/2017 15:40:08][                      Class_Initialize()] Retriving SBO Application handle
+[01/02/2017 15:40:08][                      Class_Initialize()] Completed with SUCCESS
+[01/02/2017 15:40:08][                                    Main] Creating FMS
+[01/02/2017 15:40:08][                                  AddFMS] Starting Function
+[01/02/2017 15:40:08][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:40:08][                                  AddFMS] Completed with Success
+[01/02/2017 15:40:08][                                  AddFMS] Starting Function
+[01/02/2017 15:40:08][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:40:08][                                  AddFMS] Completed with Success
+[01/02/2017 15:40:08][                                  AddFMS] Starting Function
+[01/02/2017 15:40:08][                                  AddFMS] Error while adding FMS
+[01/02/2017 15:40:08][                                  AddFMS] Completed with Success
+[01/02/2017 15:40:08][                                    Main] Creating table
+[01/02/2017 15:40:08][                                    Main] Creating Procedure
+[01/02/2017 15:40:08][                         CreateProcedure] Starting Function
+[01/02/2017 15:40:08][                                    Main] Calling AddMenuItems()
+[01/02/2017 15:40:08][                                    Main] Calling SetApplication Function
+[01/02/2017 15:40:08][                                  Main()] Addon started successfully
+[01/02/2017 15:40:08][                                  Main()] Initializing Recordset 
+[01/02/2017 15:40:17][                              LoadGrid()] Starting Function
+[01/02/2017 15:40:17][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/02/2017 15:40:25][                       DocumentsApproval] Starting Function
+[01/02/2017 15:40:25][                       DocumentsApproval] Calling EmailToUser()
+[01/02/2017 15:40:25][                             EmailToUser] Starting Function
+[01/02/2017 15:40:25][                             EmailToUser] Changing Status to Closed update PWCL ..[AB_EmailStatus] set [Status] = 'Closed' where    draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:40:25][                             EmailToUser] Triggering to Originator update PWCL ..[AB_EmailStatus] set [Status] = 'Open', [EmailBody] = '<div align=left style=''font-size:10.0pt;font-family:Arial''> Dear Sir/Madam,<br /><br />Monday, Jan 02, 2017 15:40:25 <br /><br />  <B> Rejected your PR approval in SAP . </B><br /><br /> <B> PR Draft No. : 145 </B> (Can be viewed under Main Menu/ Administration/ Approval Procedures/ Approval Status Report) <br />  Doc Rejected by : manager3 <br />  Entity          : PwC LLP  Remarks         : 44444<br /><br />Thank you.<br /><br /> Please do not reply to this email. <div/>', [EmailSub] = 'PR Draft No. 145  PwC LLP has been Rejected ' where seq = (select top (1) seq  from PWCL ..[AB_EmailStatus] where draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'  order by cast(Seq as integer) Desc)  and draftkey = '145' and DocType = 'PR' and Entity = 'PwC LLP'
+[01/02/2017 15:40:25][                             EmailToUser] Completed with SUCCESS
+[01/02/2017 15:40:25][                       DocumentsApproval] Completed with SUCCESS
+[01/02/2017 15:40:25][                              LoadGrid()] Starting Function
+[01/02/2017 15:40:25][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'MAIN','manager3','Chrales KS Loh','','ALL','','','1899-12-30','2017-01-02','PWCL'
+[01/31/2017 12:40:57][                                    Main] Starting Addon startup function
+[01/31/2017 12:49:45][                                    Main] Starting Addon startup function
+[01/31/2017 12:49:45][                                    Main] Initializing public SBO Application object
+[01/31/2017 12:49:45][                                    Main] Retriving SBO application company handle
+[01/31/2017 12:49:46][                                    Main] Retrived SBO application company handle
+[01/31/2017 12:49:46][                                    Main] Calling ConnectDICompSSO()
+[01/31/2017 12:49:46][                      ConnectDICompSSO()] Starting function
+[01/31/2017 12:49:50][                      ConnectDICompSSO()] Completed with SUCCESS
+[01/31/2017 12:49:50][                                    Main] Creating Event handler class
+[01/31/2017 12:49:50][                      Class_Initialize()] Starting function
+[01/31/2017 12:49:50][                      Class_Initialize()] Retriving SBO Application handle
+[01/31/2017 12:49:50][                      Class_Initialize()] Completed with SUCCESS
+[01/31/2017 12:49:50][                                    Main] Creating FMS
+[01/31/2017 12:49:50][                                  AddFMS] Starting Function
+[01/31/2017 12:49:50][                                  AddFMS] Error while adding FMS
+[01/31/2017 12:49:50][                                  AddFMS] Completed with Success
+[01/31/2017 12:49:50][                                  AddFMS] Starting Function
+[01/31/2017 12:49:50][                                  AddFMS] Error while adding FMS
+[01/31/2017 12:49:50][                                  AddFMS] Completed with Success
+[01/31/2017 12:49:50][                                  AddFMS] Starting Function
+[01/31/2017 12:49:50][                                  AddFMS] Error while adding FMS
+[01/31/2017 12:49:50][                                  AddFMS] Completed with Success
+[01/31/2017 12:49:50][                                    Main] Creating table
+[01/31/2017 12:49:50][                                    Main] Creating Procedure
+[01/31/2017 12:49:50][                         CreateProcedure] Starting Function
+[01/31/2017 12:49:50][                                    Main] Calling AddMenuItems()
+[01/31/2017 12:49:50][                                    Main] Calling SetApplication Function
+[01/31/2017 12:49:50][                                  Main()] Addon started successfully
+[01/31/2017 12:49:50][                                  Main()] Initializing Recordset 
+[01/31/2017 12:49:53][                          Initializeform] Starting Function

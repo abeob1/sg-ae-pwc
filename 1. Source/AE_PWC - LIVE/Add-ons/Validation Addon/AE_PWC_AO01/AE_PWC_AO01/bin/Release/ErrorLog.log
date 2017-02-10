@@ -1,0 +1,45 @@
+[09/23/2016 16:04:05][                              ] Conversion from string "OK" to type 'Integer' is not valid.
+[09/23/2016 16:04:58][                              ] Conversion from string "Ok" to type 'Integer' is not valid.
+[09/23/2016 16:10:58][                              ] Item - Invalid item  [66000-3]. Form Unique Id: 'F_70', Item Unique Id: '38'
+[09/23/2016 16:11:52][                              ] Item - Invalid item  [66000-3]. Form Unique Id: 'F_70', Item Unique Id: '38'
+[09/29/2016 16:36:31][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[09/29/2016 16:36:31][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[09/29/2016 16:39:44][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[09/29/2016 16:39:44][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[09/29/2016 17:09:20][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[09/29/2016 17:09:20][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[09/29/2016 17:11:31][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[09/29/2016 17:11:31][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[09/30/2016 12:11:40][                GetPOMaxAmount] Invalid Currency
+[09/30/2016 12:11:40][                  PO Add Event] Invalid Currency
+[09/30/2016 12:20:19][                  PO Add Event] Item - Could not commit action because the item is currently in focus  [66000-23]
+[09/30/2016 13:05:48][                              ] Form - Not found  [66000-9]
+[09/30/2016 13:26:13][                              ] 
+[09/30/2016 13:30:39][                              ] 
+[10/06/2016 11:27:15][   Validating the Pre Approval] 
+[12/21/2016 17:17:04][                GetPOMaxAmount] Invalid currency
+[12/21/2016 17:17:04][                  PO Add Event] Invalid currency
+[01/02/2017 14:07:16][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[01/02/2017 14:07:16][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[01/02/2017 14:15:12][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[01/02/2017 14:15:12][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[01/02/2017 14:16:21][      GetSystemIntializeInfo()] 1). [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'U_AB_AUTHORIZATION'.
+2). [Microsoft][SQL Server Native Client 11.0][SQL Server]Statement(s) could not be prepared.
+
+[01/02/2017 14:16:21][                        Main()] Exception of type 'System.ArgumentException' was thrown.
+[01/02/2017 14:39:55][                              ] Object reference not set to an instance of an object.
+[01/02/2017 14:40:04][                              ] Object reference not set to an instance of an object.
+[01/02/2017 14:41:44][                              ] Update the Email Address in the below Users 
+GTS2 

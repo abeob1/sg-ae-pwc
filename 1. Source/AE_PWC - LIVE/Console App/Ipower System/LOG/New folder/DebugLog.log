@@ -1,0 +1,137 @@
+[10/02/2015 18:00:31][      GetSystemIntializeInfo()] Completed with SUCCESS
+[10/02/2015 18:00:31][                          Main] Calling GetEntitiesDetails() 
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Starting Function 
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass], T0.[U_AB_OUCOMMON] [EntityFlag], T3.[U_AB_IPOWERCODE] [EntityCode] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String SELECT T0.[AcctCode], T0.[AcctName], T0.FrgnName [ExportCode] FROM OACT T0
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT() 
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] , case when left(T0.[U_AB_STNEWCODE],2) = 'ST' then 'IMS' else 'IP' end [Cat] FROM [dbo].[@AB_IPOWERSTCODE]  T0
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String SELECT T0.[U_AB_IPOWERCODE] [ipEntityCode], T0.[U_AB_COMCODE]  [EntityCode], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD] FROM [dbo].[@AB_COMPANYDATA]  T0
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String select Code, Name,left(LEFT(name, CHARINDEX(' ', Name  )),3) + ' ' + CAST(YEAR(getdate()) as varchar)[Month Name],cast(month(left(LEFT(name, CHARINDEX(' ', Name  )),3) + ' 1 2015') as varchar) + ' ' + CAST(YEAR(getdate()) as varchar) [Month Number],cast(month(left(LEFT(name, CHARINDEX(' ', Name  )),3) + ' 1 2015') as varchar) [Month] , CAST(YEAR(getdate()) as varchar) [Year] from [@AB_IPOWERPERIOD] 
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] SQL String select Code, Name, cast(MONTH(F_RefDate ) as varchar) + ' ' + cast(year(F_RefDate ) as varchar), month(F_RefDate ) [F_Month], MONTH(T_RefDate ) [T_Month],YEAR(F_RefDate ) [Year], F_RefDate [RefDate_F], T_RefDate [RefDate_T] from OFPR  
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][          GetEntitiesDetails()] Completed With SUCCESS
+[10/02/2015 18:00:31][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[10/02/2015 18:00:31][IdentifyTXTFile_JournalEntry()] Starting Function 
+[10/02/2015 18:00:31][IdentifyTXTFile_JournalEntry()] Attempting File Name - ipower_20151002055757.txt
+[10/02/2015 18:00:31][IdentifyTXTFile_JournalEntry()] GetDataViewFromTXT() 
+[10/02/2015 18:00:31][            GetDataViewFromTXT] Starting Function
+[10/02/2015 18:00:31][            GetDataViewFromTXT] Completed with SUCCESS 
+[10/02/2015 18:00:31][IdentifyTXTFile_JournalEntry()] Getting Distinct of Entity 
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Starting Function...
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Statistics Row Count SQL SELECT isnull(Max(CAST( CODE as int)),0)+1 AS CODE FROM PWCL.. [@AB_STATITISTICSDATA]
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Entity.PWCL Row Count 17608
+[10/02/2015 18:00:31][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[10/02/2015 18:00:31][IdentifyTXTFile_JournalEntry()] Calling ConnectToTargetCompany() 
+[10/02/2015 18:00:31][      ConnectToTargetCompany()] Starting function
+[10/02/2015 18:00:31][      ConnectToTargetCompany()]  Calling GetCompanyDetails 
+[10/02/2015 18:00:31][           GetCompanyDetails()] Starting Function 
+[10/02/2015 18:00:31][           GetCompanyDetails()] Completed With SUCCESS
+[10/02/2015 18:00:31][      ConnectToTargetCompany()] Initializing the Company Object
+[10/02/2015 18:00:31][      ConnectToTargetCompany()] Assigning the representing database name
+[10/02/2015 18:00:31][      ConnectToTargetCompany()] Connecting to the Company Database.
+[10/02/2015 18:00:34][      ConnectToTargetCompany()] Completed with SUCCESS
+[10/02/2015 18:00:34][IdentifyTXTFile_JournalEntry()] Starting transaction on company database PWCL
+[10/02/2015 18:00:34][IdentifyTXTFile_JournalEntry()] Filtering data with respective Entity -  PWCL
+[10/02/2015 18:00:34][IdentifyTXTFile_JournalEntry()] Calling Function JournalEntry_Posting() 
+[10/02/2015 18:00:34][          JournalEntry_Posting] Starting Function 
+[10/02/2015 18:00:34][MergeAutoNumberedToDataTable()] Starting Function
+[10/02/2015 18:00:34][MergeAutoNumberedToDataTable()] Completed with SUCCESS
+[10/02/2015 18:00:34][          JournalEntry_Posting] Series SQL SELECT T0.[Series] FROM NNM1 T0 WHERE T0.[ObjectCode] =30 and  T0.[SeriesName] = 'CP'
+[10/02/2015 18:00:34][          JournalEntry_Posting] AB_IPOWERPERIOD  SQL SELECT T0.[Name] FROM [dbo].[@AB_IPOWERPERIOD]  T0 WHERE T0.[Code] = '018'
+[10/02/2015 18:00:47][          JournalEntry_Posting]  Total No. of Rows 68
+[10/02/2015 18:00:47][          JournalEntry_Posting]  Attempting Journal Entry Line 1 to 68
+[10/02/2015 18:00:47][          JournalEntry_Posting] Credit Amount 0 Debit Amount 0 Amount 0
+[10/02/2015 18:00:47][          JournalEntry_Posting] Reference Date  9/30/2015
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20120920
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20121019
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130829
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130829
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130829
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130827
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130821
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130823
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130826
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130821
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130823
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130826
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130820
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130823
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130827
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130827
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130830
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130902
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130821
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20110831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20110831
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20120430
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20120430
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Tax Date  20130819
+[10/02/2015 18:00:47][          JournalEntry_Posting] Credit Amount 32537.03 Debit Amount 1315607.63 Amount -1283070.6
+[10/02/2015 18:00:47][          JournalEntry_Posting]  Unbalanced Amount Credit Side -1283070.6
+[10/02/2015 18:00:47][          JournalEntry_Posting] Attempting to Add the Journal Entry
+[10/02/2015 18:00:47][          JournalEntry_Posting] Completed with ERROR Update the exchange rate 
+[10/02/2015 18:00:47][IdentifyTXTFile_JournalEntry()] Disconnecting company database PWCL
+[10/02/2015 18:00:47][IdentifyTXTFile_JournalEntry()] Calling FileMoveToArchive for moving CSV file to archive folder
+[10/02/2015 18:00:47][             FileMoveToArchive] Starting Function 
+[10/02/2015 18:00:47][             FileMoveToArchive] Moving CSV file to Fail folder
+[10/02/2015 18:00:47][                          Main] Completed with ERROR

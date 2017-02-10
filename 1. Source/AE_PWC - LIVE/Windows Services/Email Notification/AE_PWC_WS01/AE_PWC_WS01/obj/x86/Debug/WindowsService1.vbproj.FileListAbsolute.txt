@@ -1,0 +1,14 @@
+D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\WindowsService1\WindowsService1\bin\Debug\WindowsService1.xml
+D:\WindowsService1\WindowsService1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.Resources.resources
+D:\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.ProjectInstaller.resources
+D:\WindowsService1\WindowsService1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\WindowsService1\WindowsService1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.exe
+D:\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.xml
+D:\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.pdb
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Email Notification\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.exe
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Email Notification\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.xml
+D:\Abeo-Projects\PWC\ ae-sgpwcinterface\Email Notification\WindowsService1\WindowsService1\obj\x86\Debug\WindowsService1.pdb

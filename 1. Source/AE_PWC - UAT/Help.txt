@@ -1,0 +1,15 @@
+
+
+************************************************************************************************
+									Understanding the Project`s
+************************************************************************************************
+
+AE_PWC_AO01 - Validation Add-on
+AE_PWC_AO02 - Text file Generation Add-on OSS
+AE_PWC_AO03 - Master Data Synchronization
+AE_PWC_AO04 - Budget Upload
+AE_PWC_V01 - IPower System
+AE_PWC_V02 - HR Payroll
+AE_PWC_V03 - Import Statistics
+AE_PWC_V04 - Email Failure Monitor
+AE_PWC_WS01 - Email Trigger Windows services

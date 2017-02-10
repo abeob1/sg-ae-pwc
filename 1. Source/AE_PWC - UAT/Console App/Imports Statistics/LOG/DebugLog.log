@@ -1,0 +1,259 @@
+[11/12/2015 12:57:17][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 12:57:17][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 12:57:17][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 12:57:17][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 12:57:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 12:57:17][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 12:57:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 12:57:17][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 12:57:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 12:57:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 12:57:17][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 12:57:17][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 12:57:18][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 12:57:38][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 12:57:38][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 12:58:43][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 13:03:19][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 13:08:37][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 13:47:23][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 13:47:23][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 13:47:23][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 13:47:23][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:47:23][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:47:23][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:47:23][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:47:23][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:47:23][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:47:23][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:47:23][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 13:47:23][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 13:47:23][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 13:47:23][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 13:47:23][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 13:47:48][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 13:50:59][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 13:51:59][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 13:54:18][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 13:54:18][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 13:54:18][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 13:54:18][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:54:18][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:54:18][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:54:18][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:54:18][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:54:18][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:54:18][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:54:18][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 13:54:18][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 13:54:18][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 13:54:18][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 13:54:18][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 13:54:18][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 13:54:18][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 13:58:29][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 13:59:44][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 13:59:44][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 13:59:44][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 13:59:44][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:59:44][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:59:44][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:59:44][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:59:44][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:59:44][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 13:59:44][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 13:59:44][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 13:59:44][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 13:59:44][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 13:59:44][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 13:59:44][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 13:59:44][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 13:59:44][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 13:59:44][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 14:00:09][           IdentifyExcelFile()] Entity 
+[11/12/2015 14:00:12][           IdentifyExcelFile()] Entity 
+[11/12/2015 14:03:28][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 14:03:28][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 14:03:28][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 14:03:28][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 14:03:28][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:03:28][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:03:28][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:03:28][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:03:28][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:03:28][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:03:28][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 14:03:28][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 14:03:28][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 14:03:28][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 14:03:28][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 14:03:28][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 14:03:29][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 14:03:29][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 14:03:29][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/12/2015 14:03:29][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/12/2015 14:03:43][           IdentifyExcelFile()] Getting Distinct of Entity 
+[11/12/2015 14:04:11][           IdentifyExcelFile()] oDTDistinct Count 1
+[11/12/2015 14:04:14][           IdentifyExcelFile()] oDTDistinct Entity 
+[11/12/2015 14:16:33][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 14:16:33][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 14:16:33][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 14:16:33][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 14:16:33][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:16:33][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:16:33][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:16:33][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:16:33][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 14:16:33][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 14:16:33][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 14:16:33][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 14:16:33][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 14:16:33][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 14:16:33][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/12/2015 14:16:36][          GetDataViewFromExcel] Starting Function 
+[11/12/2015 14:16:37][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/12/2015 14:16:37][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/12/2015 14:17:55][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/12/2015 14:17:57][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/12/2015 14:18:07][           IdentifyExcelFile()] Getting Distinct of Entity 
+[11/12/2015 14:18:24][           IdentifyExcelFile()] oDTDistinct Count 1
+[11/12/2015 14:18:26][           IdentifyExcelFile()] oDTDistinct Entity 
+[11/12/2015 14:21:35][           IdentifyExcelFile()] Filtering data with respective Entity -  
+[11/12/2015 14:21:47][           IdentifyExcelFile()] Calling Function ImportStatistics() 
+[11/12/2015 14:21:52][            ImportStatistics()] Starting Function
+[11/12/2015 18:02:12][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/12/2015 18:02:12][                          Main] Calling GetEntitiesDetails() 
+[11/12/2015 18:02:12][          GetEntitiesDetails()] Starting Function 
+[11/12/2015 18:02:12][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 18:02:12][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 18:02:12][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 18:02:12][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 18:02:12][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 18:02:12][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/12/2015 18:02:12][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/12/2015 18:02:12][          GetEntitiesDetails()] Completed With SUCCESS
+[11/12/2015 18:02:12][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/12/2015 18:02:13][           IdentifyExcelFile()] Starting Function 
+[11/12/2015 18:02:13][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/12/2015 18:02:13][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/17/2015 17:32:50][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/17/2015 17:32:50][                          Main] Calling GetEntitiesDetails() 
+[11/17/2015 17:32:50][          GetEntitiesDetails()] Starting Function 
+[11/17/2015 17:32:50][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/17/2015 17:32:50][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 17:32:50][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 17:32:50][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 17:32:50][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 17:32:50][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 17:32:50][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 17:32:50][          GetEntitiesDetails()] Completed With SUCCESS
+[11/17/2015 17:32:50][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/17/2015 17:32:50][           IdentifyExcelFile()] Starting Function 
+[11/17/2015 17:32:50][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/17/2015 17:32:50][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/17/2015 17:32:51][          GetDataViewFromExcel] Starting Function 
+[11/17/2015 17:32:51][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/17/2015 17:32:51][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/17/2015 17:33:07][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/17/2015 17:33:08][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/17/2015 19:29:17][      GetSystemIntializeInfo()] Completed with SUCCESS
+[11/17/2015 19:29:17][                          Main] Calling GetEntitiesDetails() 
+[11/17/2015 19:29:17][          GetEntitiesDetails()] Starting Function 
+[11/17/2015 19:29:17][          GetEntitiesDetails()] SQL String SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/17/2015 19:29:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[PrcCode] [OUCode], T0.[PrcName] [OU Name], T0.[U_AB_ENTITY] [Entity],T0.[U_AB_REPORTCODE] [BU Code], T2.[U_AB_REPORTCODE] [LOS Code], T3.[U_AB_USERCODE] [User], T3.[U_AB_PASSWORD] [Pass] FROM OPRC T0  INNER JOIN ODIM T1 ON T0.[DimCode] = T1.[DimCode] left outer join OPRC T2 on T2.[PrcCode] = T0.[U_AB_REPORTCODE] left outer join [@AB_COMPANYDATA] T3 on T0.[U_AB_ENTITY] = T3.[Name] WHERE T1.[DimCode] = 3
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 19:29:17][          GetEntitiesDetails()] SQL String SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 19:29:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT T0.[Code], T0.[Name], T0.[U_AB_STDESCRIPTION], T0.[U_AB_STNEWCODE] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 19:29:17][          GetEntitiesDetails()] AB_STOLDCODE Count SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 19:29:17][          GetEntitiesDetails()] Calling ExecuteSQLQuery_DT()
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Starting Function...
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Executing Query : SELECT max(cast(T0.[Code] as integer))+ 1 [RowCount] FROM [dbo].[@AB_STOLDCODE]  T0
+[11/17/2015 19:29:17][      ExecExecuteSQLQuery_DT()] Completed Successfully.
+[11/17/2015 19:29:17][          GetEntitiesDetails()] Completed With SUCCESS
+[11/17/2015 19:29:17][                          Main] Calling IdentifyTXTFile_JournalEntry() 
+[11/17/2015 19:29:17][           IdentifyExcelFile()] Starting Function 
+[11/17/2015 19:29:17][           IdentifyExcelFile()] Attempting File Name - Statistics Data-Cons MYM-OCT2015.xls
+[11/17/2015 19:29:17][           IdentifyExcelFile()] Calling GetDataViewFromExcel() 
+[11/17/2015 19:29:19][          GetDataViewFromExcel] Starting Function 
+[11/17/2015 19:29:19][          GetDataViewFromExcel] OU Code 52511 Entity is Empty in Line 1
+[11/17/2015 19:29:19][          GetDataViewFromExcel] OU Code 52521 Entity is Empty in Line 1
+[11/17/2015 19:29:19][          GetDataViewFromExcel] Completed with SUCCESS 
+[11/17/2015 19:29:19][           IdentifyExcelFile()] oDVLineTable.count 2
+[11/17/2015 19:29:19][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/17/2015 19:29:19][           IdentifyExcelFile()] oDVLineTable Entity 
+[11/17/2015 19:29:19][           IdentifyExcelFile()] Calling Validation Error 
+[11/17/2015 19:29:20][              Write_TextFile()] Starting Function 
+[11/17/2015 19:29:20][              Write_TextFile()] Completed With SUCCESS 
+[11/17/2015 19:29:20][           IdentifyExcelFile()] Calling FileMoveToArchive for moving CSV file to archive folder
+[11/17/2015 19:29:20][             FileMoveToArchive] Starting Function 
+[11/17/2015 19:29:20][             FileMoveToArchive] Moving CSV file to Fail folder
+[11/17/2015 19:29:20][                          Main] Completed with ERROR

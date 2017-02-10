@@ -1,0 +1,28 @@
+[11/19/2015 13:14:13][                          Main] Invalid File Format , preferable format is Txt {Tab} Delimiter  
+[12/22/2015 14:21:02][      ExecExecuteSQLQuery_DT()] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[12/22/2015 14:21:02][IdentifyTXTFile_JournalEntry()] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[12/22/2015 14:21:03][                          Main] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[12/22/2015 14:21:13][      ExecExecuteSQLQuery_DT()] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[12/22/2015 14:21:13][IdentifyTXTFile_JournalEntry()] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[12/22/2015 14:21:13][                          Main] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[01/13/2016 10:49:13][      ExecExecuteSQLQuery_DT()] Invalid object name 'MCPL..@AB_STATITISTICSDATA'.
+[01/22/2016 13:06:16][                          Main] Validation Error ..... ! [OU Code are not Exists in Company DB]
+[01/22/2016 13:37:10][            ImportStatistics()] Index 0 is either negative or above rows count.
+[01/22/2016 13:37:10][IdentifyTXTFile_JournalEntry()] Index 0 is either negative or above rows count.
+[01/22/2016 13:37:10][                          Main] Index 0 is either negative or above rows count.
+[01/25/2016 11:46:21][      ExecExecuteSQLQuery_DT()] Invalid object name 'MSPL..@AB_STATITISTICSDATA'.
+[01/25/2016 11:47:12][      ConnectToTargetCompany()] Connection to Database (MSPL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[01/25/2016 11:49:09][      ExecExecuteSQLQuery_DT()] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:49:09][IdentifyTXTFile_JournalEntry()] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:49:09][                          Main] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:52:47][      ExecExecuteSQLQuery_DT()] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:52:47][IdentifyTXTFile_JournalEntry()] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:52:47][                          Main] Invalid object name 'MYSG..@AB_STATITISTICSDATA'.
+[01/25/2016 11:52:59][                          Main] Validation Error ..... ! [OU Code are not Exists in Company DB]
+[01/25/2016 11:54:14][      ConnectToTargetCompany()] Connection to Database (USTX) 
+ 	 Error during SBO user authentication
+[01/25/2016 12:03:07][      ExecExecuteSQLQuery_DT()] Invalid object name 'USTX..@AB_STATITISTICSDATA'.
+[01/25/2016 12:04:42][      ConnectToTargetCompany()] Connection to Database (USTX) 
+ 	 Error during SBO user authentication

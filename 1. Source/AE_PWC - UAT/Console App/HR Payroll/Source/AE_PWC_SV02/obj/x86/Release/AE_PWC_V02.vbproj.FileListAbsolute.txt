@@ -1,0 +1,12 @@
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\bin\Release\AE_PWC_SV02.exe.config
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\bin\Release\AE_PWC_SV02.exe
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\bin\Release\AE_PWC_SV02.pdb
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\bin\Release\AE_PWC_SV02.xml
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_V02.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_SV02.Resources.resources
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_V02.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_SV02.exe
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_SV02.xml
+E:\Abeo-Projects\PWC\SVN\HR Payroll\Source\AE_PWC_SV02\obj\x86\Release\AE_PWC_SV02.pdb

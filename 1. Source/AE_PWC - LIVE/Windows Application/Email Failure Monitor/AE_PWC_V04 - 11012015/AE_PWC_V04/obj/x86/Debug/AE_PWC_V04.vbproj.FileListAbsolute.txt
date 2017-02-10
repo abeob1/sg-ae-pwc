@@ -1,0 +1,136 @@
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\bin\Debug\AE_PWC_V04.exe.config
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\bin\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\bin\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\bin\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.Resources.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_SV03\AE_PWC_SV03\obj\x86\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 30102015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+F:\Application\SAP B1\Projects\PWC\Email Error Notification\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN - Copy\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE - Copy - Budget cost\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+D:\J\PWC\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
