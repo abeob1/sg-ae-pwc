@@ -736,3 +736,50 @@
 [05/09/2016 15:34:33][      GetSystemIntializeInfo()] Completed with SUCCESS
 [05/09/2016 15:34:33][                        Main()] Addon started successfully
 [05/09/2016 15:34:33][                        Main()] Calling EndStatus()
+[02/15/2017 13:27:01][                        Main()] Starting Addon startup function
+[02/15/2017 13:27:01][                        Main()] Initializing public SBO Application object
+[02/15/2017 13:27:01][                        Main()] Retriving SBO application company handle
+[02/15/2017 13:27:01][                        Main()] Calling ConnectDICompSSO()
+[02/15/2017 13:27:01][            ConnectDICompSSO()] Starting function
+[02/15/2017 13:27:10][            ConnectDICompSSO()] Completed with SUCCESS
+[02/15/2017 13:27:10][                        Main()] Calling AddMenus Functions
+[02/15/2017 13:27:10][                        Main()] AddMenus Functions Completed Successfully.
+[02/15/2017 13:27:10][                        Main()] Creating Event handler class
+[02/15/2017 13:27:10][            Class_Initialize()] Starting function
+[02/15/2017 13:27:10][            Class_Initialize()] Retriving SBO Application handle
+[02/15/2017 13:27:10][            Class_Initialize()] Completed with SUCCESS
+[02/15/2017 13:27:10][                        Main()] Calling SetApplication Function
+[02/15/2017 13:27:10][                        Main()] Calling GetSystemIntializeInfo()
+[02/15/2017 13:27:10][      GetSystemIntializeInfo()] Starting Function
+[02/15/2017 13:27:10][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager2'
+[02/15/2017 13:27:10][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/15/2017 13:27:10][                        Main()] Addon started successfully
+[02/15/2017 13:27:10][                        Main()] Calling EndStatus()
+[02/15/2017 13:28:07][                              ] User Authorization CREATE AND UPDATE
+[02/15/2017 13:28:15][                              ] Completed with ERROR
+[02/15/2017 13:29:02][                              ] User Authorization CREATE AND UPDATE
+[02/22/2017 14:57:31][                        Main()] Starting Addon startup function
+[02/22/2017 14:57:31][                        Main()] Initializing public SBO Application object
+[02/22/2017 14:57:31][                        Main()] Retriving SBO application company handle
+[02/22/2017 14:57:31][                        Main()] Calling ConnectDICompSSO()
+[02/22/2017 14:57:31][            ConnectDICompSSO()] Starting function
+[02/22/2017 14:57:37][            ConnectDICompSSO()] Completed with SUCCESS
+[02/22/2017 14:57:37][                        Main()] Calling AddMenus Functions
+[02/22/2017 14:57:37][                        Main()] AddMenus Functions Completed Successfully.
+[02/22/2017 14:57:37][                        Main()] Creating Event handler class
+[02/22/2017 14:57:37][            Class_Initialize()] Starting function
+[02/22/2017 14:57:37][            Class_Initialize()] Retriving SBO Application handle
+[02/22/2017 14:57:37][            Class_Initialize()] Completed with SUCCESS
+[02/22/2017 14:57:37][                        Main()] Calling SetApplication Function
+[02/22/2017 14:57:37][                        Main()] Calling GetSystemIntializeInfo()
+[02/22/2017 14:57:37][      GetSystemIntializeInfo()] Starting Function
+[02/22/2017 14:57:37][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager2'
+[02/22/2017 14:57:37][      GetSystemIntializeInfo()] Completed with SUCCESS
+[02/22/2017 14:57:37][                        Main()] Addon started successfully
+[02/22/2017 14:57:37][                        Main()] Calling EndStatus()
+[02/22/2017 15:01:11][                        Main()] Completed with ERROR
+[02/22/2017 15:01:16][                        Main()] Completed with ERROR
+[02/22/2017 15:01:52][                              ] User Authorization CREATE AND UPDATE
+[02/22/2017 15:02:31][                              ] User Authorization CREATE AND UPDATE
+[02/22/2017 15:03:07][                              ] User Authorization CREATE AND UPDATE
+[02/22/2017 15:03:20][    SBO_Application_AppEvent()] Starting function

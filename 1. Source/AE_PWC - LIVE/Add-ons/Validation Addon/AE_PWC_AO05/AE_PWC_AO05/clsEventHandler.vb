@@ -518,6 +518,7 @@ Public Class clsEventHandler
                                     If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("User Authorization " & p_oCompDef.sAuthorization, sFuncName)
                                     Select Case p_oCompDef.sAuthorization
                                         Case "CREATE AND UPDATE"
+                                            oform.Items.Item("3").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                                             oform.Items.Item("10002045").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                                             ''If sUDF = "PENDING" Then
                                             ''    oform.Items.Item("10002045").Click(SAPbouiCOM.BoCellClickType.ct_Regular)

@@ -103,21 +103,6 @@ E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.exe
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.xml
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.pdb
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe.config
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.pdb
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.xml
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\Interop.SAPbobsCOM.dll
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\Interop.SAPbouiCOM.dll
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\Interop.SAPbobsCOM.dll
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\Interop.SAPbouiCOM.dll
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.vbproj.ResolveComReference.cache
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.Browse.resources
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.Resources.resources
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.vbproj.GenerateResource.Cache
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.exe
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.xml
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.pdb
 D:\J\PWC\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe.config
 D:\J\PWC\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe
 D:\J\PWC\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.pdb
@@ -148,3 +133,18 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Add-o
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\AE_PWC_AO05.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\bin\Release\Interop.SAPbouiCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.Browse.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO05\AE_PWC_AO05\obj\x86\Debug\AE_PWC_AO05.pdb

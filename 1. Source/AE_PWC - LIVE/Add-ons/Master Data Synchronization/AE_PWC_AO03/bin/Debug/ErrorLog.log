@@ -170,3 +170,17 @@
 [01/19/2017 15:30:22][                           BPMaterSync()] Invalid XML file
 [01/19/2017 15:39:14][                           BPMaterSync()] Invalid XML file
 [01/19/2017 16:09:36][                     SalesEmployeeSync()] Completed with ERROR ---
+[02/13/2017 14:13:01][                ConnectToTargetCompany()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[02/13/2017 14:13:01][             SBO_Application_ItemEvent()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[02/13/2017 15:41:48][                      ConnectDICompSSO()] Value does not fall within the expected range.
+[02/13/2017 15:41:48][                                  Main()] Value does not fall within the expected range.
+[02/15/2017 12:41:29][                ConnectToTargetCompany()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[02/15/2017 12:41:29][             SBO_Application_ItemEvent()] Connection to Database (SVSL) 
+ 	  - The specified resource name cannot be found in the image file.
+

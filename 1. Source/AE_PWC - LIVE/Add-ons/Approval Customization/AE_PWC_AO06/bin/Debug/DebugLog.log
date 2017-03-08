@@ -748,3 +748,10 @@
 [01/31/2017 12:49:50][                                  Main()] Addon started successfully
 [01/31/2017 12:49:50][                                  Main()] Initializing Recordset 
 [01/31/2017 12:49:53][                          Initializeform] Starting Function
+[02/13/2017 14:01:23][                                    Main] Starting Addon startup function
+[02/13/2017 14:08:06][                                    Main] Starting Addon startup function
+[02/13/2017 14:08:06][                                    Main] Initializing public SBO Application object
+[02/13/2017 14:08:06][                                    Main] Retriving SBO application company handle
+[02/13/2017 14:08:06][                                    Main] Retrived SBO application company handle
+[02/13/2017 14:08:06][                                    Main] Calling ConnectDICompSSO()
+[02/13/2017 14:08:06][                      ConnectDICompSSO()] Starting function

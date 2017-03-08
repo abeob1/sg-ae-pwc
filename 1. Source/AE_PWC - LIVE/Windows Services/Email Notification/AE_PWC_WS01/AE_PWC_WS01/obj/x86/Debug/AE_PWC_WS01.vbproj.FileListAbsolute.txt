@@ -174,17 +174,6 @@ E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Services\Email Notifica
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
 E:\Abeo-Projects\PWC\SVN\7. Backup\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe.config
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.pdb
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.xml
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Resources.resources
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.ProjectInstaller.resources
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Service1.resources
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbproj.GenerateResource.Cache
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
-E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
 D:\J\PWC\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe.config
 D:\J\PWC\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe
 D:\J\PWC\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.pdb
@@ -208,3 +197,14 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windo
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\Latest\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe.config
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Resources.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.ProjectInstaller.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Service1.resources
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbproj.GenerateResource.Cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb

@@ -316,6 +316,9 @@ Namespace AE_PWC_AO03
 
                 If oBP_Holding.GetByKey(sMasterdatacode) Then
 
+                    oHoldingCompany.XmlExportType = SAPbobsCOM.BoXmlExportTypes.xet_ExportImportMode
+                    oBP_Holding.SaveXML(sFileName)
+
                     If oBP_Holding.CardType = SAPbobsCOM.BoCardTypes.cCustomer Then
                         sDocType = "C"
                     ElseIf oBP_Holding.CardType = SAPbobsCOM.BoCardTypes.cSupplier Then
@@ -638,7 +641,6 @@ Namespace AE_PWC_AO03
                             End If
                         Next imjs
 
-                        oBP_Target.SaveXML(sFileName)
 
                         For imjs As Integer = 1 To oBP_Target.BPPaymentMethods.Count
                             oBP_Target.BPPaymentMethods.SetCurrentLine(imjs - 1)
@@ -650,7 +652,6 @@ Namespace AE_PWC_AO03
                         oBP_Target.BPPaymentMethods.PaymentMethodCode = oRset.Fields.Item("DfltVendPM").Value
                         oBP_Target.BPPaymentMethods.Add()
 
-                        oBP_Target.SaveXML(sFileName)
 
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Attempting to Add / Update the BP Master Data " & oTragetCompany.CompanyDB, sFuncName)
                         ival = oBP_Target.Update()
@@ -1057,12 +1058,17 @@ Namespace AE_PWC_AO03
                         oBPMaster_Target.BPBankAccounts.IBAN = oBPMaster.BPBankAccounts.IBAN
                         oBPMaster_Target.BPBankAccounts.AccountName = oBPMaster.BPBankAccounts.AccountName
                         oBPMaster_Target.BPBankAccounts.BICSwiftCode = oBPMaster.BPBankAccounts.BICSwiftCode
-
+                        oBPMaster_Target.BPBankAccounts.Street = oBPMaster.BPBankAccounts.Street
+                        oBPMaster_Target.BPBankAccounts.ISRType = oBPMaster.BPBankAccounts.ISRType
                         ''****************ADDED ON 07/09/2015 STARTS**************
                         oBPMaster_Target.BPBankAccounts.MandateID = oBPMaster.BPBankAccounts.MandateID
                         oBPMaster_Target.BPBankAccounts.SignatureDate = oBPMaster.BPBankAccounts.SignatureDate
                         '' *****************ADDED ON 07/09/2015 ENDS**************
                         ''  oBPMaster_Target.BPBankAccounts.InternalKey = oBPMaster.BPBankAccounts.InternalKey
+                        oBPMaster_Target.BPBankAccounts.UserNo1 = oBPMaster.BPBankAccounts.UserNo1
+                        oBPMaster_Target.BPBankAccounts.UserNo2 = oBPMaster.BPBankAccounts.UserNo2
+                        oBPMaster_Target.BPBankAccounts.UserNo3 = oBPMaster.BPBankAccounts.UserNo3
+                        oBPMaster_Target.BPBankAccounts.UserNo4 = oBPMaster.BPBankAccounts.UserNo4
                         oBPMaster_Target.BPBankAccounts.Add()
                     End If
                 Next
@@ -1107,6 +1113,10 @@ Namespace AE_PWC_AO03
 
                 oBPMaster_Target.Notes = oBPMaster.Notes
                 oBPMaster_Target.UnifiedFederalTaxID = oBPMaster.UnifiedFederalTaxID
+
+                oBPMaster_Target.DownPaymentClearAct = oBPMaster.DownPaymentClearAct
+                oBPMaster_Target.DownPaymentInterimAccount = oBPMaster.DownPaymentInterimAccount
+                oBPMaster_Target.DebitorAccount = oBPMaster.DebitorAccount
 
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
             Catch ex As Exception
@@ -1393,12 +1403,17 @@ Namespace AE_PWC_AO03
                         oBPMaster_Target.BPBankAccounts.IBAN = oBPMaster.BPBankAccounts.IBAN
                         oBPMaster_Target.BPBankAccounts.AccountName = oBPMaster.BPBankAccounts.AccountName
                         oBPMaster_Target.BPBankAccounts.BICSwiftCode = oBPMaster.BPBankAccounts.BICSwiftCode
-
-                        ''****************ADDED ON 07/09/2015 STARTS**************
+                        oBPMaster_Target.BPBankAccounts.Street = oBPMaster.BPBankAccounts.Street
+                        oBPMaster_Target.BPBankAccounts.ISRType = oBPMaster.BPBankAccounts.ISRType
+                        ''**************ADDED ON 07/09/2015 STARTS**************
                         oBPMaster_Target.BPBankAccounts.MandateID = oBPMaster.BPBankAccounts.MandateID
                         oBPMaster_Target.BPBankAccounts.SignatureDate = oBPMaster.BPBankAccounts.SignatureDate
                         '' *****************ADDED ON 07/09/2015 ENDS**************
                         ''  oBPMaster_Target.BPBankAccounts.InternalKey = oBPMaster.BPBankAccounts.InternalKey
+                        oBPMaster_Target.BPBankAccounts.UserNo1 = oBPMaster.BPBankAccounts.UserNo1
+                        oBPMaster_Target.BPBankAccounts.UserNo2 = oBPMaster.BPBankAccounts.UserNo2
+                        oBPMaster_Target.BPBankAccounts.UserNo3 = oBPMaster.BPBankAccounts.UserNo3
+                        oBPMaster_Target.BPBankAccounts.UserNo4 = oBPMaster.BPBankAccounts.UserNo4
                         oBPMaster_Target.BPBankAccounts.Add()
                     Else
 
@@ -1458,6 +1473,11 @@ Namespace AE_PWC_AO03
 
                 oBPMaster_Target.Notes = oBPMaster.Notes
                 oBPMaster_Target.UnifiedFederalTaxID = oBPMaster.UnifiedFederalTaxID
+
+                oBPMaster_Target.DownPaymentClearAct = oBPMaster.DownPaymentClearAct
+                oBPMaster_Target.DownPaymentInterimAccount = oBPMaster.DownPaymentInterimAccount
+                oBPMaster_Target.DebitorAccount = oBPMaster.DebitorAccount
+
 
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
             Catch ex As Exception

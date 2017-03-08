@@ -2032,3 +2032,18 @@ GTS2
 [01/02/2017 14:45:25][      GetSystemIntializeInfo()] Completed with SUCCESS
 [01/02/2017 14:45:25][                        Main()] Addon started successfully
 [01/02/2017 14:45:25][                        Main()] Calling EndStatus()
+[03/01/2017 13:22:04][                        Main()] Starting Addon startup function
+[03/01/2017 13:22:04][                        Main()] Initializing public SBO Application object
+[03/01/2017 13:22:04][                        Main()] Retriving SBO application company handle
+[03/01/2017 13:22:04][                        Main()] Calling ConnectDICompSSO()
+[03/01/2017 13:22:04][            ConnectDICompSSO()] Starting function
+[03/01/2017 13:25:45][                        Main()] Starting Addon startup function
+[03/01/2017 13:25:45][                        Main()] Initializing public SBO Application object
+[03/01/2017 13:25:45][                        Main()] Retriving SBO application company handle
+[03/01/2017 13:25:45][                        Main()] Calling ConnectDICompSSO()
+[03/01/2017 13:25:45][            ConnectDICompSSO()] Starting function
+[03/01/2017 13:28:29][                        Main()] Starting Addon startup function
+[03/01/2017 13:28:33][                        Main()] Initializing public SBO Application object
+[03/01/2017 13:28:34][                        Main()] Retriving SBO application company handle
+[03/01/2017 13:28:41][                        Main()] Calling ConnectDICompSSO()
+[03/01/2017 13:28:49][            ConnectDICompSSO()] Starting function
