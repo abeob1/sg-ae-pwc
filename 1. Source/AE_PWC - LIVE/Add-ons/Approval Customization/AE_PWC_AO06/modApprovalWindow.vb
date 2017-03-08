@@ -335,8 +335,12 @@
                             Else
                                 sNotApproveRemarks = oGrid.DataTable.GetValue("REASON FOR NOT APPROVING", oGrid.GetDataTableRowIndex(i))
                                 If sNotApproveRemarks.Trim() = "" Then
-                                    sErrDesc = "Enter the reason for not approving the document"
-                                    Throw New ArgumentException(sErrDesc)
+                                    'sErrDesc = "Enter the reason for not approving the document"
+                                    'Throw New ArgumentException(sErrDesc)
+                                    Dim iRetCode As Integer
+                                    sErrDesc = "Please key in the reason for ""not approving"" this PO on the extreme right hand column of this screen"
+                                    iRetCode = p_oSBOApplication.MessageBox(sErrDesc, 1, "Ok")
+                                   Throw New ArgumentException(sErrDesc)
                                 End If
                                 oApprovalRequestDecision.Status = SAPbobsCOM.BoApprovalRequestDecisionEnum.ardNotApproved
                             End If
@@ -366,7 +370,11 @@
                                 Else
                                     sNotApproveRemarks = oGrid.DataTable.GetValue("REASON FOR NOT APPROVING", oGrid.GetDataTableRowIndex(i))
                                     If sNotApproveRemarks.Trim() = "" Then
-                                        sErrDesc = "Enter the reason for not approving the document"
+                                        'sErrDesc = "Enter the reason for not approving the document"
+                                        'Throw New ArgumentException(sErrDesc)
+                                        sErrDesc = "Please key in the reason for ""not approving"" this PO on the extreme right hand column of this screen"
+                                        Dim iRetCode As Integer
+                                        iRetCode = p_oSBOApplication.MessageBox(sErrDesc, 1, "Ok")
                                         Throw New ArgumentException(sErrDesc)
                                     End If
                                     oApprovalRequestDecision.Status = SAPbobsCOM.BoApprovalRequestDecisionEnum.ardNotApproved
