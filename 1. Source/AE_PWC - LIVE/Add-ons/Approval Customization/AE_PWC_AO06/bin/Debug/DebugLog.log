@@ -755,3 +755,209 @@
 [02/13/2017 14:08:06][                                    Main] Retrived SBO application company handle
 [02/13/2017 14:08:06][                                    Main] Calling ConnectDICompSSO()
 [02/13/2017 14:08:06][                      ConnectDICompSSO()] Starting function
+[11/01/2016 19:48:57][                                    Main] Starting Addon startup function
+[11/01/2016 19:48:57][                                    Main] Initializing public SBO Application object
+[11/01/2016 19:48:57][                                    Main] Retriving SBO application company handle
+[11/01/2016 19:48:58][                                    Main] Retrived SBO application company handle
+[11/01/2016 19:48:58][                                    Main] Calling ConnectDICompSSO()
+[11/01/2016 19:48:58][                      ConnectDICompSSO()] Starting function
+[11/01/2016 19:49:04][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/01/2016 19:49:04][                                    Main] Creating Event handler class
+[11/01/2016 19:49:04][                      Class_Initialize()] Starting function
+[11/01/2016 19:49:04][                      Class_Initialize()] Retriving SBO Application handle
+[11/01/2016 19:49:04][                      Class_Initialize()] Completed with SUCCESS
+[11/01/2016 19:49:04][                                    Main] Creating FMS
+[11/01/2016 19:49:04][                                  AddFMS] Starting Function
+[11/01/2016 19:49:04][                                  AddFMS] Error while adding FMS
+[11/01/2016 19:49:04][                                  AddFMS] Completed with Success
+[11/01/2016 19:49:04][                                  AddFMS] Starting Function
+[11/01/2016 19:49:04][                                  AddFMS] Error while adding FMS
+[11/01/2016 19:49:04][                                  AddFMS] Completed with Success
+[11/01/2016 19:49:04][                                  AddFMS] Starting Function
+[11/01/2016 19:49:04][                                  AddFMS] Error while adding FMS
+[11/01/2016 19:49:04][                                  AddFMS] Completed with Success
+[11/01/2016 19:49:04][                                    Main] Creating table
+[11/01/2016 19:49:04][                                    Main] Creating Procedure
+[11/01/2016 19:49:04][                         CreateProcedure] Starting Function
+[11/01/2016 19:49:04][                                    Main] Calling AddMenuItems()
+[11/01/2016 19:49:05][                                    Main] Calling SetApplication Function
+[11/01/2016 19:49:05][                                  Main()] Addon started successfully
+[11/01/2016 19:49:05][                                  Main()] Initializing Recordset 
+[11/01/2016 19:51:24][                          Initializeform] Starting Function
+[11/01/2016 19:51:34][                              LoadGrid()] Starting Function
+[11/01/2016 19:51:34][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2016-11-01','pwcl'
+[11/01/2016 19:51:46][                              LoadGrid()] Starting Function
+[11/01/2016 19:51:46][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2016-11-01','GHRS'
+[11/01/2016 19:51:49][                              LoadGrid()] Starting Function
+[11/01/2016 19:51:49][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2016-11-01','GHRS'
+[11/01/2016 19:51:56][                              LoadGrid()] Starting Function
+[11/01/2016 19:51:56][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2016-11-01','IAS7'
+[11/01/2016 19:52:07][                              LoadGrid()] Starting Function
+[11/01/2016 19:52:07][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2016-11-01','SEAC'
+[11/01/2016 19:55:26][                          Initializeform] Starting Function
+[11/01/2016 19:55:58][                              LoadGrid()] Starting Function
+[11/01/2016 19:55:58][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2017-03-08','pwcl'
+[11/01/2016 19:57:33][                              LoadGrid()] Starting Function
+[11/01/2016 19:57:33][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','1899-12-30','2017-03-08','PWCL'
+[11/01/2016 19:57:52][                              LoadGrid()] Starting Function
+[11/01/2016 19:57:52][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','2015-06-01','2016-11-01','PWCL'
+[11/01/2016 19:57:54][                              LoadGrid()] Starting Function
+[11/01/2016 19:57:55][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','MAIN','manager','manager Name','','ALL','','','2015-06-01','2016-11-01','PWCL'
+[11/01/2016 20:02:03][                                    Main] Starting Addon startup function
+[11/01/2016 20:02:03][                                    Main] Initializing public SBO Application object
+[11/01/2016 20:02:03][                                    Main] Retriving SBO application company handle
+[11/01/2016 20:02:03][                                    Main] Retrived SBO application company handle
+[11/01/2016 20:02:03][                                    Main] Calling ConnectDICompSSO()
+[11/01/2016 20:02:03][                      ConnectDICompSSO()] Starting function
+[11/01/2016 20:02:08][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/01/2016 20:02:08][                                    Main] Creating Event handler class
+[11/01/2016 20:02:08][                      Class_Initialize()] Starting function
+[11/01/2016 20:02:08][                      Class_Initialize()] Retriving SBO Application handle
+[11/01/2016 20:02:08][                      Class_Initialize()] Completed with SUCCESS
+[11/01/2016 20:02:08][                                    Main] Creating FMS
+[11/01/2016 20:02:08][                                  AddFMS] Starting Function
+[11/01/2016 20:02:08][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:02:08][                                  AddFMS] Completed with Success
+[11/01/2016 20:02:08][                                  AddFMS] Starting Function
+[11/01/2016 20:02:08][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:02:08][                                  AddFMS] Completed with Success
+[11/01/2016 20:02:08][                                  AddFMS] Starting Function
+[11/01/2016 20:02:08][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:02:08][                                  AddFMS] Completed with Success
+[11/01/2016 20:02:08][                                    Main] Creating table
+[11/01/2016 20:02:08][                                    Main] Creating Procedure
+[11/01/2016 20:02:08][                         CreateProcedure] Starting Function
+[11/01/2016 20:02:08][                                    Main] Calling AddMenuItems()
+[11/01/2016 20:02:08][                                    Main] Calling SetApplication Function
+[11/01/2016 20:02:08][                                  Main()] Addon started successfully
+[11/01/2016 20:02:08][                                  Main()] Initializing Recordset 
+[11/01/2016 20:02:15][                          Initializeform] Starting Function
+[11/01/2016 20:02:28][                              LoadGrid()] Starting Function
+[11/01/2016 20:02:29][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','ALL','manager2','manager2 NAme','','ALL','','','1899-12-30','2016-11-01','pwcl'
+[11/01/2016 20:02:34][                       DocumentsApproval] Starting Function
+[11/01/2016 20:02:34][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:02:34][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:02:34][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:02:34][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:02:34][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:02:41][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:02:41][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:02:41][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:02:41][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:02:41][             SBO_Application_ItemEvent()] Completed with ERROR
+[11/01/2016 20:05:30][                                    Main] Starting Addon startup function
+[11/01/2016 20:05:30][                                    Main] Initializing public SBO Application object
+[11/01/2016 20:05:30][                                    Main] Retriving SBO application company handle
+[11/01/2016 20:05:30][                                    Main] Retrived SBO application company handle
+[11/01/2016 20:05:30][                                    Main] Calling ConnectDICompSSO()
+[11/01/2016 20:05:30][                      ConnectDICompSSO()] Starting function
+[11/01/2016 20:05:35][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/01/2016 20:05:35][                                    Main] Creating Event handler class
+[11/01/2016 20:05:35][                      Class_Initialize()] Starting function
+[11/01/2016 20:05:35][                      Class_Initialize()] Retriving SBO Application handle
+[11/01/2016 20:05:35][                      Class_Initialize()] Completed with SUCCESS
+[11/01/2016 20:05:35][                                    Main] Creating FMS
+[11/01/2016 20:05:35][                                  AddFMS] Starting Function
+[11/01/2016 20:05:35][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:05:35][                                  AddFMS] Completed with Success
+[11/01/2016 20:05:35][                                  AddFMS] Starting Function
+[11/01/2016 20:05:35][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:05:35][                                  AddFMS] Completed with Success
+[11/01/2016 20:05:35][                                  AddFMS] Starting Function
+[11/01/2016 20:05:35][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:05:35][                                  AddFMS] Completed with Success
+[11/01/2016 20:05:35][                                    Main] Creating table
+[11/01/2016 20:05:35][                                    Main] Creating Procedure
+[11/01/2016 20:05:35][                         CreateProcedure] Starting Function
+[11/01/2016 20:05:35][                                    Main] Calling AddMenuItems()
+[11/01/2016 20:05:35][                                    Main] Calling SetApplication Function
+[11/01/2016 20:05:35][                                  Main()] Addon started successfully
+[11/01/2016 20:05:35][                                  Main()] Initializing Recordset 
+[11/01/2016 20:06:58][                          Initializeform] Starting Function
+[11/01/2016 20:07:09][                              LoadGrid()] Starting Function
+[11/01/2016 20:07:09][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','ALL','manager2','manager2 NAme','','ALL','','','1899-12-30','2016-11-01','pwcl'
+[11/01/2016 20:07:14][                       DocumentsApproval] Starting Function
+[11/01/2016 20:07:14][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:07:14][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:07:14][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:07:14][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:07:14][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:07:21][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:07:21][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:07:26][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:07:26][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:07:26][             SBO_Application_ItemEvent()] Completed with ERROR
+[11/01/2016 20:07:47][                       DocumentsApproval] Starting Function
+[11/01/2016 20:07:47][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:07:47][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:07:47][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:07:47][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:07:47][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:07:53][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:07:53][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:07:56][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:07:56][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:07:56][             SBO_Application_ItemEvent()] Completed with ERROR
+[11/01/2016 20:08:18][                       DocumentsApproval] Starting Function
+[11/01/2016 20:08:18][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:08:18][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:08:18][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:08:18][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:08:18][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:08:24][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:08:24][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:08:27][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:08:27][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:08:27][             SBO_Application_ItemEvent()] Completed with ERROR
+[11/01/2016 20:08:44][                       DocumentsApproval] Starting Function
+[11/01/2016 20:08:51][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:08:51][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:08:51][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:08:51][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:08:51][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:08:56][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:08:56][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:09:35][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:09:35][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:09:35][             SBO_Application_ItemEvent()] Completed with ERROR
+[11/01/2016 20:14:48][                                    Main] Starting Addon startup function
+[11/01/2016 20:14:48][                                    Main] Initializing public SBO Application object
+[11/01/2016 20:14:48][                                    Main] Retriving SBO application company handle
+[11/01/2016 20:14:49][                                    Main] Retrived SBO application company handle
+[11/01/2016 20:14:49][                                    Main] Calling ConnectDICompSSO()
+[11/01/2016 20:14:49][                      ConnectDICompSSO()] Starting function
+[11/01/2016 20:14:54][                      ConnectDICompSSO()] Completed with SUCCESS
+[11/01/2016 20:14:54][                                    Main] Creating Event handler class
+[11/01/2016 20:14:54][                      Class_Initialize()] Starting function
+[11/01/2016 20:14:54][                      Class_Initialize()] Retriving SBO Application handle
+[11/01/2016 20:14:54][                      Class_Initialize()] Completed with SUCCESS
+[11/01/2016 20:14:54][                                    Main] Creating FMS
+[11/01/2016 20:14:54][                                  AddFMS] Starting Function
+[11/01/2016 20:14:54][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:14:54][                                  AddFMS] Completed with Success
+[11/01/2016 20:14:54][                                  AddFMS] Starting Function
+[11/01/2016 20:14:54][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:14:54][                                  AddFMS] Completed with Success
+[11/01/2016 20:14:54][                                  AddFMS] Starting Function
+[11/01/2016 20:14:54][                                  AddFMS] Error while adding FMS
+[11/01/2016 20:14:54][                                  AddFMS] Completed with Success
+[11/01/2016 20:14:54][                                    Main] Creating table
+[11/01/2016 20:14:54][                                    Main] Creating Procedure
+[11/01/2016 20:14:54][                         CreateProcedure] Starting Function
+[11/01/2016 20:14:54][                                    Main] Calling AddMenuItems()
+[11/01/2016 20:14:54][                                    Main] Calling SetApplication Function
+[11/01/2016 20:14:54][                                  Main()] Addon started successfully
+[11/01/2016 20:14:54][                                  Main()] Initializing Recordset 
+[11/01/2016 20:15:44][                              LoadGrid()] Starting Function
+[11/01/2016 20:15:44][                              LoadGrid()] Extracting the Pending Documents EXEC AE_APPROVALGRID 'PWCL','ALL','manager2','manager2 NAme','','ALL','','','1899-12-30','2016-11-01','pwcl'
+[11/01/2016 20:15:50][                       DocumentsApproval] Starting Function
+[11/01/2016 20:15:52][                ConnectToTargetCompany()] Starting function
+[11/01/2016 20:15:52][                ConnectToTargetCompany()] Executing SQLSELECT U_PASSWORD FROM PWCL..OUSR WHERE USER_CODE = 'manager2' 
+[11/01/2016 20:15:52][                ConnectToTargetCompany()] Initializing the Company Object
+[11/01/2016 20:15:52][                ConnectToTargetCompany()] Assigning the representing database name : pwcl
+[11/01/2016 20:15:52][                ConnectToTargetCompany()] Connecting to the Company Database.
+[11/01/2016 20:15:59][                ConnectToTargetCompany()] Connection established with PwC LLP
+[11/01/2016 20:15:59][                ConnectToTargetCompany()] Completed with SUCCESS
+[11/01/2016 20:16:01][                       DocumentsApproval] Completed with ERROR
+[11/01/2016 20:16:01][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
+[11/01/2016 20:16:01][             SBO_Application_ItemEvent()] Completed with ERROR
