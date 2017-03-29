@@ -437,6 +437,7 @@ Namespace AE_PWC_AO03
                             BPMaterSync = RTN_ERROR
                             Exit Function
                         Else
+                            sErrDesc = String.Empty
                             For imjs As Integer = 0 To oBP_Holding.BPBankAccounts.Count - 1
                                 oBP_Holding.BPBankAccounts.SetCurrentLine(imjs)
                                 If oBP_Target.DefaultBankCode = oBP_Holding.BPBankAccounts.BankCode Then
@@ -526,6 +527,7 @@ Namespace AE_PWC_AO03
                             BPMaterSync = RTN_ERROR
                             Exit Function
                         Else
+                            sErrDesc = String.Empty
                             sSQLString = "SELECT T0.[CardCode] FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE]  = '" & oBP_Holding.CardCode & "'"
                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Finding the latest CardCode " & sSQLString, sFuncName)
                             oRset_Tar.DoQuery(sSQLString)

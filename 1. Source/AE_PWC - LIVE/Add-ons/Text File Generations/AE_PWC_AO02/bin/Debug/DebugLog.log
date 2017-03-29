@@ -1012,3 +1012,9 @@
 [12/01/2016 11:32:08][             SBO_Application_MenuEvent()] Completed with SUCCESS
 [12/01/2016 11:32:08][             SBO_Application_MenuEvent()] Starting function
 [12/01/2016 11:32:08][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[03/08/2017 13:46:52][                                  Main()] Starting Addon startup function
+[03/08/2017 13:46:52][                                  Main()] Initializing public SBO Application object
+[03/08/2017 13:46:58][                                  Main()] Retriving SBO application company handle
+[03/08/2017 13:47:00][                                  Main()] Retrived SBO application company handle
+[03/08/2017 13:47:00][                                  Main()] Calling ConnectDICompSSO()
+[03/08/2017 13:47:00][                      ConnectDICompSSO()] Starting function

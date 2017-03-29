@@ -57,7 +57,6 @@ Namespace AE_PWC_AO03
             End Try
         End Function
         ''tn1016001762
-
         Private Function SetMenus(ByRef sErrDesc As String) As Long
             ' **********************************************************************************
             '   Function   :    SetMenus()
@@ -83,7 +82,6 @@ Namespace AE_PWC_AO03
                 SetMenus = RTN_ERROR
             End Try
         End Function
-
         Private Function SetFilters(ByRef sErrDesc As String) As Long
 
             ' **********************************************************************************
@@ -122,7 +120,6 @@ Namespace AE_PWC_AO03
                 SetFilters = RTN_ERROR
             End Try
         End Function
-
         Private Sub SBO_Application_AppEvent(ByVal EventType As SAPbouiCOM.BoAppEventTypes) Handles SBO_Application.AppEvent
             ' **********************************************************************************
             '   Function   :    SBO_Application_AppEvent()
@@ -156,7 +153,6 @@ Namespace AE_PWC_AO03
                 GC.Collect()  'Forces garbage collection of all generations.
             End Try
         End Sub
-
         Private Sub SBO_Application_MenuEvent(ByRef pVal As SAPbouiCOM.MenuEvent, ByRef BubbleEvent As Boolean) Handles SBO_Application.MenuEvent
             ' **********************************************************************************
             '   Function   :    SBO_Application_MenuEvent()

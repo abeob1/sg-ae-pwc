@@ -1689,6 +1689,8 @@ Namespace AE_PWC_AO03
                             ost_form.Items.Item("4").Specific.caption = "Processing " & sMasterCode
                             ost_form.Refresh()
                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling Function BPMaterSync()", sFuncName)
+
+                            sErrDesc = String.Empty
                             If BPMaterSync(oHoldingCompany, oTragetCompany, sMasterCode, sErrDesc) = RTN_SUCCESS Then
                                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("True ", sFuncName)
                                 sStatus += " " & sMasterCode & " - SUCCESS:"
