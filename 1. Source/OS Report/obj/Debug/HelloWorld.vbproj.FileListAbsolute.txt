@@ -1,0 +1,15 @@
+C:\Gopinath\PWC\Reports\2003\bin\HelloWorld.exe
+C:\Gopinath\PWC\Reports\2003\bin\HelloWorld.pdb
+C:\Gopinath\PWC\Reports\2003\bin\HelloWorld.xml
+C:\Gopinath\PWC\Reports\2003\bin\Interop.SAPbobsCOM.dll
+C:\Gopinath\PWC\Reports\2003\bin\Interop.SAPbouiCOM.dll
+C:\Gopinath\PWC\Reports\2003\obj\Debug\ResolveAssemblyReference.cache
+C:\Gopinath\PWC\Reports\2003\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Gopinath\PWC\Reports\2003\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.vbproj.ResolveComReference.cache
+C:\Gopinath\PWC\Reports\2003\obj\Debug\Project1.MY_Report.resources
+C:\Gopinath\PWC\Reports\2003\obj\Debug\ResGen.read.1.tlog
+C:\Gopinath\PWC\Reports\2003\obj\Debug\ResGen.write.1.tlog
+C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.exe
+C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.xml
+C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.pdb

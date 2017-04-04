@@ -32,3 +32,4 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Appr
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.vbproj.ResolveComReference.cache
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.vbprojResolveAssemblyReference.cache

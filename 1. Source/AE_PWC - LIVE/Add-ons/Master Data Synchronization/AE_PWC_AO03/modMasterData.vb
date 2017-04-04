@@ -1145,7 +1145,7 @@ Namespace AE_PWC_AO03
                 oBPMaster_Target.GlobalLocationNumber = oBPMaster.GlobalLocationNumber
                 If (oBPMaster_Target.CurrentAccountBalance = 0) Or (oBPMaster.Currency) = "##" Then
                     oBPMaster_Target.Currency = oBPMaster.Currency
-                Else
+                ElseIf oBPMaster.Currency <> oBPMaster_Target.Currency Then
                     sCurrency = "Currency not updated - Target Currency is different "
                 End If
 

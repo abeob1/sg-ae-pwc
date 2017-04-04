@@ -223,3 +223,4 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Mast
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbprojResolveAssemblyReference.cache

@@ -235,3 +235,4 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Text
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbprojResolveAssemblyReference.cache
