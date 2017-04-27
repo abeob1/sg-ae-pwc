@@ -64,6 +64,8 @@ Module modMain
     Public p_POApprovalCode As String = String.Empty
     Public p_PRApprovalCode As String = String.Empty
     Public p_oDTUserInformation As DataTable = Nothing
+    Public p_sStatus As String = Nothing
+    Public p_sAppStatus As String = Nothing
 
 
     

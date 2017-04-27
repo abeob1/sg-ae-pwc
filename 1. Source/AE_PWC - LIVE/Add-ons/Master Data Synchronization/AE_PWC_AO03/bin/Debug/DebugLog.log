@@ -10414,3 +10414,21 @@
 [11/02/2016 12:39:40][                           BPMaterSync()] Completed with SUCCESS 
 [11/02/2016 12:39:40][                           BPMaterSync()] Releasing the Objects
 [11/02/2016 12:39:52][                        MasterDataSync()] True 
+[04/20/2017 18:22:46][                                  Main()] Starting Addon startup function
+[04/20/2017 18:22:46][                                  Main()] Initializing public SBO Application object
+[04/20/2017 18:22:46][                                  Main()] Retriving SBO application company handle
+[04/20/2017 18:22:47][                                  Main()] Retrived SBO application company handle
+[04/20/2017 18:22:47][                                  Main()] Calling ConnectDICompSSO()
+[04/20/2017 18:22:47][                      ConnectDICompSSO()] Starting function
+[04/20/2017 18:22:57][                      ConnectDICompSSO()] Completed with SUCCESS
+[04/20/2017 18:22:57][                                  Main()] Creating Event handler class
+[04/20/2017 18:22:57][                      Class_Initialize()] Starting function
+[04/20/2017 18:22:57][                      Class_Initialize()] Retriving SBO Application handle
+[04/20/2017 18:22:57][                      Class_Initialize()] Completed with SUCCESS
+[04/20/2017 18:22:57][                                  Main()] Calling AddMenuItems()
+[04/20/2017 18:23:00][                                  Main()] Calling SetApplication Function
+[04/20/2017 18:23:01][                                  Main()] Addon started successfully
+[04/20/2017 18:23:01][                                  Main()] Initializing Recordset 
+[04/20/2017 18:23:11][                            EntityLoad()] Starting function
+[04/20/2017 18:23:11][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[04/20/2017 18:23:11][                            EntityLoad()] Completed with SUCCESS

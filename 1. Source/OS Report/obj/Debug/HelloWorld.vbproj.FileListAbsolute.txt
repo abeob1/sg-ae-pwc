@@ -13,3 +13,9 @@ C:\Gopinath\PWC\Reports\2003\obj\Debug\ResGen.write.1.tlog
 C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.exe
 C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.xml
 C:\Gopinath\PWC\Reports\2003\obj\Debug\HelloWorld.pdb
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\Interop.SAPbouiCOM.dll
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\HelloWorld.vbproj.ResolveComReference.cache
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\HelloWorld.exe
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\HelloWorld.xml
+E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\OS Report\obj\Debug\HelloWorld.pdb
