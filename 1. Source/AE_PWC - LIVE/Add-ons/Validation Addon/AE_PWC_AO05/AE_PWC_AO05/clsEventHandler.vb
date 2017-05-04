@@ -203,7 +203,8 @@ Public Class clsEventHandler
                                 If p_BPTypecount > 0 Then
                                     oform = p_oSBOApplication.Forms.GetFormByTypeAndCount(134, p_FormTypecount)
                                     oform_udf = p_oSBOApplication.Forms.GetFormByTypeAndCount(-134, p_FormTypecount)
-                                    If p_oCompDef.sAuthorization = "approve" And oform_udf.Items.Item("u_ab_status").Specific.value.ToString.Trim() <> "approved" Then
+                                    If p_oCompDef.sAuthorization = "APPROVE" And oform_udf.Items.Item("U_AB_STATUS").Specific.value.ToString.Trim() <> "APPROVED" Then
+                                        ''If p_oCompDef.sAuthorization = "approve" And oform_udf.Items.Item("u_ab_status").Specific.value.ToString.Trim() <> "approved" Then
                                         oform.Items.Item("btnapprove").Enabled = True
                                     Else
                                         oform.Items.Item("btnapprove").Enabled = False
@@ -251,6 +252,7 @@ Public Class clsEventHandler
                                 Dim oform_UDF As SAPbouiCOM.Form = p_oSBOApplication.Forms.GetFormByTypeAndCount(-134, pVal.FormTypeCount)
                                 Dim sStatus As String = String.Empty
                                 sStatus = oform_UDF.Items.Item("U_AB_STATUS").Specific.value.ToString.Trim()
+                                ''  sStatus = oform_UDF.Items.Item("u_ab_status").Specific.value.ToString.Trim()
 
                                 If p_oCompDef.sAuthorization = "APPROVE" And sStatus <> "APPROVED" Then
                                     oform.Items.Item("btnapprove").Enabled = True

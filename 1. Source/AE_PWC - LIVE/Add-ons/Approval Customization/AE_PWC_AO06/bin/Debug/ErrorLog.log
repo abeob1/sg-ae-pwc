@@ -43,3 +43,6 @@
 [11/01/2016 20:16:01][                       DocumentsApproval] Error while approving the Draft No. 116 Entity : pwcl Please key in the reason for "not approving" this PO on the extreme right hand column of this screen
 [11/01/2016 20:16:01][            ApprovalWindow_SBO_ItemEvent] Error while approving the Draft No. 116 Entity : pwcl Please key in the reason for "not approving" this PO on the extreme right hand column of this screen
 [11/01/2016 20:16:01][             SBO_Application_ItemEvent()] Error while approving the Draft No. 116 Entity : pwcl Please key in the reason for "not approving" this PO on the extreme right hand column of this screen
+[04/27/2017 11:42:49][                                  AddFMS] This entry already exists in the following tables (ODBC -2035)
+[04/27/2017 11:42:49][                                  AddFMS] This entry already exists in the following tables (ODBC -2035)
+[04/27/2017 11:42:49][                                  AddFMS] This entry already exists in the following tables (ODBC -2035)

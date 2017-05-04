@@ -554,7 +554,23 @@ Public Class clsEventHandler
 
                         End If
 
-
+                        If pVal.EventType = SAPbouiCOM.BoEventTypes.et_CLICK Then
+                            If pVal.ItemUID = "3" Then
+                                Dim oForm As SAPbouiCOM.Form = p_oSBOApplication.Forms.GetFormByTypeAndCount(pVal.FormType, pVal.FormTypeCount)
+                                Try
+                                    Dim oMAtrix As SAPbouiCOM.Matrix = Nothing
+                                    oMAtrix = oForm.Items.Item("3").Specific
+                                    ''   p_sStatus = oMAtrix.Columns.Item("30").Cells.Item(pVal.Row).Specific.String
+                                    p_sAppStatus = oMAtrix.Columns.Item("30").Cells.Item(pVal.Row).Specific.String
+                                Catch ex As Exception
+                                    p_oSBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
+                                    Call WriteToLogFile(sErrDesc, sFuncName)
+                                    If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with ERROR", sFuncName)
+                                    BubbleEvent = False
+                                    Exit Sub
+                                End Try
+                            End If
+                        End If
 
                     Case "392", "393"
 
@@ -1664,6 +1680,9 @@ CostCenterValidation:
                                 End Try
                             End If
                         End If
+
+            
+
                 End Select
             End If
 
@@ -2384,7 +2403,7 @@ CostCenterValidation:
                     Case "1283", "1284", "1286"
 
                         Dim oForm As SAPbouiCOM.Form = p_oSBOApplication.Forms.ActiveForm
-                        If oForm.TypeEx = "3002" Then
+                        If oForm.TypeEx = "3002" Or oForm.TypeEx = "50105" Then
                             Try
                                 If p_sAppStatus = "W" Then
                                     p_oSBOApplication.StatusBar.SetText("Can`t Cancel / Close / Remove the Document which is triggered for an approval ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)

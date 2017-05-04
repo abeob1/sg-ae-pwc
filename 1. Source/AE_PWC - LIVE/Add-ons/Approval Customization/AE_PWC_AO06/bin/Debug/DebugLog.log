@@ -961,3 +961,31 @@
 [11/01/2016 20:16:01][                       DocumentsApproval] Completed with ERROR
 [11/01/2016 20:16:01][            ApprovalWindow_SBO_ItemEvent] Completed with ERROR
 [11/01/2016 20:16:01][             SBO_Application_ItemEvent()] Completed with ERROR
+[04/27/2017 11:42:44][                                    Main] Starting Addon startup function
+[04/27/2017 11:42:44][                                    Main] Initializing public SBO Application object
+[04/27/2017 11:42:44][                                    Main] Retriving SBO application company handle
+[04/27/2017 11:42:45][                                    Main] Retrived SBO application company handle
+[04/27/2017 11:42:45][                                    Main] Calling ConnectDICompSSO()
+[04/27/2017 11:42:45][                      ConnectDICompSSO()] Starting function
+[04/27/2017 11:42:49][                      ConnectDICompSSO()] Completed with SUCCESS
+[04/27/2017 11:42:49][                                    Main] Creating Event handler class
+[04/27/2017 11:42:49][                      Class_Initialize()] Starting function
+[04/27/2017 11:42:49][                      Class_Initialize()] Retriving SBO Application handle
+[04/27/2017 11:42:49][                      Class_Initialize()] Completed with SUCCESS
+[04/27/2017 11:42:49][                                    Main] Creating FMS
+[04/27/2017 11:42:49][                                  AddFMS] Starting Function
+[04/27/2017 11:42:49][                                  AddFMS] Error while adding FMS
+[04/27/2017 11:42:49][                                  AddFMS] Completed with Success
+[04/27/2017 11:42:49][                                  AddFMS] Starting Function
+[04/27/2017 11:42:49][                                  AddFMS] Error while adding FMS
+[04/27/2017 11:42:49][                                  AddFMS] Completed with Success
+[04/27/2017 11:42:49][                                  AddFMS] Starting Function
+[04/27/2017 11:42:49][                                  AddFMS] Error while adding FMS
+[04/27/2017 11:42:49][                                  AddFMS] Completed with Success
+[04/27/2017 11:42:49][                                    Main] Creating table
+[04/27/2017 11:42:49][                                    Main] Creating Procedure
+[04/27/2017 11:42:49][                         CreateProcedure] Starting Function
+[04/27/2017 11:42:50][                                    Main] Calling AddMenuItems()
+[04/27/2017 11:42:52][                                    Main] Calling SetApplication Function
+[04/27/2017 11:42:52][                                  Main()] Addon started successfully
+[04/27/2017 11:42:52][                                  Main()] Initializing Recordset 
