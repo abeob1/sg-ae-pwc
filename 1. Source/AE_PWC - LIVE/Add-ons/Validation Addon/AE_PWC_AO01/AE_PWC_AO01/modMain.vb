@@ -66,6 +66,7 @@ Module modMain
     Public p_oDTUserInformation As DataTable = Nothing
     Public p_sStatus As String = Nothing
     Public p_sAppStatus As String = Nothing
+    Public p_sObjType As String = Nothing
 
 
     

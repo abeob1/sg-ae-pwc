@@ -560,7 +560,7 @@ Public Class clsEventHandler
                                 Try
                                     Dim oMAtrix As SAPbouiCOM.Matrix = Nothing
                                     oMAtrix = oForm.Items.Item("3").Specific
-                                    ''   p_sStatus = oMAtrix.Columns.Item("30").Cells.Item(pVal.Row).Specific.String
+                                    p_sObjType = oMAtrix.Columns.Item("23").Cells.Item(pVal.Row).Specific.String
                                     p_sAppStatus = oMAtrix.Columns.Item("30").Cells.Item(pVal.Row).Specific.String
                                 Catch ex As Exception
                                     p_oSBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
@@ -1671,6 +1671,7 @@ CostCenterValidation:
                                     oMAtrix = oForm.Items.Item("3").Specific
                                     p_sStatus = oMAtrix.Columns.Item("50").Cells.Item(pVal.Row).Specific.String
                                     p_sAppStatus = oMAtrix.Columns.Item("51").Cells.Item(pVal.Row).Specific.String
+                                    p_sObjType = oMAtrix.Columns.Item("2").Cells.Item(pVal.Row).Specific.String
                                 Catch ex As Exception
                                     p_oSBOApplication.StatusBar.SetText(ex.Message, SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
                                     Call WriteToLogFile(sErrDesc, sFuncName)
@@ -2405,7 +2406,7 @@ CostCenterValidation:
                         Dim oForm As SAPbouiCOM.Form = p_oSBOApplication.Forms.ActiveForm
                         If oForm.TypeEx = "3002" Or oForm.TypeEx = "50105" Then
                             Try
-                                If p_sAppStatus = "W" Then
+                                If p_sAppStatus = "W" And (p_sObjType = "22" Or p_sObjType = "1470000113") Then
                                     p_oSBOApplication.StatusBar.SetText("Can`t Cancel / Close / Remove the Document which is triggered for an approval ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
                                     BubbleEvent = False
                                     Exit Sub
