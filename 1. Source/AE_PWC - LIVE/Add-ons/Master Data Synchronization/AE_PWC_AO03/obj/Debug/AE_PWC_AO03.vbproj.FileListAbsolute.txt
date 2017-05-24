@@ -224,3 +224,16 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Mast
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.pdb
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbprojResolveAssemblyReference.cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.exe.config
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.exe
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.pdb
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.xml
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbprojResolveAssemblyReference.cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\Interop.SAPbouiCOM.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbproj.ResolveComReference.cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.Resources.resources
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbproj.GenerateResource.Cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.exe
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.xml
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.pdb

@@ -208,3 +208,15 @@ E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Serv
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
 E:\Abeo-Projects\Abeo_Projects_WorkArea\PWC\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe.config
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.pdb
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.xml
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbprojResolveAssemblyReference.cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Resources.resources
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.ProjectInstaller.resources
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Service1.resources
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbproj.GenerateResource.Cache
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb

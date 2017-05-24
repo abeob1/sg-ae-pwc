@@ -2406,7 +2406,7 @@ CostCenterValidation:
                         Dim oForm As SAPbouiCOM.Form = p_oSBOApplication.Forms.ActiveForm
                         If oForm.TypeEx = "3002" Or oForm.TypeEx = "50105" Then
                             Try
-                                If p_sAppStatus = "W" And (p_sObjType = "22" Or p_sObjType = "1470000113") Then
+                                If (p_sAppStatus = "W" Or p_sAppStatus = "Y" Or p_sAppStatus = "C" Or p_sAppStatus = "N") And (p_sObjType = "22" Or p_sObjType = "1470000113") Then
                                     p_oSBOApplication.StatusBar.SetText("Can`t Cancel / Close / Remove the Document which is triggered for an approval ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
                                     BubbleEvent = False
                                     Exit Sub
