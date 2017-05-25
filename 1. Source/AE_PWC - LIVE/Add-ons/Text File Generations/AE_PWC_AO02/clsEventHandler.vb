@@ -234,7 +234,7 @@ Namespace AE_PWC_AO02
                                 oForm.Items.Item("Item_17").Height = 15
                                 oForm.Items.Item("Item_18").Width = 200
                                 oForm.Items.Item("Item_18").Height = 15
-
+                                oForm.Items.Item("Item_22").Specific.String = Year(Date.Now)
                                 oForm.Freeze(False)
                                 oForm.Visible = True
                                 oForm.Items.Item("Item_17").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
@@ -636,6 +636,7 @@ Namespace AE_PWC_AO02
                                     Dim sNow As String = String.Empty
                                     Dim sIN As String = String.Empty
                                     Dim sQuotes As String = String.Empty
+                                    Dim iYear As Integer = 0
                                     Dim oRset As SAPbobsCOM.Recordset = Nothing
 
                                     Try
@@ -643,6 +644,12 @@ Namespace AE_PWC_AO02
                                         sFuncName = "Header Show button click()"
                                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling HeaderValidation()", sFuncName)
                                         oForm.Items.Item("Item_17").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                            BubbleEvent = False
+                                            Exit Sub
+                                        End If
+                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
 
                                         p_oSBOApplication.SetStatusBarMessage("Cost Allocation Information Starting to Load .......!", SAPbouiCOM.BoMessageTime.bmt_Short, False)
 
@@ -681,19 +688,19 @@ Namespace AE_PWC_AO02
 
                                         sSQL = "Select A.DOCNUM 'SAP Reference Number' , A.NUMATCARD 'Vendor Invoice Number',A.TAXDATE 'Vendor Invoice Date',A.DOCDATE 'SAP Posting Date',B.ACCTCODE 'Gl Accounts',C.ACCTNAME 'Gl Description',A.CARDNAME 'Vendor Name',A.JRNLMEMO 'Journal Remark', B.LineTotal 'Invoice Amount', B.[OcrCode3] 'Distribution Code',D.SLPNAME 'Purchasing Department'" & _
                                         " From OPCH A INNER JOIN PCH1 B ON A.DOCENTRY=B.DOCENTRY LEFT JOIN OACT C ON B.ACCTCODE=C.ACCTCODE LEFT JOIN OSLP D ON A.SLPCODE=D.SLPCODE" & _
-                                        " WHERE month(A.DOCDATE)>= " & sSplitM(0) & " and month(A.docdate)<= " & sSplitM(0) & " and year(A.DOCDATE) = " & Now.Year & "" & _
+                                        " WHERE month(A.DOCDATE)>= " & sSplitM(0) & " and month(A.docdate)<= " & sSplitM(0) & " and year(A.DOCDATE) = " & iYear & "" & _
                                         " and B.[OcrCode3] in (" & sIN & ") and isnull(A.Indicator,'') <> 'CA' and c.GroupMask = 5 " & _
                                         " and B.[AcctCode] >= '" & sSplitG(0) & "' and B.[AcctCode] <= '" & sSplitG(1) & "'" & _
                                         " union all " & _
                                         "Select A.DOCNUM 'SAP Reference Number' , A.NUMATCARD 'Vendor Invoice Number',A.TAXDATE 'Vendor Invoice Date',A.DOCDATE 'SAP Posting Date',B.ACCTCODE 'Gl Accounts',C.ACCTNAME 'Gl Description',A.CARDNAME 'Vendor Name',A.JRNLMEMO 'Journal Remark', -1 * B.LineTotal 'Invoice Amount', B.[OcrCode3] 'Distribution Code',D.SLPNAME 'Purchasing Department'" & _
                                         " From ORPC A INNER JOIN RPC1 B ON A.DOCENTRY=B.DOCENTRY LEFT JOIN OACT C ON B.ACCTCODE=C.ACCTCODE LEFT JOIN OSLP D ON A.SLPCODE=D.SLPCODE" & _
-                                        " WHERE month(A.DOCDATE)>= " & sSplitM(0) & " and month(A.docdate)<= " & sSplitM(0) & " and year(A.DOCDATE) = " & Now.Year & "" & _
+                                        " WHERE month(A.DOCDATE)>= " & sSplitM(0) & " and month(A.docdate)<= " & sSplitM(0) & " and year(A.DOCDATE) = " & iYear & "" & _
                                         " and B.[OcrCode3] in (" & sIN & ")  and isnull(A.Indicator,'') <> 'CA' and c.GroupMask = 5 " & _
                                         " and B.[AcctCode] >= '" & sSplitG(0) & "' and B.[AcctCode] <= '" & sSplitG(1) & "'" & _
                                         " union all " & _
                                         "Select A.Number 'SAP Reference Number',B.REF2 'Vendor Invoice Number',B.TAXDATE 'Vendor Invoice Date', A.REFDATE 'SAP Posting Date', B.Account 'Gl Accounts', C.ACCTNAME 'Gl Description', 'JE' 'Vendor Name',A.MEMO 'Journal Remark', b.Debit - b.Credit 'Invoice Amount', B.[OcrCode3] 'Distribution Code','Purchasing Department' " & _
                                         "from ojdt A INNER JOIN JDT1 B ON A.TRANSID=B.TRANSID LEFT JOIN OACT C ON B.ACCOUNT=C.ACCTCODE " & _
-                                        " where  a.transType =('30') and month(A.refdate)>= " & sSplitM(0) & " and month(A.refdate)<=" & sSplitM(0) & " and year(A.refdate) = " & Now.Year & "" & _
+                                        " where  a.transType =('30') and month(A.refdate)>= " & sSplitM(0) & " and month(A.refdate)<=" & sSplitM(0) & " and year(A.refdate) = " & iYear & "" & _
                                           " and B.[OcrCode3] in (" & sIN & ")  and isnull(A.Indicator,'') <> 'CA' and c.GroupMask = 5 " & _
                                         " and B.[Account] >= '" & sSplitG(0) & "' and B.[Account] <= '" & sSplitG(1) & "'"
 
@@ -710,7 +717,7 @@ Namespace AE_PWC_AO02
                                         ''oGridT1.SelectionMode = SAPbouiCOM.BoMatrixSelect.ms_Single
                                         ''oGridT1.AutoResizeColumns()
 
-                                        sNow = CStr(Now.Year) & sSplitM(0).PadLeft(2, "0"c) & "01"
+                                        sNow = CStr(iYear) & sSplitM(0).PadLeft(2, "0"c) & "01"
 
 
                                         sSQL = "DECLARE @cols AS NVARCHAR(MAX),    @query  AS VARCHAR(max), @query1  AS VARCHAR(max), @cols1 as nvarchar(max) " & _
@@ -742,7 +749,7 @@ Namespace AE_PWC_AO02
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " left join   [VPM2] k on f.DocEntry = k.DocEntry left JOIN OVPM l ON k.[DocNum] = l.[DocEntry] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) and (case when isnull(l.DocNum,'''') = '''' then ''N'' else l.Canceled end)=''N'' " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum, i.SeriesName ,j.[U_NAME] , j.[USER_CODE], l.DocNum , l.DocDate , g.BaseType  ) x pivot ( sum(total) " & _
@@ -765,7 +772,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum , i.SeriesName ,j.[U_NAME] , j.[USER_CODE] ,g.BaseType ) x pivot ( sum(total) " & _
@@ -783,7 +790,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=c.Series " & _
     "  LEFT JOIN OUSR j on  c.[usersign] = j.[USERID]" & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by c.Number   , b.REF2  ,b.TAXDATE  ,c.REFDATE  ,c.MEMO  ,  b.[OcrCode3]  , a.AcctCode , a.AcctName , e.[PrcCode],i.SeriesName,j.[U_NAME] , j.[USER_CODE] " & _
@@ -805,7 +812,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' " & _
@@ -827,7 +834,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' and f.Canceled = ''Y''" & _
@@ -858,7 +865,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
     " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by " & _
@@ -872,7 +879,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
  " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      " group by " & _
@@ -885,7 +892,7 @@ Namespace AE_PWC_AO02
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
     " left outer join [@AB_PARTNER] g on g.Code = b.U_AB_PARTNER" & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(c.Indicator,'') <> 'CA' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30', '1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30', '1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
      " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      " group by " & _
@@ -899,7 +906,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and d.DocType = 'A' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
     " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by " & _
@@ -913,7 +920,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and d.DocType = 'A' and d.Canceled = 'Y' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(d.CancelDate) >= " & sSplitM(0) & " and month(d.CancelDate) <= " & sSplitM(1) & " and year(d.CancelDate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(d.CancelDate) >= " & sSplitM(0) & " and month(d.CancelDate) <= " & sSplitM(1) & " and year(d.CancelDate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
     " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by " & _
@@ -1004,10 +1011,16 @@ Namespace AE_PWC_AO02
                                     Dim sCostF As String = String.Empty
                                     Dim sCostT As String = String.Empty
                                     Dim oGridT2 As SAPbouiCOM.Grid = Nothing
-
+                                    Dim iYear As Integer = 0
                                     Try
 
                                         oRset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                            BubbleEvent = False
+                                            Exit Sub
+                                        End If
+                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
                                         sFuncName = "Journal Entry Creation Show button click()"
                                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling HeaderValidation()", sFuncName)
                                         If CostAllocation_Validation(oForm, sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
@@ -1047,7 +1060,7 @@ Namespace AE_PWC_AO02
                                         oRset.DoQuery(sSQL)
                                         sIN = oRset.Fields.Item("Ouput").Value
                                         sQuotes = oRset.Fields.Item("quotes").Value
-                                        sNow = CStr(Now.Year) & sSplitM(0).PadLeft(2, "0"c) & "01"
+                                        sNow = CStr(iYear) & sSplitM(0).PadLeft(2, "0"c) & "01"
 
 
                                         sSQL = "SELECT a.AcctCode [Account], a.AcctName [ShortName], e.U_AB_NONPROJECT [U_AB_NONPROJECT],  isnull(e.Project,'') [Project] ,e1.PrcCode [OcrCode3] , f.PrcName [U_AB_OUName]," & _
@@ -1059,7 +1072,7 @@ Namespace AE_PWC_AO02
                                            " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode >= '" & sCostF & "' and e1.PrcCode <= '" & sCostT & "'" & _
                                             " group by " & _
@@ -1073,7 +1086,7 @@ Namespace AE_PWC_AO02
                                            " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode >= '" & sCostF & "' and e1.PrcCode <= '" & sCostT & "'" & _
                                             " group by " & _
@@ -1086,7 +1099,7 @@ Namespace AE_PWC_AO02
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
                                           " left outer join [@AB_PARTNER] g on g.Code = b.U_AB_PARTNER" & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(c.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30','1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30','1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode >= '" & sCostF & "' and e1.PrcCode <= '" & sCostT & "' " & _
                                             " group by " & _
@@ -1173,7 +1186,7 @@ Namespace AE_PWC_AO02
     " JOIN OPCH f on c.[TransId] = f.[TransId]  JOIN PCH1 g on g.[DocEntry] = f.[DocEntry] and g.AcctCode = b.Account  " & _
     "  LEFT JOIN OSLP h on f.SLPCODE=h.SLPCODE " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME, g.LineNum   ) x pivot ( sum(total) " & _
              "   for U_AB_NONPROJECT in (' + @cols + ') " & _
@@ -1192,7 +1205,7 @@ Namespace AE_PWC_AO02
     " JOIN ORPC f on c.[TransId] = f.[TransId]  JOIN RPC1 g on g.[DocEntry] = f.[DocEntry] and g.AcctCode = b.Account  " & _
     "  LEFT JOIN OSLP h on f.SLPCODE=h.SLPCODE " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME,g.LineNum   ) x pivot ( sum(total) " & _
              "   for U_AB_NONPROJECT in (' + @cols + ') " & _
@@ -1207,7 +1220,7 @@ Namespace AE_PWC_AO02
     " left join OOCR d on d.OcrCode = b.OcrCode3 " & _
     " join OCR1 e on d.[OcrCode] = e.[OcrCode] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
     " group by c.Number   , b.REF2  ,b.TAXDATE  ,c.REFDATE  ,c.MEMO  ,  b.[OcrCode3]  , a.AcctCode , a.AcctName , e.[PrcCode] " & _
              "   ) x pivot ( sum(total) " & _
@@ -1302,9 +1315,15 @@ Namespace AE_PWC_AO02
                                     Dim sOUF As String = String.Empty
                                     Dim sOUT As String = String.Empty
                                     Dim oDT As DataTable = Nothing
+                                    Dim iYear As Integer = 0
 
                                     Try
-
+                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                            BubbleEvent = False
+                                            Exit Sub
+                                        End If
+                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
                                         oRset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
                                         sFuncName = "Summary Report Show button click()"
                                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling HeaderValidation()", sFuncName)
@@ -1345,7 +1364,7 @@ Namespace AE_PWC_AO02
                                         sIN = p_Dimensionrules
                                         sQuotes = Replace(p_Dimensionrules, "'", "''")
                                         oGridT2 = oForm.Items.Item("Item_23").Specific
-                                        sNow = CStr(Now.Year) & sSplitM(0).PadLeft(2, "0"c) & "01"
+                                        sNow = CStr(iYear) & sSplitM(0).PadLeft(2, "0"c) & "01"
 
 
                                         sSQL = "DECLARE @cols AS NVARCHAR(MAX), @cols3 AS NVARCHAR(MAX),  @query  AS VARCHAR(max), @query1  AS VARCHAR(max), @cols1 as nvarchar(max) " & _
@@ -1385,7 +1404,7 @@ Namespace AE_PWC_AO02
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " left join   [VPM2] k on f.DocEntry = k.DocEntry left JOIN OVPM l ON k.[DocNum] = l.[DocEntry] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) and (case when isnull(l.DocNum,'''') = '''' then ''N'' else l.Canceled end)=''N'' " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum, i.SeriesName ,j.[U_NAME] , j.[USER_CODE], l.DocNum , l.DocDate , g.BaseType  ) x pivot ( sum(total) " & _
@@ -1408,7 +1427,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum , i.SeriesName ,j.[U_NAME] , j.[USER_CODE] ,g.BaseType ) x pivot ( sum(total) " & _
@@ -1426,7 +1445,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=c.Series " & _
     "  LEFT JOIN OUSR j on  c.[usersign] = j.[USERID]" & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by c.Number   , b.REF2  ,b.TAXDATE  ,c.REFDATE  ,c.MEMO  ,  b.[OcrCode3]  , a.AcctCode , a.AcctName , e.[PrcCode],i.SeriesName,j.[U_NAME] , j.[USER_CODE] " & _
@@ -1448,7 +1467,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' " & _
@@ -1470,7 +1489,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' and f.Canceled = ''Y''" & _
@@ -1493,7 +1512,7 @@ Namespace AE_PWC_AO02
                                         '                                    '                                    '" JOIN OPCH f on c.[TransId] = f.[TransId]  JOIN PCH1 g on g.[DocEntry] = f.[DocEntry] and g.AcctCode = b.Account  and  g.[OcrCode3] =  b.[OcrCode3] " & _
                                         '                                    '                                    '"  LEFT JOIN OSLP h on f.SLPCODE=h.SLPCODE " & _
                                         '                                    '                                    '" where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                         '                                    '                                    '" and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
                                         '                                    '                                    '         "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME, g.LineNum   ) x pivot ( sum(total) " & _
                                         '                                    '                                    '         "   for U_AB_NONPROJECT in (' + @cols + ') " & _
@@ -1512,7 +1531,7 @@ Namespace AE_PWC_AO02
                                         '                                    '                                    '" JOIN ORPC f on c.[TransId] = f.[TransId]  JOIN RPC1 g on g.[DocEntry] = f.[DocEntry] and g.AcctCode = b.Account  and  g.[OcrCode3] =  b.[OcrCode3]" & _
                                         '                                    '                                    '"  LEFT JOIN OSLP h on f.SLPCODE=h.SLPCODE " & _
                                         '                                    '                                    '" where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                         '                                    '                                    '" and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
                                         '                                    '                                    '         "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME,g.LineNum   ) x pivot ( sum(total) " & _
                                         '                                    '                                    '         "   for U_AB_NONPROJECT in (' + @cols + ') " & _
@@ -1527,7 +1546,7 @@ Namespace AE_PWC_AO02
                                         '                                    '                                    '" left join OOCR d on d.OcrCode = b.OcrCode3 " & _
                                         '                                    '                                    '" join OCR1 e on d.[OcrCode] = e.[OcrCode] " & _
                                         '                                    '                                    '" where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                        '                                    '                                    '"	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                         '                                    '                                    '" and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
                                         '                                    '                                    '" group by c.Number   , b.REF2  ,b.TAXDATE  ,c.REFDATE  ,c.MEMO  ,  b.[OcrCode3]  , a.AcctCode , a.AcctName , e.[PrcCode] " & _
                                         '                                    '                                    '         "   ) x pivot ( sum(total) " & _
@@ -1574,10 +1593,16 @@ Namespace AE_PWC_AO02
                                     Dim oRset As SAPbobsCOM.Recordset = Nothing
                                     Dim sOU As String = String.Empty
                                     Dim sOUT As String = String.Empty
-
+                                    Dim iYear As Integer = 0
                                     Try
 
                                         oRset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                            BubbleEvent = False
+                                            Exit Sub
+                                        End If
+                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
                                         sFuncName = "Summary Report Show button click()"
                                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling HeaderValidation()", sFuncName)
                                         p_oSBOApplication.SetStatusBarMessage("Information Starting to Load on the Summary Report .......!", SAPbouiCOM.BoMessageTime.bmt_Short, False)
@@ -1624,7 +1649,7 @@ Namespace AE_PWC_AO02
                                         sIN = p_Dimensionrules
                                         sQuotes = Replace(p_Dimensionrules, "'", "''")
                                         oGridT2 = oForm.Items.Item("Item_23").Specific
-                                        sNow = CStr(Now.Year) & sSplitM(0).PadLeft(2, "0"c) & "01"
+                                        sNow = CStr(iYear) & sSplitM(0).PadLeft(2, "0"c) & "01"
 
 
                                         sSQL = "DECLARE @cols AS NVARCHAR(MAX),    @query  AS VARCHAR(max) , @query1  AS VARCHAR(max),  @cols1 as nvarchar(max) " & _
@@ -1658,7 +1683,7 @@ Namespace AE_PWC_AO02
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " left join   [VPM2] k on f.DocEntry = k.DocEntry left JOIN OVPM l ON k.[DocNum] = l.[DocEntry] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''18'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3)  and (case when isnull(l.DocNum,'''') = '''' then ''N'' else l.Canceled end)=''N'' " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum, i.SeriesName ,j.[U_NAME] , j.[USER_CODE], l.DocNum , l.DocDate , g.BaseType  ) x pivot ( sum(total) " & _
@@ -1681,7 +1706,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
     "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''19'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
              "  group by a.AcctCode,a.AcctName,e.[PrcCode] , f.DOCNUM   , f.NUMATCARD  ,f.TAXDATE  ,f.DOCDATE  ,f.CARDNAME  ,f.JRNLMEMO  ,  b.[OcrCode3]  ,h.SLPNAME , g.LineNum , i.SeriesName ,j.[U_NAME] , j.[USER_CODE] ,g.BaseType ) x pivot ( sum(total) " & _
@@ -1699,7 +1724,7 @@ Namespace AE_PWC_AO02
     "  LEFT JOIN NNM1 i on i.Series=c.Series " & _
     "  LEFT JOIN OUSR j on  c.[usersign] = j.[USERID]" & _
     " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''30'',''1470000071'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
     " group by c.Number   , b.REF2  ,b.TAXDATE  ,c.REFDATE  ,c.MEMO  ,  b.[OcrCode3]  , a.AcctCode , a.AcctName , e.[PrcCode],i.SeriesName,j.[U_NAME] , j.[USER_CODE] " & _
@@ -1721,7 +1746,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' " & _
@@ -1743,7 +1768,7 @@ Namespace AE_PWC_AO02
      "  LEFT JOIN NNM1 i on i.Series=f.Series " & _
       "   LEFT JOIN OUSR j on  f.[usersign] = j.[USERID] " & _
      " where  b.OcrCode3 in (" & sQuotes & ") and a.GroupMask = 5  and isnull(c.Indicator,'''') <> ''CA'' and " & _
-    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & Now.Year & " " & _
+    "	b.Account >= ''" & sSplitG(0) & "'' and b.Account <= ''" & sSplitG(1) & "'' and c.transType IN (''46'') and month(f.CancelDate) >= " & sSplitM(0) & " and month(f.CancelDate) <= " & sSplitM(1) & " and year(f.CancelDate) = " & iYear & " " & _
     " and  e.[ValidFrom] <= ''" & sNow & "'' and (e.[ValidTo] >= ''" & sNow & "'' or  isnull(e.[ValidTo],'''') = '''')" & _
      " and e.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
      "  and f.DocType = ''A'' and f.Canceled = ''Y''" & _
@@ -1774,7 +1799,7 @@ Namespace AE_PWC_AO02
                                            " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('18') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode in (" & p_Summaryreport & ")" & _
                                             " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
@@ -1789,7 +1814,7 @@ Namespace AE_PWC_AO02
                                            " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(d.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('19') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode in (" & p_Summaryreport & ")" & _
                                          " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
@@ -1803,7 +1828,7 @@ Namespace AE_PWC_AO02
                                           " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode]  left outer join OPRC f on f.PrcCode = e1.PrcCode" & _
                                           " left outer join [@AB_PARTNER] g on g.Code = b.U_AB_PARTNER" & _
                                           " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and isnull(c.Indicator,'') <> 'CA' and " & _
-                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30','1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+                                         "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('30','1470000071') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
                                           " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
                                            " and e1.PrcCode in (" & p_Summaryreport & ") " & _
  " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
@@ -1818,7 +1843,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and d.DocType = 'A' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(c.refdate) >= " & sSplitM(0) & " and month(c.refdate) <= " & sSplitM(1) & " and year(c.refdate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
     " and e1.PrcCode in (" & p_Summaryreport & ") " & _
     " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
@@ -1833,7 +1858,7 @@ Namespace AE_PWC_AO02
      " left join OOCR d1 on d1.OcrCode = b.OcrCode3 " & _
     " join OCR1 e1 on d1.[OcrCode] = e1.[OcrCode] left outer join OPRC f on f.PrcCode = e1.PrcCode " & _
     " where  b.OcrCode3 in (" & sIN & ") and a.GroupMask = 5  and d.DocType = 'A' and d.Canceled = 'Y' and " & _
-   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(d.CancelDate) >= " & sSplitM(0) & " and month(d.CancelDate) <= " & sSplitM(1) & " and year(d.CancelDate) = " & Now.Year & " " & _
+   "	b.Account >= '" & sSplitG(0) & "' and b.Account <= '" & sSplitG(1) & "' and c.transType IN ('46') and month(d.CancelDate) >= " & sSplitM(0) & " and month(d.CancelDate) <= " & sSplitM(1) & " and year(d.CancelDate) = " & iYear & " " & _
     " and  e1.[ValidFrom] <= '" & sNow & "' and (e1.[ValidTo] >= '" & sNow & "' or  isnull(e1.[ValidTo],'') = '')" & _
     " and e1.PrcCode in (" & p_Summaryreport & ") " & _
     " and e1.PrcCode not in (SELECT T0.[U_PrcCode] FROM [dbo].[@AB_COSTALLOCATION]  T0 WHERE T0.[U_Transid] = c.TransId and T0.U_OcrCode3 = b.OcrCode3) " & _
@@ -1971,9 +1996,17 @@ Namespace AE_PWC_AO02
                                     Dim sNow As String = String.Empty
                                     Dim sRef As String = String.Empty
                                     Dim i_dSourceTable As DataTable = Nothing
-
+                                    Dim iYear As Integer = 0
                                     Try
+
+
+                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                            BubbleEvent = False
+                                            Exit Sub
+                                        End If
                                         SBO_Application.SetStatusBarMessage("Attempting the function Journal Entry Creation ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
                                         sErrDesc = String.Empty
                                         oDV = MAtrixToDataTable(oForm, sErrDesc)
 
@@ -1988,8 +2021,8 @@ Namespace AE_PWC_AO02
                                         oDT_Entity = oDV.ToTable(True, "EntityCode")
                                         ReDim oDICompany(oDT_Entity.Rows.Count - 1)
                                         orset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
-                                        ilstday = Date.DaysInMonth(Now.Year, oForm.Items.Item("Item_13").Specific.selected.description)
-                                        sNow = CStr(Now.Year) & oForm.Items.Item("Item_13").Specific.selected.description.PadLeft(2, "0"c) & ilstday
+                                        ilstday = Date.DaysInMonth(iYear, oForm.Items.Item("Item_13").Specific.selected.description)
+                                        sNow = CStr(iYear) & oForm.Items.Item("Item_13").Specific.selected.description.PadLeft(2, "0"c) & ilstday
                                         oDT_JV = oDVL.ToTable(True, "EntityCode")
                                         SBO_Application.SetStatusBarMessage("Identifying the Traget Entity ...! ", SAPbouiCOM.BoMessageTime.bmt_Short, False)
 

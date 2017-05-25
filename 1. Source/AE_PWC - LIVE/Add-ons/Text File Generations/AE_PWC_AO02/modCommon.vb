@@ -649,7 +649,9 @@ Namespace AE_PWC_AO02
                 oipower.Columns.Add("OcrCode3", GetType(String))
 
 
-                sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T0.U_AB_ENTITY = T1.Details WHERE T0.[DimCode] = 3"
+                ''sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T0.U_AB_ENTITY = T1.Details WHERE T0.[DimCode] = 3"
+                sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T1.Details  like '%' + T0.U_AB_ENTITY + '%' WHERE T0.[DimCode] = 3"
+
                 orset.DoQuery(sSQL)
                 oDVNew = New DataView(ConvertRecordsetToDataTable(orset, sErrDesc))
                 If Not String.IsNullOrEmpty(sErrDesc) Then Throw New ArgumentException(sErrDesc)
@@ -911,6 +913,15 @@ Namespace AE_PWC_AO02
                 Console.WriteLine("Starting Function ", sFuncName)
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function ", sFuncName)
                 oRset = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+
+                sSQL = "SELECT T0.[AcctCode], T0.[AcctName] FROM OACT T0"
+                oRset.DoQuery(sSQL)
+                Dim odt As DataTable = Nothing
+                odt = New DataTable()
+                odt = ConvertRecordsetToDataTable(oRset, sErrDesc)
+                Dim odv As DataView = Nothing
+                odv = New DataView(odt)
+
                 oJournalEntry = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oJournalEntries)
                 oJournalEntry.ReferenceDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
                 oJournalEntry.DueDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
@@ -930,8 +941,16 @@ Namespace AE_PWC_AO02
                         sCat = odr("Cat").ToString.Trim
 
                         If odr("Cat").ToString().Trim() = "DEP" Then
+                            odv.RowFilter = "AcctCode='" & P_sDEP_FAA & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(P_sDEP_FAA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = P_sDEP_FAA
                         Else
+                            odv.RowFilter = "AcctCode='" & Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999" & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999" & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999"
                         End If
 
@@ -964,8 +983,18 @@ Namespace AE_PWC_AO02
 
                     Else
                         If odr("Cat").ToString().Trim() = "DEP" Then
+                            odv.RowFilter = "AcctCode='" & P_sDEP_FAA & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(P_sDEP_FAA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
+
                             oJournalEntry.Lines.AccountCode = P_sDEP_FAA
                         Else
+                            odv.RowFilter = "AcctCode='" & Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999" & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999" & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
+
                             oJournalEntry.Lines.AccountCode = Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999"
                         End If
                         '' oJournalEntry.Lines.AccountCode = Left(odr("GL_Code").ToString.Trim, Len(odr("GL_Code").ToString.Trim) - 4) & "9999"
@@ -1009,8 +1038,16 @@ Namespace AE_PWC_AO02
 
                 If bDebit > 0 Then
                     If sCat = "DEP" Then
+                        odv.RowFilter = "AcctCode='" & P_sDEP_CA & "'"
+                        If odv.Count = 0 Then
+                            Throw New ArgumentException(P_sDEP_CA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                        End If
                         oJournalEntry.Lines.AccountCode = P_sDEP_CA  ''"13161300"
                     Else
+                        odv.RowFilter = "AcctCode='" & P_sJV_Debit & "'"
+                        If odv.Count = 0 Then
+                            Throw New ArgumentException(P_sJV_Debit & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                        End If
                         oJournalEntry.Lines.AccountCode = P_sJV_Debit ''"13161400"
                     End If
                     If bCredit > 0 Then
@@ -1046,8 +1083,16 @@ Namespace AE_PWC_AO02
 
                 If bCredit > 0 And FCredit = False Then
                     If sCat = "DEP" Then
+                        odv.RowFilter = "AcctCode='" & P_sDEP_CA & "'"
+                        If odv.Count = 0 Then
+                            Throw New ArgumentException(P_sDEP_CA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                        End If
                         oJournalEntry.Lines.AccountCode = P_sDEP_CA  ''"13161300"
                     Else
+                        odv.RowFilter = "AcctCode='" & P_sJV_Debit & "'"
+                        If odv.Count = 0 Then
+                            Throw New ArgumentException(P_sJV_Debit & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                        End If
                         oJournalEntry.Lines.AccountCode = P_sJV_Debit ''"13161400"
                     End If
                     '' oJournalEntry.Lines.AccountCode = P_sJV_Debit ''"13161400"
@@ -1143,6 +1188,7 @@ Namespace AE_PWC_AO02
             Dim sAccCode As String = Nothing
             Dim FCredit As Boolean = False
             Dim dcal As Double = 0
+
             Try
                 sFuncName = "JournalEntry_Posting_JV_Target"
                 Console.WriteLine("Starting Function ", sFuncName)
@@ -1213,11 +1259,24 @@ Namespace AE_PWC_AO02
                     FCredit = False
                 End If
 
+                sSQL = "SELECT T0.[AcctCode], T0.[AcctName] FROM OACT T0"
+                oRset.DoQuery(sSQL)
+                Dim odt As DataTable = Nothing
+                odt = New DataTable()
+                odt = ConvertRecordsetToDataTable(oRset, sErrDesc)
+                Dim odv As DataView = Nothing
+                odv = New DataView(odt)
+
                 oJournalEntry.JournalEntries.ReferenceDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
                 oJournalEntry.JournalEntries.DueDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
                 oJournalEntry.JournalEntries.Memo = Left("Cost Allocation for the month of " & UCase(MonthName(Month(dDate))) & " - " & Year(dDate), 50)
                 oJournalEntry.JournalEntries.Reference3 = sRef
                 For Each odr As DataRow In oDTJE.Rows
+                    odv.RowFilter = "AcctCode='" & odr("AccountCode").ToString.Trim & "'"
+                    If odv.Count = 0 Then
+                        Throw New ArgumentException(odr("AccountCode").ToString.Trim & "  - Account Code is missing in Traget Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                    End If
+
                     oJournalEntry.JournalEntries.Lines.AccountCode = odr("AccountCode").ToString.Trim
                     oJournalEntry.JournalEntries.Lines.Debit = CDbl(odr("Debit").ToString.Trim)
                     oJournalEntry.JournalEntries.Lines.Credit = CDbl(odr("Credit").ToString.Trim)
@@ -1571,6 +1630,14 @@ Namespace AE_PWC_AO02
                 Console.WriteLine("Starting Function ", sFuncName)
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function ", sFuncName)
                 oRset = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+                sSQL = "SELECT T0.[AcctCode], T0.[AcctName] FROM OACT T0"
+                oRset.DoQuery(sSQL)
+                Dim odt As DataTable = Nothing
+                odt = New DataTable()
+                odt = ConvertRecordsetToDataTable(oRset, sErrDesc)
+                Dim odv As DataView = Nothing
+                odv = New DataView(odt)
+
                 oJournalEntry = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oJournalEntries)
                 oJournalEntry.ReferenceDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
                 oJournalEntry.DueDate = DateTime.ParseExact(sDate, "yyyyMMdd", Nothing)
@@ -1598,8 +1665,16 @@ Namespace AE_PWC_AO02
                         sLineRemarks = odr("Remarks").ToString.Trim.Replace("#$%", "'")
 
                         If sCat = "DEP" Then
+                            odv.RowFilter = "AcctCode='" & P_sDEP_FAA & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(P_sDEP_FAA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = P_sDEP_FAA
                         Else
+                            odv.RowFilter = "AcctCode='" & Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999" & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999" & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999"
                         End If
                         oJournalEntry.Lines.Credit = CDbl(odr("Amount").ToString.Trim)
@@ -1646,8 +1721,16 @@ Namespace AE_PWC_AO02
                         sLineRemarksC = odr("Remarks").ToString.Trim.Replace("#$%", "'")
 
                         If sCat = "DEP" Then
+                            odv.RowFilter = "AcctCode='" & P_sDEP_FAA & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(P_sDEP_FAA & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = P_sDEP_FAA
                         Else
+                            odv.RowFilter = "AcctCode='" & Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999" & "'"
+                            If odv.Count = 0 Then
+                                Throw New ArgumentException(Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999" & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                            End If
                             oJournalEntry.Lines.AccountCode = Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999"
                         End If
                         '' oJournalEntry.Lines.AccountCode = Left(odr("GL_NameT").ToString.Trim, Len(odr("GL_NameT").ToString.Trim) - 4) & "9999"
@@ -1684,6 +1767,11 @@ Namespace AE_PWC_AO02
                 Next
 
                 If bDebit > 0 Then
+                    odv.RowFilter = "AcctCode='" & sGL & "'"
+                    If odv.Count = 0 Then
+                        Throw New ArgumentException(sGL & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                    End If
+
                     oJournalEntry.Lines.AccountCode = sGL
                     If bCredit > 0 Then
                         dCal = bDebit - bCredit
@@ -1724,7 +1812,10 @@ Namespace AE_PWC_AO02
                 End If
 
                 If bCredit > 0 And FCredit = False Then
-
+                    odv.RowFilter = "AcctCode='" & sGL & "'"
+                    If odv.Count = 0 Then
+                        Throw New ArgumentException(sGL & "  - Account Code is missing in Source Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                    End If
                     oJournalEntry.Lines.AccountCode = sGL
                     oJournalEntry.Lines.Credit = bCredit
                     Select Case sCatC
@@ -1832,6 +1923,14 @@ Namespace AE_PWC_AO02
                 Console.WriteLine("Starting Function ", sFuncName)
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function ", sFuncName)
                 oRset = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+                sSQL = "SELECT T0.[AcctCode], T0.[AcctName] FROM OACT T0"
+                oRset.DoQuery(sSQL)
+                Dim odt As DataTable = Nothing
+                odt = New DataTable()
+                odt = ConvertRecordsetToDataTable(oRset, sErrDesc)
+                Dim odv As DataView = Nothing
+                odv = New DataView(odt)
+
                 oJournalEntry = oCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oJournalVouchers)
                 oDTJE = New DataTable()
 
@@ -1862,8 +1961,10 @@ Namespace AE_PWC_AO02
                         sLineRemarksC = odr("Remarks").ToString.Trim.Replace("#$%", "'")
                     Else
                         If odr("Cat").ToString().Trim() = "DEP" Then
+                          
                             sAccCode = P_sDEP_FAA
                         Else
+                            
                             sAccCode = odr("GL_NameT").ToString.Trim
                         End If
                         oDTJE.Rows.Add(sAccCode, 0, Math.Abs(CDbl(odr("Amount").ToString.Trim)), odr("LOS").ToString.Trim, odr("BU").ToString.Trim, odr("NewOU").ToString.Trim, odr("Project").ToString.Trim, odr("Remarks").ToString.Trim.Replace("#$%", "'"))
@@ -1911,6 +2012,10 @@ Namespace AE_PWC_AO02
 
 
                 For Each odr As DataRow In oDTJE.Rows
+                    odv.RowFilter = "AcctCode='" & odr("AccountCode").ToString.Trim & "'"
+                    If odv.Count = 0 Then
+                        Throw New ArgumentException(odr("AccountCode").ToString.Trim & "  - Account Code is missing in Traget Entity " & oCompany.CompanyDB & " - " & oCompany.CompanyName)
+                    End If
                     oJournalEntry.JournalEntries.Lines.AccountCode = odr("AccountCode").ToString.Trim
                     oJournalEntry.JournalEntries.Lines.Debit = CDbl(odr("Debit").ToString.Trim)
                     oJournalEntry.JournalEntries.Lines.Credit = CDbl(odr("Credit").ToString.Trim)
