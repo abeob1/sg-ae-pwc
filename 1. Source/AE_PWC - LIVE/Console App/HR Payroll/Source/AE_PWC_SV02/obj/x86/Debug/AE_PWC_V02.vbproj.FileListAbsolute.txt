@@ -321,3 +321,8 @@ E:\PWC\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\AE_PWC_SV02.pdb
 E:\PWC\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\AE_PWC_SV02.xml
 E:\PWC\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\Microsoft.Office.Interop.Excel.dll
 E:\PWC\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\Interop.SAPbobsCOM.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\office.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\HR Payroll\Source\AE_PWC_SV02\bin\Debug\office.xml
