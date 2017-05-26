@@ -1997,27 +1997,26 @@ Namespace AE_PWC_AO02
                                     Dim sRef As String = String.Empty
                                     Dim i_dSourceTable As DataTable = Nothing
                                     Dim iYear As Integer = 0
+
+
+
+                                    If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
+                                        SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                        BubbleEvent = False
+                                        Exit Sub
+                                    End If
+                                    SBO_Application.SetStatusBarMessage("Attempting the function Journal Entry Creation ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
+                                    iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
+                                    sErrDesc = String.Empty
+
+                                    oDV = MAtrixToDataTable(oForm, sErrDesc)
+                                    If sErrDesc.Length > 0 Then Throw New ArgumentException(sErrDesc)
                                     Try
-
-
-                                        If String.IsNullOrEmpty(oForm.Items.Item("Item_22").Specific.String) Or oForm.Items.Item("Item_22").Specific.String = "0" Then
-                                            SBO_Application.SetStatusBarMessage("Year should not be Blank /Zero ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
-                                            BubbleEvent = False
-                                            Exit Sub
-                                        End If
-                                        SBO_Application.SetStatusBarMessage("Attempting the function Journal Entry Creation ...! ", SAPbouiCOM.BoMessageTime.bmt_Long, False)
-                                        iYear = CInt(oForm.Items.Item("Item_22").Specific.String)
-                                        sErrDesc = String.Empty
-                                        oDV = MAtrixToDataTable(oForm, sErrDesc)
 
                                         For Each oddr As DataRowView In oDV
                                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug1(oddr("GL_Code") & "  " & oddr("GL_NameT") & "  " & oddr("OU") & "  " & oddr("Amount") & "  " & oddr("TGL"), "MAtrixToDataTable")
                                         Next
-
-                                        If sErrDesc.Length > 0 Then Throw New ArgumentException(sErrDesc)
                                         oDVL = oDV
-
-                                        If sErrDesc.Length > 0 Then Throw New ArgumentException(sErrDesc)
                                         oDT_Entity = oDV.ToTable(True, "EntityCode")
                                         ReDim oDICompany(oDT_Entity.Rows.Count - 1)
                                         orset = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
@@ -2241,7 +2240,7 @@ Namespace AE_PWC_AO02
                                                     If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("exporting into Cost Allocation Table " & sSQL, sFuncName)
                                                     orset.DoQuery(sSQL)
                                                 End If
-                                              
+
                                             End If
                                             irow += 1
                                         Next
@@ -2289,6 +2288,7 @@ Namespace AE_PWC_AO02
                                         If p_oDICompany.InTransaction Then
                                             p_oDICompany.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_RollBack)
                                         End If
+
                                         For lCounter As Integer = 0 To UBound(oDICompany)
                                             If Not oDICompany(lCounter) Is Nothing Then
                                                 If oDICompany(lCounter).Connected = True Then

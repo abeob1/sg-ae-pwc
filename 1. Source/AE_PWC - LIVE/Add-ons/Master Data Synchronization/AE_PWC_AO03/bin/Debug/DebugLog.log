@@ -10432,3 +10432,406 @@
 [04/20/2017 18:23:11][                            EntityLoad()] Starting function
 [04/20/2017 18:23:11][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
 [04/20/2017 18:23:11][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 14:25:57][                                  Main()] Starting Addon startup function
+[05/26/2017 14:25:59][                                  Main()] Initializing public SBO Application object
+[05/26/2017 14:25:59][                                  Main()] Retriving SBO application company handle
+[05/26/2017 14:26:04][                                  Main()] Retrived SBO application company handle
+[05/26/2017 14:26:04][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 14:26:04][                      ConnectDICompSSO()] Starting function
+[05/26/2017 14:26:33][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 14:26:33][                                  Main()] Creating Event handler class
+[05/26/2017 14:26:33][                      Class_Initialize()] Starting function
+[05/26/2017 14:26:33][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 14:26:33][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 14:26:33][                                  Main()] Calling AddMenuItems()
+[05/26/2017 14:26:33][                                  Main()] Calling SetApplication Function
+[05/26/2017 14:26:33][                                  Main()] Addon started successfully
+[05/26/2017 14:26:33][                                  Main()] Initializing Recordset 
+[05/26/2017 14:27:18][                            EntityLoad()] Starting function
+[05/26/2017 14:27:18][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 14:27:19][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 14:27:32][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 14:27:32][                      HeaderValidation()] Starting function
+[05/26/2017 14:27:33][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 14:27:33][                           DisplayStatus] Starting function
+[05/26/2017 14:27:33][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 14:27:33][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 14:27:34][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 14:27:34][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:27:34][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:27:34][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:27:34][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 14:27:38][                ConnectToTargetCompany()] Completed with ERROR
+[05/26/2017 14:27:38][             SBO_Application_ItemEvent()] Completed with ERROR
+[05/26/2017 14:27:38][                             EndStatus()] Starting function
+[05/26/2017 14:27:38][                             EndStatus()] Completed with SUCCESS
+[05/26/2017 14:38:35][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 14:38:35][                      HeaderValidation()] Starting function
+[05/26/2017 14:38:36][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 14:38:36][                           DisplayStatus] Starting function
+[05/26/2017 14:38:36][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 14:38:37][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 14:38:37][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 14:38:37][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:38:37][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:38:37][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:38:37][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 14:38:41][                ConnectToTargetCompany()] Completed with ERROR
+[05/26/2017 14:38:42][             SBO_Application_ItemEvent()] Completed with ERROR
+[05/26/2017 14:38:42][                             EndStatus()] Starting function
+[05/26/2017 14:38:42][                             EndStatus()] Completed with SUCCESS
+[05/26/2017 14:41:18][                            EntityLoad()] Starting function
+[05/26/2017 14:41:18][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 14:41:19][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 14:41:30][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 14:41:30][                      HeaderValidation()] Starting function
+[05/26/2017 14:41:31][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 14:41:31][                           DisplayStatus] Starting function
+[05/26/2017 14:41:31][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 14:41:32][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 14:41:44][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 14:41:46][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:41:46][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:41:46][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:41:46][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 14:41:50][                ConnectToTargetCompany()] Completed with ERROR
+[05/26/2017 14:42:28][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:42:30][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:42:35][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:42:59][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 14:43:04][                ConnectToTargetCompany()] Completed with ERROR
+[05/26/2017 14:43:04][             SBO_Application_ItemEvent()] Completed with ERROR
+[05/26/2017 14:43:04][                             EndStatus()] Starting function
+[05/26/2017 14:43:06][                             EndStatus()] Completed with SUCCESS
+[05/26/2017 14:44:23][                                  Main()] Starting Addon startup function
+[05/26/2017 14:44:24][                                  Main()] Initializing public SBO Application object
+[05/26/2017 14:44:24][                                  Main()] Retriving SBO application company handle
+[05/26/2017 14:44:30][                                  Main()] Retrived SBO application company handle
+[05/26/2017 14:44:30][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 14:44:30][                      ConnectDICompSSO()] Starting function
+[05/26/2017 14:45:04][                                  Main()] Starting Addon startup function
+[05/26/2017 14:45:05][                                  Main()] Initializing public SBO Application object
+[05/26/2017 14:45:05][                                  Main()] Retriving SBO application company handle
+[05/26/2017 14:45:09][                                  Main()] Retrived SBO application company handle
+[05/26/2017 14:45:09][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 14:45:09][                      ConnectDICompSSO()] Starting function
+[05/26/2017 14:45:32][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 14:45:32][                                  Main()] Creating Event handler class
+[05/26/2017 14:45:32][                      Class_Initialize()] Starting function
+[05/26/2017 14:45:32][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 14:45:32][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 14:45:32][                                  Main()] Calling AddMenuItems()
+[05/26/2017 14:45:32][                                  Main()] Calling SetApplication Function
+[05/26/2017 14:45:32][                                  Main()] Addon started successfully
+[05/26/2017 14:45:32][                                  Main()] Initializing Recordset 
+[05/26/2017 14:45:37][                            EntityLoad()] Starting function
+[05/26/2017 14:45:37][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 14:45:38][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 14:45:49][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 14:45:49][                      HeaderValidation()] Starting function
+[05/26/2017 14:45:49][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 14:45:49][                           DisplayStatus] Starting function
+[05/26/2017 14:45:50][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 14:45:50][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 14:45:56][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 14:45:56][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:45:56][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:46:00][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:46:13][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 14:48:06][                                  Main()] Starting Addon startup function
+[05/26/2017 14:48:07][                                  Main()] Initializing public SBO Application object
+[05/26/2017 14:48:07][                                  Main()] Retriving SBO application company handle
+[05/26/2017 14:48:11][                                  Main()] Retrived SBO application company handle
+[05/26/2017 14:48:11][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 14:48:11][                      ConnectDICompSSO()] Starting function
+[05/26/2017 14:48:33][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 14:48:33][                                  Main()] Creating Event handler class
+[05/26/2017 14:48:33][                      Class_Initialize()] Starting function
+[05/26/2017 14:48:33][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 14:48:33][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 14:48:33][                                  Main()] Calling AddMenuItems()
+[05/26/2017 14:48:33][                                  Main()] Calling SetApplication Function
+[05/26/2017 14:48:33][                                  Main()] Addon started successfully
+[05/26/2017 14:48:33][                                  Main()] Initializing Recordset 
+[05/26/2017 14:48:38][                            EntityLoad()] Starting function
+[05/26/2017 14:48:38][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 14:48:40][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 14:48:49][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 14:48:49][                      HeaderValidation()] Starting function
+[05/26/2017 14:48:50][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 14:48:50][                           DisplayStatus] Starting function
+[05/26/2017 14:48:50][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 14:48:51][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 14:48:51][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 14:48:51][                ConnectToTargetCompany()] Starting function
+[05/26/2017 14:48:51][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 14:48:55][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 14:49:03][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 15:00:38][                                  Main()] Starting Addon startup function
+[05/26/2017 15:00:40][                                  Main()] Initializing public SBO Application object
+[05/26/2017 15:00:40][                                  Main()] Retriving SBO application company handle
+[05/26/2017 15:00:44][                                  Main()] Retrived SBO application company handle
+[05/26/2017 15:00:44][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 15:00:44][                      ConnectDICompSSO()] Starting function
+[05/26/2017 15:01:04][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 15:01:04][                                  Main()] Creating Event handler class
+[05/26/2017 15:01:04][                      Class_Initialize()] Starting function
+[05/26/2017 15:01:04][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 15:01:04][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 15:01:04][                                  Main()] Calling AddMenuItems()
+[05/26/2017 15:01:04][                                  Main()] Calling SetApplication Function
+[05/26/2017 15:01:04][                                  Main()] Addon started successfully
+[05/26/2017 15:01:04][                                  Main()] Initializing Recordset 
+[05/26/2017 15:01:23][                            EntityLoad()] Starting function
+[05/26/2017 15:01:23][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 15:01:23][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 15:01:33][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:01:33][                      HeaderValidation()] Starting function
+[05/26/2017 15:01:33][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:01:33][                           DisplayStatus] Starting function
+[05/26/2017 15:01:34][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:01:34][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:01:34][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:01:34][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:01:34][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:01:34][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:02:30][                                  Main()] Starting Addon startup function
+[05/26/2017 15:02:31][                                  Main()] Initializing public SBO Application object
+[05/26/2017 15:02:31][                                  Main()] Retriving SBO application company handle
+[05/26/2017 15:02:35][                                  Main()] Retrived SBO application company handle
+[05/26/2017 15:02:35][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 15:02:35][                      ConnectDICompSSO()] Starting function
+[05/26/2017 15:02:54][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 15:02:54][                                  Main()] Creating Event handler class
+[05/26/2017 15:02:54][                      Class_Initialize()] Starting function
+[05/26/2017 15:02:54][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 15:02:54][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 15:02:54][                                  Main()] Calling AddMenuItems()
+[05/26/2017 15:02:54][                                  Main()] Calling SetApplication Function
+[05/26/2017 15:02:54][                                  Main()] Addon started successfully
+[05/26/2017 15:02:54][                                  Main()] Initializing Recordset 
+[05/26/2017 15:02:58][                            EntityLoad()] Starting function
+[05/26/2017 15:02:58][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 15:02:59][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 15:03:07][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:03:08][                      HeaderValidation()] Starting function
+[05/26/2017 15:03:08][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:03:08][                           DisplayStatus] Starting function
+[05/26/2017 15:03:08][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:03:09][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:03:09][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:03:09][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:03:09][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:03:09][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:06:22][                                  Main()] Starting Addon startup function
+[05/26/2017 15:06:23][                                  Main()] Initializing public SBO Application object
+[05/26/2017 15:06:23][                                  Main()] Retriving SBO application company handle
+[05/26/2017 15:06:27][                                  Main()] Retrived SBO application company handle
+[05/26/2017 15:06:27][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 15:06:27][                      ConnectDICompSSO()] Starting function
+[05/26/2017 15:06:46][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 15:06:46][                                  Main()] Creating Event handler class
+[05/26/2017 15:06:46][                      Class_Initialize()] Starting function
+[05/26/2017 15:06:46][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 15:06:46][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 15:06:46][                                  Main()] Calling AddMenuItems()
+[05/26/2017 15:06:46][                                  Main()] Calling SetApplication Function
+[05/26/2017 15:06:46][                                  Main()] Addon started successfully
+[05/26/2017 15:06:46][                                  Main()] Initializing Recordset 
+[05/26/2017 15:06:50][                            EntityLoad()] Starting function
+[05/26/2017 15:06:50][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 15:06:51][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 15:07:00][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:07:00][                      HeaderValidation()] Starting function
+[05/26/2017 15:07:01][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:07:01][                           DisplayStatus] Starting function
+[05/26/2017 15:07:01][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:07:01][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:07:02][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:07:02][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:07:02][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:07:02][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:07:19][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 15:07:57][                ConnectToTargetCompany()] Completed with SUCCESS
+[05/26/2017 15:08:07][             SBO_Application_ItemEvent()] Starting transaction on company database GHRS
+[05/26/2017 15:08:21][                        MasterDataSync()] Starting function
+[05/26/2017 15:08:25][                        MasterDataSync()] Attempting BP Master Sync Function 
+[05/26/2017 15:08:26][                        MasterDataSync()] Listing BP Master Query SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between 'S1000002' and 'S1000002' order by T0.[CardCode]
+[05/26/2017 15:08:28][                        MasterDataSync()] Calling Function ConvertRecordset() 
+[05/26/2017 15:08:30][                        MasterDataSync()] Processing S1000002
+[05/26/2017 15:08:35][                        MasterDataSync()] Calling Function BPMaterSync()
+[05/26/2017 15:08:36][                           BPMaterSync()] Starting Function
+[05/26/2017 15:08:38][                           BPMaterSync()] Getting the Buyer Code  SELECT T1.[SlpCode] FROM  GHRS ..[OSLP]  T1 WHERE T1.[SlpName]  = ( SELECT top(1) T1.[SlpName] FROM PWCL ..OCRD T0  INNER JOIN PWCL ..OSLP T1 ON T0.[SlpCode] = T1.[SlpCode] WHERE T0.[CardCode]  = 'S1000002')
+[05/26/2017 15:08:39][                           BPMaterSync()] Getting the respective BP SELECT T0.[CardCode]  FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE] = 'S1000002'
+[05/26/2017 15:08:39][                           BPMaterSync()] Getting the Holding Bank code  SELECT T0.[AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7366'
+[05/26/2017 15:08:39][                           BPMaterSync()] Getting the Traget Bank code SELECT isnull(T0.[AbsEntry],0) [AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7366'
+[05/26/2017 15:08:40][                           BPMaterSync()] Calling BP_Assignment()
+[05/26/2017 15:08:40][                           BPMaterSync()]  Series SELECT series, seriesname from GHRS ..nnm1 where objectcode = 2 and seriesname = (SELECT seriesname from PWCL ..nnm1 where objectcode = 2 and series = '59' and DocSubType = 'S') and DocSubType = 'S' 
+[05/26/2017 15:08:40][                         BP_Assignment()] Starting Function 
+[05/26/2017 15:08:42][                         BP_Assignment()] Completed with SUCCESS
+[05/26/2017 15:08:42][                           BPMaterSync()] Attempting to Add the BP Master Data GHRS
+[05/26/2017 15:08:50][                           BPMaterSync()] Finding the latest CardCode SELECT T0.[CardCode] FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE]  = 'S1000002'
+[05/26/2017 15:08:50][                           BPMaterSync()] Updating the Sortcode update OCRD set [BankCtlKey] = '33', [DflIBAN] = '3333', [MandateID] = '' FROM OCRD  WHERE CardCode = 'S1000338'
+[05/26/2017 15:08:50][                           BPMaterSync()] Completed with SUCCESS 
+[05/26/2017 15:08:50][                           BPMaterSync()] Releasing the Objects
+[05/26/2017 15:12:55][                        MasterDataSync()] True 
+[05/26/2017 15:13:01][                        MasterDataSync()] True 
+[05/26/2017 15:13:10][                        MasterDataSync()] Completed with ERROR
+[05/26/2017 15:13:10][             SBO_Application_ItemEvent()] Completed with ERROR
+[05/26/2017 15:13:10][                             EndStatus()] Starting function
+[05/26/2017 15:13:10][                             EndStatus()] Completed with ERROR
+[05/26/2017 15:13:10][             SBO_Application_ItemEvent()] Completed with ERROR
+[05/26/2017 15:13:57][                                  Main()] Starting Addon startup function
+[05/26/2017 15:13:58][                                  Main()] Initializing public SBO Application object
+[05/26/2017 15:13:58][                                  Main()] Retriving SBO application company handle
+[05/26/2017 15:14:02][                                  Main()] Retrived SBO application company handle
+[05/26/2017 15:14:02][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 15:14:02][                      ConnectDICompSSO()] Starting function
+[05/26/2017 15:14:21][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 15:14:21][                                  Main()] Creating Event handler class
+[05/26/2017 15:14:21][                      Class_Initialize()] Starting function
+[05/26/2017 15:14:21][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 15:14:21][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 15:14:21][                                  Main()] Calling AddMenuItems()
+[05/26/2017 15:14:21][                                  Main()] Calling SetApplication Function
+[05/26/2017 15:14:21][                                  Main()] Addon started successfully
+[05/26/2017 15:14:21][                                  Main()] Initializing Recordset 
+[05/26/2017 15:14:29][                            EntityLoad()] Starting function
+[05/26/2017 15:14:29][                            EntityLoad()] SQL SELECT T0.[U_AB_COMCODE], T0.[U_AB_COMPANYNAME], T0.[U_AB_USERCODE], T0.[U_AB_PASSWORD]  FROM [dbo].[@AB_COMPANYDATA]  T0
+[05/26/2017 15:14:30][                            EntityLoad()] Completed with SUCCESS
+[05/26/2017 15:14:40][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:14:40][                      HeaderValidation()] Starting function
+[05/26/2017 15:14:41][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:14:41][                           DisplayStatus] Starting function
+[05/26/2017 15:14:41][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:14:42][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:14:42][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:14:42][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:14:42][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:14:42][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:14:42][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 15:14:52][                ConnectToTargetCompany()] Completed with SUCCESS
+[05/26/2017 15:14:52][             SBO_Application_ItemEvent()] Starting transaction on company database GHRS
+[05/26/2017 15:14:52][                        MasterDataSync()] Starting function
+[05/26/2017 15:14:52][                        MasterDataSync()] Attempting BP Master Sync Function 
+[05/26/2017 15:14:52][                        MasterDataSync()] Listing BP Master Query SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between 'S1000002' and 'S1000002' order by T0.[CardCode]
+[05/26/2017 15:14:52][                        MasterDataSync()] Calling Function ConvertRecordset() 
+[05/26/2017 15:14:52][                        MasterDataSync()] Processing S1000002
+[05/26/2017 15:14:52][                        MasterDataSync()] Calling Function BPMaterSync()
+[05/26/2017 15:14:52][                           BPMaterSync()] Starting Function
+[05/26/2017 15:14:53][                           BPMaterSync()] Getting the Buyer Code  SELECT T1.[SlpCode] FROM  GHRS ..[OSLP]  T1 WHERE T1.[SlpName]  = ( SELECT top(1) T1.[SlpName] FROM PWCL ..OCRD T0  INNER JOIN PWCL ..OSLP T1 ON T0.[SlpCode] = T1.[SlpCode] WHERE T0.[CardCode]  = 'S1000002')
+[05/26/2017 15:14:53][                           BPMaterSync()] Getting the respective BP SELECT T0.[CardCode]  FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE] = 'S1000002'
+[05/26/2017 15:14:53][                           BPMaterSync()] Getting the Holding Bank code  SELECT T0.[AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7366'
+[05/26/2017 15:14:53][                           BPMaterSync()] Getting the Traget Bank code SELECT isnull(T0.[AbsEntry],0) [AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7366'
+[05/26/2017 15:14:53][                           BPMaterSync()] Calling BP_Assignment() S1000338
+[05/26/2017 15:14:53][                   BP_AssignmentUpdate()] Starting Function 
+[05/26/2017 15:14:54][                   BP_AssignmentUpdate()] Completed with SUCCESS
+[05/26/2017 15:14:55][                           BPMaterSync()] Attempting to Update the BP Master Data GHRS
+[05/26/2017 15:14:57][                           BPMaterSync()] Updating the Sortcode update OCRD set [BankCtlKey] = '33', [DflIBAN] = '3333', [MandateID] = '' FROM OCRD  WHERE CardCode = 'S1000338'
+[05/26/2017 15:14:57][                           BPMaterSync()] Completed with SUCCESS 
+[05/26/2017 15:14:57][                           BPMaterSync()] Releasing the Objects
+[05/26/2017 15:14:57][                        MasterDataSync()] True 
+[05/26/2017 15:14:57][                        MasterDataSync()] True 
+[05/26/2017 15:14:57][                        MasterDataSync()] Completed with SUCCESS (BP Master)
+[05/26/2017 15:14:57][                        MasterDataSync()] Completed with SUCCESS
+[05/26/2017 15:14:57][             SBO_Application_ItemEvent()] Disconnecting company database GHRS
+[05/26/2017 15:14:58][             SBO_Application_ItemEvent()] Completed with SUCCESS .......
+[05/26/2017 15:14:58][                             EndStatus()] Starting function
+[05/26/2017 15:14:58][                             EndStatus()] Completed with SUCCESS
+[05/26/2017 15:19:42][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:19:42][                      HeaderValidation()] Starting function
+[05/26/2017 15:19:43][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:19:43][                           DisplayStatus] Starting function
+[05/26/2017 15:19:43][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:19:43][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:19:43][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:19:44][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:19:44][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:19:44][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:19:44][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 15:19:49][                ConnectToTargetCompany()] Completed with SUCCESS
+[05/26/2017 15:19:49][             SBO_Application_ItemEvent()] Starting transaction on company database GHRS
+[05/26/2017 15:19:49][                        MasterDataSync()] Starting function
+[05/26/2017 15:19:49][                        MasterDataSync()] Attempting BP Master Sync Function 
+[05/26/2017 15:19:49][                        MasterDataSync()] Listing BP Master Query SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between 'S1000003' and 'S1000003' order by T0.[CardCode]
+[05/26/2017 15:19:49][                        MasterDataSync()] Calling Function ConvertRecordset() 
+[05/26/2017 15:19:49][                        MasterDataSync()] Processing S1000003
+[05/26/2017 15:19:49][                        MasterDataSync()] Calling Function BPMaterSync()
+[05/26/2017 15:19:49][                           BPMaterSync()] Starting Function
+[05/26/2017 15:19:49][                           BPMaterSync()] Getting the Buyer Code  SELECT T1.[SlpCode] FROM  GHRS ..[OSLP]  T1 WHERE T1.[SlpName]  = ( SELECT top(1) T1.[SlpName] FROM PWCL ..OCRD T0  INNER JOIN PWCL ..OSLP T1 ON T0.[SlpCode] = T1.[SlpCode] WHERE T0.[CardCode]  = 'S1000003')
+[05/26/2017 15:19:49][                           BPMaterSync()] Getting the respective BP SELECT T0.[CardCode]  FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE] = 'S1000003'
+[05/26/2017 15:19:49][                           BPMaterSync()] Getting the Holding Bank code  SELECT T0.[AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7171'
+[05/26/2017 15:19:50][                           BPMaterSync()] Getting the Traget Bank code SELECT isnull(T0.[AbsEntry],0) [AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7171'
+[05/26/2017 15:19:50][                           BPMaterSync()] Calling BP_Assignment()
+[05/26/2017 15:19:50][                           BPMaterSync()]  Series SELECT series, seriesname from GHRS ..nnm1 where objectcode = 2 and seriesname = (SELECT seriesname from PWCL ..nnm1 where objectcode = 2 and series = '59' and DocSubType = 'S') and DocSubType = 'S' 
+[05/26/2017 15:19:50][                         BP_Assignment()] Starting Function 
+[05/26/2017 15:19:51][                         BP_Assignment()] Completed with SUCCESS
+[05/26/2017 15:19:51][                           BPMaterSync()] Attempting to Add the BP Master Data GHRS
+[05/26/2017 15:19:52][                           BPMaterSync()] Finding the latest CardCode SELECT T0.[CardCode] FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE]  = 'S1000003'
+[05/26/2017 15:19:52][                           BPMaterSync()] Updating the Sortcode update OCRD set [BankCtlKey] = '44', [DflIBAN] = '', [MandateID] = '' FROM OCRD  WHERE CardCode = 'S1000339'
+[05/26/2017 15:19:53][                           BPMaterSync()] Completed with SUCCESS 
+[05/26/2017 15:19:53][                           BPMaterSync()] Releasing the Objects
+[05/26/2017 15:19:53][                        MasterDataSync()] True 
+[05/26/2017 15:19:53][                        MasterDataSync()] True 
+[05/26/2017 15:19:53][                        MasterDataSync()] Completed with SUCCESS (BP Master)
+[05/26/2017 15:19:53][                        MasterDataSync()] Completed with SUCCESS
+[05/26/2017 15:19:53][             SBO_Application_ItemEvent()] Disconnecting company database GHRS
+[05/26/2017 15:19:53][             SBO_Application_ItemEvent()] Completed with SUCCESS .......
+[05/26/2017 15:19:53][                             EndStatus()] Starting function
+[05/26/2017 15:19:53][                             EndStatus()] Completed with SUCCESS
+[05/26/2017 15:33:21][                                  Main()] Starting Addon startup function
+[05/26/2017 15:33:22][                                  Main()] Initializing public SBO Application object
+[05/26/2017 15:33:22][                                  Main()] Retriving SBO application company handle
+[05/26/2017 15:33:27][                                  Main()] Retrived SBO application company handle
+[05/26/2017 15:33:27][                                  Main()] Calling ConnectDICompSSO()
+[05/26/2017 15:33:27][                      ConnectDICompSSO()] Starting function
+[05/26/2017 15:33:51][                      ConnectDICompSSO()] Completed with SUCCESS
+[05/26/2017 15:33:51][                                  Main()] Creating Event handler class
+[05/26/2017 15:33:51][                      Class_Initialize()] Starting function
+[05/26/2017 15:33:51][                      Class_Initialize()] Retriving SBO Application handle
+[05/26/2017 15:33:51][                      Class_Initialize()] Completed with SUCCESS
+[05/26/2017 15:33:51][                                  Main()] Calling AddMenuItems()
+[05/26/2017 15:33:51][                                  Main()] Calling SetApplication Function
+[05/26/2017 15:33:51][                                  Main()] Addon started successfully
+[05/26/2017 15:33:51][                                  Main()] Initializing Recordset 
+[05/26/2017 15:34:16][             SBO_Application_ItemEvent()] Calling HeaderValidation()
+[05/26/2017 15:34:16][                      HeaderValidation()] Starting function
+[05/26/2017 15:34:16][                      HeaderValidation()] Completed with SUCCESS
+[05/26/2017 15:34:16][                           DisplayStatus] Starting function
+[05/26/2017 15:34:16][                           DisplayStatus] Creating form Assign Department
+[05/26/2017 15:34:17][                           DisplayStatus] Completed with SUCCESS
+[05/26/2017 15:34:17][             SBO_Application_ItemEvent()] Calling ConnectToTargetCompany()
+[05/26/2017 15:34:17][                ConnectToTargetCompany()] Starting function
+[05/26/2017 15:34:17][                ConnectToTargetCompany()] Initializing the Company Object
+[05/26/2017 15:34:17][                ConnectToTargetCompany()] Assigning the representing database name
+[05/26/2017 15:34:17][                ConnectToTargetCompany()] Connecting to the Company Database. GHRS
+[05/26/2017 15:34:27][                ConnectToTargetCompany()] Completed with SUCCESS
+[05/26/2017 15:34:27][             SBO_Application_ItemEvent()] Starting transaction on company database GHRS
+[05/26/2017 15:34:27][                        MasterDataSync()] Starting function
+[05/26/2017 15:34:27][                        MasterDataSync()] Attempting BP Master Sync Function 
+[05/26/2017 15:34:27][                        MasterDataSync()] Listing BP Master Query SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between 'S1000004' and 'S1000004' order by T0.[CardCode]
+[05/26/2017 15:34:27][                        MasterDataSync()] Calling Function ConvertRecordset() 
+[05/26/2017 15:34:27][                        MasterDataSync()] Processing S1000004
+[05/26/2017 15:34:27][                        MasterDataSync()] Calling Function BPMaterSync()
+[05/26/2017 15:34:27][                           BPMaterSync()] Starting Function
+[05/26/2017 15:34:28][                           BPMaterSync()] Getting the Buyer Code  SELECT T1.[SlpCode] FROM  GHRS ..[OSLP]  T1 WHERE T1.[SlpName]  = ( SELECT top(1) T1.[SlpName] FROM PWCL ..OCRD T0  INNER JOIN PWCL ..OSLP T1 ON T0.[SlpCode] = T1.[SlpCode] WHERE T0.[CardCode]  = 'S1000004')
+[05/26/2017 15:34:28][                           BPMaterSync()] Getting the respective BP SELECT T0.[CardCode]  FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE] = 'S1000004'
+[05/26/2017 15:34:28][                           BPMaterSync()] Getting the Holding Bank code  SELECT T0.[AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7375'
+[05/26/2017 15:34:28][                           BPMaterSync()] Getting the Traget Bank code SELECT isnull(T0.[AbsEntry],0) [AbsEntry] FROM ODSC T0 WHERE T0.[BankCode] = '7375'
+[05/26/2017 15:34:28][                           BPMaterSync()] Calling BP_Assignment()
+[05/26/2017 15:34:28][                           BPMaterSync()]  Series SELECT series, seriesname from GHRS ..nnm1 where objectcode = 2 and seriesname = (SELECT seriesname from PWCL ..nnm1 where objectcode = 2 and series = '59' and DocSubType = 'S') and DocSubType = 'S' 
+[05/26/2017 15:34:28][                         BP_Assignment()] Starting Function 
+[05/26/2017 15:34:29][                         BP_Assignment()] Completed with SUCCESS
+[05/26/2017 15:34:30][                           BPMaterSync()] Attempting to Add the BP Master Data GHRS
+[05/26/2017 15:34:30][                           BPMaterSync()] Finding the latest CardCode SELECT T0.[CardCode] FROM OCRD T0 WHERE T0.[U_AB_SYNCCODE]  = 'S1000004'
+[05/26/2017 15:34:30][                           BPMaterSync()] Updating the Sortcode update OCRD set [BankCtlKey] = '', [DflIBAN] = '', [MandateID] = '' FROM OCRD  WHERE CardCode = 'S1000340'
+[05/26/2017 15:34:31][                           BPMaterSync()] Completed with SUCCESS 
+[05/26/2017 15:34:31][                           BPMaterSync()] Releasing the Objects
+[05/26/2017 15:34:31][                        MasterDataSync()] True 
+[05/26/2017 15:34:31][                        MasterDataSync()] True 
+[05/26/2017 15:34:31][                        MasterDataSync()] Completed with SUCCESS (BP Master)
+[05/26/2017 15:34:31][                        MasterDataSync()] Completed with SUCCESS
+[05/26/2017 15:34:31][             SBO_Application_ItemEvent()] Disconnecting company database GHRS
+[05/26/2017 15:34:31][             SBO_Application_ItemEvent()] Completed with SUCCESS .......
+[05/26/2017 15:34:31][                             EndStatus()] Starting function
+[05/26/2017 15:34:32][                             EndStatus()] Completed with SUCCESS

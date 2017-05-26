@@ -184,3 +184,30 @@
 [02/15/2017 12:41:29][             SBO_Application_ItemEvent()] Connection to Database (SVSL) 
  	  - The specified resource name cannot be found in the image file.
 
+[05/26/2017 14:27:38][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:27:38][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:38:41][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:38:42][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:41:50][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:43:04][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 14:43:04][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 15:13:10][                        MasterDataSync()] System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED))
+[05/26/2017 15:13:10][             SBO_Application_ItemEvent()] System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED))
+[05/26/2017 15:13:10][                               ShowErr()] Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.IApplication'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{D1F75D47-137C-4335-AC2A-3FE209831B6A}' failed due to the following error: System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED)).
+[05/26/2017 15:13:10][                             EndStatus()] Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.IApplication'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{D1F75D47-137C-4335-AC2A-3FE209831B6A}' failed due to the following error: System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED)).
+[05/26/2017 15:13:10][             SBO_Application_ItemEvent()] System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED))
+[05/26/2017 15:13:10][                               ShowErr()] Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.IApplication'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{D1F75D47-137C-4335-AC2A-3FE209831B6A}' failed due to the following error: System call failed. (Exception from HRESULT: 0x80010100 (RPC_E_SYS_CALL_FAILED)).

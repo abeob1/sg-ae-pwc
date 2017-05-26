@@ -1461,10 +1461,11 @@ Namespace AE_PWC_AO03
                 oBPMaster_Target.VatLiable = oBPMaster.VatLiable
                 ' oBPMaster_Target.WithholdingTaxCertified = oBPMaster.WithholdingTaxCertified
                 oBPMaster_Target.VatGroup = oBPMaster.VatGroup
-                oBPMaster_Target.Frozen = SAPbobsCOM.BoYesNoEnum.tNO
+                '' oBPMaster_Target.Frozen = SAPbobsCOM.BoYesNoEnum.tNO
 
                 oBPMaster_Target.FreeText = oBPMaster.FreeText
                 oBPMaster_Target.Frozen = oBPMaster.Frozen
+                oBPMaster_Target.Valid = oBPMaster.Valid
                 If Not String.IsNullOrEmpty(oBPMaster.UserFields.Fields.Item("U_AB_WTAXREQ").Value) Then
                     oBPMaster_Target.UserFields.Fields.Item("U_AB_WTAXREQ").Value = oBPMaster.UserFields.Fields.Item("U_AB_WTAXREQ").Value
                 End If

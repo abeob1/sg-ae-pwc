@@ -1456,12 +1456,17 @@ Namespace AE_PWC_AO03
                 oCompany = New SAPbobsCOM.Company
 
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Assigning the representing database name", sFuncName)
+                Dim ss = p_oDICompany.Server
+                Dim ff = p_oDICompany.DbServerType
+                Dim jj = p_oDICompany.LicenseServer
                 oCompany.Server = p_oDICompany.Server
                 oCompany.DbServerType = p_oDICompany.DbServerType
-                oCompany.LicenseServer = p_oDICompany.LicenseServer
+                oCompany.LicenseServer = "96B1" ''p_oDICompany.LicenseServer
                 oCompany.CompanyDB = sEntity
                 oCompany.UserName = sUsername
                 oCompany.Password = sPassword
+                oCompany.DbUserName = "sa"
+                oCompany.DbPassword = "sa@1234"
                 oCompany.language = SAPbobsCOM.BoSuppLangs.ln_English
                 oCompany.UseTrusted = False
                 ' oCompany.XmlExportType = SAPbobsCOM.BoXmlExportTypes.xet_ExportImportMode
