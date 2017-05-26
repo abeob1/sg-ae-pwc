@@ -51,7 +51,7 @@ Namespace AE_PWC_AO02
                     Throw New ArgumentException("SetSboLoginContext of Single SignOn Failed.")
                 End If
                 p_oSBOApplication.StatusBar.SetText("Please Wait While Company Connecting... ", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Success)
-                objCompany.LicenseServer = "WIN-D6KRARO05H9:30000"
+                ''  objCompany.LicenseServer = "WIN-D6KRARO05H9:30000"
                 lRetval = objCompany.Connect
                 If lRetval <> 0 Then
                     objCompany.GetLastError(iErrCode, sErrDesc)

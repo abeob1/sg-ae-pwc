@@ -4,3 +4,18 @@
 [11/28/2016 19:34:58][      Summary Report Show button click()] Index was outside the bounds of the array.
 [11/29/2016 18:39:53][      Summary Report Show button click()] Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.Columns'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{C830390A-4D84-4DA6-8D9A-91322F9A37EC}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
 [11/29/2016 18:41:30][      Summary Report Show button click()] Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.EditText'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{AE1C43FF-0F2B-4130-A0B7-40E38D5EC60E}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+[05/25/2017 17:44:40][                      ConnectDICompSSO()] Connect of Single SignOn failed :  - The specified resource name cannot be found in the image file.
+
+[05/25/2017 17:44:40][                                  Main()] Connect of Single SignOn failed :  - The specified resource name cannot be found in the image file.
+
+[05/25/2017 18:05:45][              Header Show button click()] Arithmetic operation resulted in an overflow.
+[05/25/2017 18:08:00][              Header Show button click()] Arithmetic operation resulted in an overflow.
+[05/25/2017 18:21:09][             SBO_Application_ItemEvent()] Value cannot be null.
+Parameter name: Argument 'Array' is Nothing.
+[05/26/2017 09:50:19][      Summary Report Show button click()] GL Account From couldn`t be blank ....!
+[05/26/2017 09:58:09][                ConnectToTargetCompany()] Connection to Database (IAS7) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[05/26/2017 09:58:09][             SBO_Application_ItemEvent()] Connection to Database (IAS7) 
+ 	  - The specified resource name cannot be found in the image file.
+

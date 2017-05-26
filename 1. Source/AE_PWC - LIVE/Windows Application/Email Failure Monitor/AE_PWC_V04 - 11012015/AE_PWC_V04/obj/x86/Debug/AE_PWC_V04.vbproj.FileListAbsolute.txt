@@ -145,3 +145,14 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Applicatio
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe.config
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.exe
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.pdb
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\bin\Debug\AE_PWC_V04.xml
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmEmailMonitor.resources
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.frmTray.resources
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.Resources.resources
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.vbproj.GenerateResource.Cache
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.exe
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.xml
+E:\PWC\Windows Application\Email Failure Monitor\AE_PWC_V04 - 11012015\AE_PWC_V04\obj\x86\Debug\AE_PWC_V04.pdb

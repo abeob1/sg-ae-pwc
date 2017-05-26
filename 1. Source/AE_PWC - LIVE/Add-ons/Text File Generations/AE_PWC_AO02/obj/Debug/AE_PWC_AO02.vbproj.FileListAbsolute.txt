@@ -256,3 +256,23 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File 
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.pdb
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbprojResolveAssemblyReference.cache
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbproj.ResolveComReference.cache
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Browse.resources
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Resources.resources
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Viewer.resources
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbproj.GenerateResource.Cache
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.exe
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.xml
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.pdb
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe.config
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.pdb
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.xml
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\CrystalDecisions.Shared.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\CrystalDecisions.Web.dll
+E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\CrystalDecisions.Windows.Forms.dll

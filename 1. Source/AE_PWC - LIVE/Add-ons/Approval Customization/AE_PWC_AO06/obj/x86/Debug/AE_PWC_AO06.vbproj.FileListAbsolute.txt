@@ -42,3 +42,12 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Approval C
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.vbproj.ResolveComReference.cache
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.pdb
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\bin\Debug\AE_PWC_AO06.exe.config
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\bin\Debug\AE_PWC_AO06.exe
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\bin\Debug\AE_PWC_AO06.pdb
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.vbprojResolveAssemblyReference.cache
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.vbproj.ResolveComReference.cache
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.exe
+E:\PWC\Add-ons\Approval Customization\AE_PWC_AO06\obj\x86\Debug\AE_PWC_AO06.pdb

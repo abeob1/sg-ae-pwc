@@ -210,3 +210,17 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Budget Upl
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.pdb
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\bin\Debug\AE_PWC_AO04.exe.config
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\bin\Debug\AE_PWC_AO04.exe
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\bin\Debug\AE_PWC_AO04.pdb
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\bin\Debug\AE_PWC_AO04.xml
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.vbprojResolveAssemblyReference.cache
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.vbproj.ResolveComReference.cache
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.Browse.resources
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.Resources.resources
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.vbproj.GenerateResource.Cache
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.exe
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.xml
+E:\PWC\Add-ons\Budget Upload\AE_PWC_AO04\obj\Debug\AE_PWC_AO04.pdb

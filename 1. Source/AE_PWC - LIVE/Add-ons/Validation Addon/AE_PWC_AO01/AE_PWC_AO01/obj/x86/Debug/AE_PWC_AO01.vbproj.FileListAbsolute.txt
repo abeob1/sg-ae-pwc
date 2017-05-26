@@ -395,3 +395,18 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Validation
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.Browse.resources
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.Resources.resources
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.vbproj.GenerateResource.Cache
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\AE_PWC_AO01.exe.config
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.vbproj.ResolveComReference.cache
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.exe
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.xml
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.pdb
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\AE_PWC_AO01.exe
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\AE_PWC_AO01.pdb
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\AE_PWC_AO01.xml
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\bin\Release\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.Browse.resources
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.Resources.resources
+E:\PWC\Add-ons\Validation Addon\AE_PWC_AO01\AE_PWC_AO01\obj\x86\Debug\AE_PWC_AO01.vbproj.GenerateResource.Cache

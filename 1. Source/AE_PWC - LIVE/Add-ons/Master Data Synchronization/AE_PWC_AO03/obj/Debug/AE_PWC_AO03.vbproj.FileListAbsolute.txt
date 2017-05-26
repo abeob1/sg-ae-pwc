@@ -237,3 +237,16 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Dat
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.pdb
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.exe.config
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.exe
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.pdb
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\bin\Debug\AE_PWC_AO03.xml
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbprojResolveAssemblyReference.cache
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\Interop.SAPbouiCOM.dll
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbproj.ResolveComReference.cache
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.Resources.resources
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.vbproj.GenerateResource.Cache
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.exe
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.xml
+E:\PWC\Add-ons\Master Data Synchronization\AE_PWC_AO03\obj\Debug\AE_PWC_AO03.pdb

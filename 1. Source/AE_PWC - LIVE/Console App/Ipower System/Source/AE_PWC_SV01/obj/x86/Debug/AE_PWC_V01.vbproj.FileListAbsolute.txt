@@ -297,3 +297,15 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\Ipower
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.pdb
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.exe.config
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.exe
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.pdb
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\bin\Release\AE_PWC_SV01.xml
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\bin\Release\Interop.SAPbobsCOM.dll
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\Interop.SAPbobsCOM.dll
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_V01.vbproj.ResolveComReference.cache
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.Resources.resources
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_V01.vbproj.GenerateResource.Cache
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.exe
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.xml
+E:\PWC\Console App\Ipower System\Source\AE_PWC_SV01\obj\x86\Debug\AE_PWC_SV01.pdb

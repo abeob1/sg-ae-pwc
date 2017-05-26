@@ -220,3 +220,15 @@ E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\E
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
 E:\Application\Projects\SVN\PWC\trunk\1. Source\AE_PWC - LIVE\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe.config
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.exe
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.pdb
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\bin\Debug\AE_PWC_WS01.xml
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbprojResolveAssemblyReference.cache
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Resources.resources
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.ProjectInstaller.resources
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.Service1.resources
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.vbproj.GenerateResource.Cache
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.exe
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.xml
+E:\PWC\Windows Services\Email Notification\AE_PWC_WS01\AE_PWC_WS01\obj\x86\Debug\AE_PWC_WS01.pdb
