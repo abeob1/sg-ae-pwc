@@ -1333,6 +1333,7 @@ Namespace AE_PWC_AO02
                                             BubbleEvent = False
                                             Exit Sub
                                         End If
+                                        SBO_Application.SetStatusBarMessage("Printing In Process ...! ", SAPbouiCOM.BoMessageTime.bmt_Short, False)
                                         oForm.Freeze(True)
                                         sMonth = oForm.Items.Item("Item_13").Specific.selected.description & "," & oForm.Items.Item("Item_14").Specific.selected.description
                                         ''  sDistribution = oForm.Items.Item("Item_5").Specific.value & "," & oForm.Items.Item("Item_8").Specific.value

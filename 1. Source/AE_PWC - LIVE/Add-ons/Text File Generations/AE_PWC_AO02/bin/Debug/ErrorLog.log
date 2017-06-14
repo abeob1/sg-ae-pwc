@@ -27,3 +27,9 @@ Parameter name: Argument 'Array' is Nothing.
 [05/26/2017 16:12:28][             SBO_Application_ItemEvent()] Value cannot be null.
 Parameter name: Argument 'Array' is Nothing.
 [05/26/2017 16:28:01][             SBO_Application_ItemEvent()] Operating Unit 52115 mapped with the current login entity ...... !
+[06/13/2017 11:05:05][                ConnectToTargetCompany()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+
+[06/13/2017 11:05:05][             SBO_Application_ItemEvent()] Connection to Database (GHRS) 
+ 	  - The specified resource name cannot be found in the image file.
+

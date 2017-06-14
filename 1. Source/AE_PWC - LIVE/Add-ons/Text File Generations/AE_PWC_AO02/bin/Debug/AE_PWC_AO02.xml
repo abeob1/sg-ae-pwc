@@ -6,20 +6,7 @@ AE_PWC_AO02
 </name>
 </assembly>
 <members>
-<member name="P:AE_PWC_AO02.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:AE_PWC_AO02.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:AE_PWC_AO02.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:AE_PWC_AO02.Print.JournalEntryDataTable">
+<member name="T:AE_PWC_AO02.Print.JournalEntryDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -46,6 +33,19 @@ Row event argument class
 </member><member name="T:AE_PWC_AO02.Print">
 	<summary>
 Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:AE_PWC_AO02.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AE_PWC_AO02.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AE_PWC_AO02.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
 </member>
 </members>

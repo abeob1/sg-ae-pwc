@@ -271,3 +271,18 @@ E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe.confi
 E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe
 E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.pdb
 E:\PWC\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.xml
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe.config
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\Interop.SAPbouiCOM.dll
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbproj.ResolveComReference.cache
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.exe
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.xml
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.pdb
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.exe
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.pdb
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\bin\Debug\AE_PWC_AO02.xml
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbprojResolveAssemblyReference.cache
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Browse.resources
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Resources.resources
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.Viewer.resources
+E:\Abeo Projects\PWC\trunk\1. Source\AE_PWC - LIVE\Add-ons\Text File Generations\AE_PWC_AO02\obj\Debug\AE_PWC_AO02.vbproj.GenerateResource.Cache

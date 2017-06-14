@@ -667,11 +667,8 @@ Namespace AE_PWC_AO02
                 orset.DoQuery(sSQL)
                 oDVCom = New DataView(ConvertRecordsetToDataTable(orset, sErrDesc))
                 If Not String.IsNullOrEmpty(sErrDesc) Then Throw New ArgumentException(sErrDesc)
-                If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("1", sFuncName)
                 oDVCom.RowFilter = "U_AB_COMCODE='" & p_oDICompany.CompanyDB & "'"
-                If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("2", sFuncName)
                 If oDVCom.Count > 0 Then
-                    If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("3", sFuncName)
                     P_sJV_Debit = oDVCom.Item(0)("U_AB_JVDEBIT").ToString()
                     P_sJV_Credit = oDVCom.Item(0)("U_AB_JVCREDIT").ToString()
                     P_sNonJV_Credit = oDVCom.Item(0)("U_AB_NONJVCREDIT").ToString()
@@ -684,7 +681,7 @@ Namespace AE_PWC_AO02
                 End If
 
                 For imjs As Integer = 1 To oMatrix.RowCount
-                    If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("5", sFuncName)
+
                     If String.IsNullOrEmpty(oMatrix.Columns.Item("Col_0").Cells.Item(imjs).Specific.string) Then Continue For
                     If Not String.IsNullOrEmpty(oMatrix.Columns.Item("Col_6").Cells.Item(imjs).Specific.string) Then
                         sNewOU = oMatrix.Columns.Item("Col_6").Cells.Item(imjs).Specific.string
@@ -700,15 +697,15 @@ Namespace AE_PWC_AO02
 
                     oDVNew.RowFilter = "PrcCode='" & oMatrix.Columns.Item("Col_4").Cells.Item(imjs).Specific.string & "'"
                     oDVBU.RowFilter = "OU='" & oMatrix.Columns.Item("Col_4").Cells.Item(imjs).Specific.string & "'"
-                    If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("6" & CStr(oDVNew.Count), sFuncName)
+
                     If oDVNew.Count > 0 Then
-                        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("7" & oDVNew.Item(0)("U_AB_ENTITY").ToString(), sFuncName)
+
                         If p_oDICompany.CompanyDB = oDVNew.Item(0)("U_AB_ENTITY").ToString() Then
                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("8", sFuncName)
                             sErrDesc = "Operating Unit " & oMatrix.Columns.Item("Col_4").Cells.Item(imjs).Specific.string & " mapped with the current login entity ...... !"
                             Exit Function
                         End If
-                        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("9", sFuncName)
+
                         oDVCom.RowFilter = "U_AB_COMCODE='" & oDVNew.Item(0)("U_AB_ENTITY").ToString() & "'"
                         If oDVCom.Count > 0 Then
                             If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("10", sFuncName)
@@ -730,11 +727,11 @@ Namespace AE_PWC_AO02
                             '', oMatrix.Columns.Item("Col_9").Cells.Item(imjs).Specific.string, oMatrix.Columns.Item("Col_10").Cells.Item(imjs).Specific.string, oDVNew.Item(0)("U_AB_ENTITY").ToString(), oDVNew.Item(0)("AcctCode").ToString() _
                             '', oDVCom.Item(0)("U_AB_USERCODE").ToString(), oDVCom.Item(0)("U_AB_PASSWORD").ToString(), oDVCom.Item(0)("U_AB_GROUP").ToString(), oMatrix.Columns.Item("Col_11").Cells.Item(imjs).Specific.string, oDVBU.Item(0)("BU").ToString(), oDVBU.Item(0)("LOS").ToString())
                         Else
-                            If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("12", sFuncName)
+
                             oDTError.Rows.Add(oDVNew.Item(0)("U_AB_ENTITY").ToString(), "No Credentials mapped in the Companydata UDT ")
                         End If
                     Else
-                        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("11", sFuncName)
+
                         oDTError.Rows.Add(sNewOU, "No Entities are mapped in OACT ")
                     End If
                 Next
@@ -821,8 +818,8 @@ Namespace AE_PWC_AO02
                 oipower.Columns.Add("BU", GetType(String))
                 oipower.Columns.Add("LOS", GetType(String))
                 oipower.Columns.Add("Partner", GetType(String))
-
-                sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T0.U_AB_ENTITY = T1.Details WHERE T0.[DimCode] = 3"
+                sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T1.Details  like '%' + T0.U_AB_ENTITY + '%' WHERE T0.[DimCode] = 3"
+                '' sSQL = "SELECT T0.[PrcCode], T0.[PrcName], T0.[U_AB_ENTITY], T1.[AcctCode], T1.[AcctName] FROM OPRC T0 join OACT T1 on T0.U_AB_ENTITY = T1.Details WHERE T0.[DimCode] = 3"
                 orset.DoQuery(sSQL)
                 oDVNew = New DataView(ConvertRecordsetToDataTable(orset, sErrDesc))
                 If Not String.IsNullOrEmpty(sErrDesc) Then Throw New ArgumentException(sErrDesc)
@@ -860,11 +857,11 @@ Namespace AE_PWC_AO02
                     End If
                 Next
 
-                If oDTError.Rows.Count > 0 Then
-                    Write_TextFileError(oDTError, System.Windows.Forms.Application.StartupPath, sErrDesc)
-                    sErrDesc = "Validation Error Occurres ......! "
-                    Return Nothing
-                End If
+                'If oDTError.Rows.Count > 0 Then
+                '    Write_TextFileError(oDTError, System.Windows.Forms.Application.StartupPath, sErrDesc)
+                '    sErrDesc = "Validation Error Occurres ......! "
+                '    Return Nothing
+                'End If
 
                 'Console.WriteLine("Del_schema() ", sFuncName)
                 If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS ", sFuncName)

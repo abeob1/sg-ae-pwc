@@ -4,12 +4,15 @@ Validation Error
 OU Code                  Error Msg
 ====================================================================================================
       
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
-52115               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
+52111               No Entities are mapped in OACT 
