@@ -1,0 +1,58 @@
+D:\Addon Collection\Import JV\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Addon Collection\Import JV\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Addon Collection\Import JV\obj\Debug\Import JV.vbproj.ResolveComReference.cache
+D:\Addon Collection\Import JV\obj\Debug\ResolveAssemblyReference.cache
+D:\Addon Collection\Import JV\obj\Debug\Import_UDT_UDF.frmImport.resources
+D:\Addon Collection\Import JV\obj\Debug\Import_UDT_UDF.Resources.resources
+D:\Addon Collection\Import JV\obj\Debug\Import_UDT_UDF.myLabel.resources
+D:\Addon Collection\Import JV\obj\Debug\Import_UDT_UDF.SAP_FakeForm.resources
+D:\Addon Collection\Import JV\obj\Debug\Import JV.vbproj.GenerateResource.Cache
+D:\Addon Collection\Import JV\obj\Debug\Import JV.exe.licenses
+D:\Addon Collection\Import JV\bin\Debug\Import JV.exe
+D:\Addon Collection\Import JV\bin\Debug\Import JV.pdb
+D:\Addon Collection\Import JV\bin\Debug\Import JV.xml
+D:\Addon Collection\Import JV\bin\Debug\Janus.Data.v3.dll
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.Ribbon.v3.dll
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Addon Collection\Import JV\bin\Debug\Janus.Windows.Ribbon.v3.xml
+D:\Addon Collection\Import JV\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Addon Collection\Import JV\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Addon Collection\Import JV\obj\Debug\Import JV.exe
+D:\Addon Collection\Import JV\obj\Debug\Import JV.xml
+D:\Addon Collection\Import JV\obj\Debug\Import JV.pdb
+D:\Addon Collection\Import JV\Source\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Addon Collection\Import JV\Source\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.vbproj.ResolveComReference.cache
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.exe
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.xml
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.pdb
+D:\Addon Collection\Import JV\Source\bin\Debug\Import JV.exe
+D:\Addon Collection\Import JV\Source\bin\Debug\Import JV.pdb
+D:\Addon Collection\Import JV\Source\bin\Debug\Import JV.xml
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Data.v3.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.Ribbon.v3.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Addon Collection\Import JV\Source\bin\Debug\Janus.Windows.Ribbon.v3.xml
+D:\Addon Collection\Import JV\Source\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Addon Collection\Import JV\Source\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Addon Collection\Import JV\Source\obj\Debug\ResolveAssemblyReference.cache
+D:\Addon Collection\Import JV\Source\obj\Debug\Import_UDT_UDF.frmImport.resources
+D:\Addon Collection\Import JV\Source\obj\Debug\Import_UDT_UDF.Resources.resources
+D:\Addon Collection\Import JV\Source\obj\Debug\Import_UDT_UDF.myLabel.resources
+D:\Addon Collection\Import JV\Source\obj\Debug\Import_UDT_UDF.SAP_FakeForm.resources
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.vbproj.GenerateResource.Cache
+D:\Addon Collection\Import JV\Source\obj\Debug\Import JV.exe.licenses
+D:\Others\My Projects\WS\Addon\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Others\My Projects\WS\Addon\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Others\My Projects\WS\Addon\obj\Debug\Import JV.vbproj.ResolveComReference.cache
+D:\Others\My Projects\WS\Addon\obj\Debug\Import JV.exe
+D:\Others\My Projects\WS\Addon\obj\Debug\Import JV.xml
+D:\Others\My Projects\WS\Addon\obj\Debug\Import JV.pdb

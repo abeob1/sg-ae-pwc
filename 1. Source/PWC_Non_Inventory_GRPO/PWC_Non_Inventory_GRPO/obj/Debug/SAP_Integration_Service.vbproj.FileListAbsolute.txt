@@ -1,0 +1,54 @@
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Data.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Ribbon.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Ribbon.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\ResolveAssemblyReference.cache
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration_Service.vbproj.ResolveComReference.cache
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration_Service.vbproj.GenerateResource.Cache
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.exe.config
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.exe
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.pdb
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.xml
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.frmSetup.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.frmIntegrationMonitor.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.Resources.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.myLabel.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.SAP_FakeForm.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.Service1.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.exe.licenses
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.exe
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.xml
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.pdb
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.exe.config
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.exe
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.pdb
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\SAP_Integration.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Data.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Ribbon.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Janus.Windows.Ribbon.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\ResolveAssemblyReference.cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration_Service.vbproj.ResolveComReference.cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.frmSetup.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.frmIntegrationMonitor.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.Resources.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.myLabel.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.SAP_FakeForm.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.Service1.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration_Service.vbproj.GenerateResource.Cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.exe.licenses
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.exe
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Debug\SAP_Integration.pdb

@@ -880,3 +880,180 @@
 [05/04/2017 15:27:37][      GetSystemIntializeInfo()] Completed with SUCCESS
 [05/04/2017 15:27:37][                        Main()] Addon started successfully
 [05/04/2017 15:27:37][                        Main()] Calling EndStatus()
+[06/15/2017 12:59:11][                        Main()] Starting Addon startup function
+[06/15/2017 12:59:11][                        Main()] Initializing public SBO Application object
+[06/15/2017 12:59:11][                        Main()] Retriving SBO application company handle
+[06/15/2017 12:59:14][                        Main()] Calling ConnectDICompSSO()
+[06/15/2017 12:59:14][            ConnectDICompSSO()] Starting function
+[06/15/2017 12:59:26][            ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2017 12:59:26][                        Main()] Calling AddMenus Functions
+[06/15/2017 12:59:26][                        Main()] AddMenus Functions Completed Successfully.
+[06/15/2017 12:59:26][                        Main()] Creating Event handler class
+[06/15/2017 12:59:26][            Class_Initialize()] Starting function
+[06/15/2017 12:59:26][            Class_Initialize()] Retriving SBO Application handle
+[06/15/2017 12:59:26][            Class_Initialize()] Completed with SUCCESS
+[06/15/2017 12:59:26][                        Main()] Calling SetApplication Function
+[06/15/2017 12:59:26][                        Main()] Calling GetSystemIntializeInfo()
+[06/15/2017 12:59:26][      GetSystemIntializeInfo()] Starting Function
+[06/15/2017 12:59:26][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/15/2017 12:59:26][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/15/2017 12:59:26][                        Main()] Addon started successfully
+[06/15/2017 12:59:27][                        Main()] Calling EndStatus()
+[06/15/2017 12:59:36][                        Main()] Completed with ERROR
+[06/15/2017 13:00:34][                              ] User Authorization CREATE AND UPDATE
+[06/15/2017 13:05:39][                        Main()] Starting Addon startup function
+[06/15/2017 13:05:40][                        Main()] Initializing public SBO Application object
+[06/15/2017 13:05:40][                        Main()] Retriving SBO application company handle
+[06/15/2017 13:05:42][                        Main()] Calling ConnectDICompSSO()
+[06/15/2017 13:05:42][            ConnectDICompSSO()] Starting function
+[06/15/2017 13:05:54][            ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2017 13:05:54][                        Main()] Calling AddMenus Functions
+[06/15/2017 13:05:54][                        Main()] AddMenus Functions Completed Successfully.
+[06/15/2017 13:05:54][                        Main()] Creating Event handler class
+[06/15/2017 13:05:54][            Class_Initialize()] Starting function
+[06/15/2017 13:05:54][            Class_Initialize()] Retriving SBO Application handle
+[06/15/2017 13:05:54][            Class_Initialize()] Completed with SUCCESS
+[06/15/2017 13:05:54][                        Main()] Calling SetApplication Function
+[06/15/2017 13:05:54][                        Main()] Calling GetSystemIntializeInfo()
+[06/15/2017 13:05:54][      GetSystemIntializeInfo()] Starting Function
+[06/15/2017 13:05:54][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/15/2017 13:05:54][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/15/2017 13:05:54][                        Main()] Addon started successfully
+[06/15/2017 13:05:54][                        Main()] Calling EndStatus()
+[06/15/2017 13:06:06][                              ] User Authorization CREATE AND UPDATE
+[06/15/2017 13:38:43][                        Main()] Starting Addon startup function
+[06/15/2017 13:38:44][                        Main()] Initializing public SBO Application object
+[06/15/2017 13:38:44][                        Main()] Retriving SBO application company handle
+[06/15/2017 13:38:46][                        Main()] Calling ConnectDICompSSO()
+[06/15/2017 13:38:46][            ConnectDICompSSO()] Starting function
+[06/15/2017 13:38:58][            ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2017 13:38:58][                        Main()] Calling AddMenus Functions
+[06/15/2017 13:38:58][                        Main()] AddMenus Functions Completed Successfully.
+[06/15/2017 13:38:58][                        Main()] Creating Event handler class
+[06/15/2017 13:38:58][            Class_Initialize()] Starting function
+[06/15/2017 13:38:58][            Class_Initialize()] Retriving SBO Application handle
+[06/15/2017 13:38:58][            Class_Initialize()] Completed with SUCCESS
+[06/15/2017 13:38:58][                        Main()] Calling SetApplication Function
+[06/15/2017 13:38:58][                        Main()] Calling GetSystemIntializeInfo()
+[06/15/2017 13:38:58][      GetSystemIntializeInfo()] Starting Function
+[06/15/2017 13:38:58][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/15/2017 13:38:58][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/15/2017 13:38:58][                        Main()] Addon started successfully
+[06/15/2017 13:38:58][                        Main()] Calling EndStatus()
+[06/15/2017 13:39:14][                              ] User Authorization CREATE AND UPDATE
+[06/15/2017 13:40:34][                        Main()] Starting Addon startup function
+[06/15/2017 13:40:35][                        Main()] Initializing public SBO Application object
+[06/15/2017 13:40:36][                        Main()] Retriving SBO application company handle
+[06/15/2017 13:40:39][                        Main()] Calling ConnectDICompSSO()
+[06/15/2017 13:40:39][            ConnectDICompSSO()] Starting function
+[06/15/2017 13:41:03][                        Main()] Starting Addon startup function
+[06/15/2017 13:41:03][                        Main()] Initializing public SBO Application object
+[06/15/2017 13:41:03][                        Main()] Retriving SBO application company handle
+[06/15/2017 13:41:06][                        Main()] Calling ConnectDICompSSO()
+[06/15/2017 13:41:06][            ConnectDICompSSO()] Starting function
+[06/15/2017 13:41:20][            ConnectDICompSSO()] Completed with SUCCESS
+[06/15/2017 13:41:20][                        Main()] Calling AddMenus Functions
+[06/15/2017 13:41:20][                        Main()] AddMenus Functions Completed Successfully.
+[06/15/2017 13:41:20][                        Main()] Creating Event handler class
+[06/15/2017 13:41:20][            Class_Initialize()] Starting function
+[06/15/2017 13:41:20][            Class_Initialize()] Retriving SBO Application handle
+[06/15/2017 13:41:20][            Class_Initialize()] Completed with SUCCESS
+[06/15/2017 13:41:21][                        Main()] Calling SetApplication Function
+[06/15/2017 13:41:21][                        Main()] Calling GetSystemIntializeInfo()
+[06/15/2017 13:41:21][      GetSystemIntializeInfo()] Starting Function
+[06/15/2017 13:41:21][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/15/2017 13:41:21][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/15/2017 13:41:21][                        Main()] Addon started successfully
+[06/15/2017 13:41:21][                        Main()] Calling EndStatus()
+[06/15/2017 13:41:27][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:15:21][                        Main()] Starting Addon startup function
+[06/20/2017 10:15:22][                        Main()] Initializing public SBO Application object
+[06/20/2017 10:15:22][                        Main()] Retriving SBO application company handle
+[06/20/2017 10:15:32][                        Main()] Calling ConnectDICompSSO()
+[06/20/2017 10:15:32][            ConnectDICompSSO()] Starting function
+[06/20/2017 10:16:29][                        Main()] Starting Addon startup function
+[06/20/2017 10:16:30][                        Main()] Initializing public SBO Application object
+[06/20/2017 10:16:30][                        Main()] Retriving SBO application company handle
+[06/20/2017 10:16:33][                        Main()] Calling ConnectDICompSSO()
+[06/20/2017 10:16:33][            ConnectDICompSSO()] Starting function
+[06/20/2017 10:16:53][            ConnectDICompSSO()] Completed with SUCCESS
+[06/20/2017 10:16:53][                        Main()] Calling AddMenus Functions
+[06/20/2017 10:16:53][                        Main()] AddMenus Functions Completed Successfully.
+[06/20/2017 10:16:53][                        Main()] Creating Event handler class
+[06/20/2017 10:16:53][            Class_Initialize()] Starting function
+[06/20/2017 10:16:53][            Class_Initialize()] Retriving SBO Application handle
+[06/20/2017 10:16:53][            Class_Initialize()] Completed with SUCCESS
+[06/20/2017 10:16:53][                        Main()] Calling SetApplication Function
+[06/20/2017 10:16:53][                        Main()] Calling GetSystemIntializeInfo()
+[06/20/2017 10:16:54][      GetSystemIntializeInfo()] Starting Function
+[06/20/2017 10:16:54][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/20/2017 10:16:54][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/20/2017 10:16:54][                        Main()] Addon started successfully
+[06/20/2017 10:16:54][                        Main()] Calling EndStatus()
+[06/20/2017 10:17:08][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:18:09][                        Main()] Starting Addon startup function
+[06/20/2017 10:18:10][                        Main()] Initializing public SBO Application object
+[06/20/2017 10:18:10][                        Main()] Retriving SBO application company handle
+[06/20/2017 10:18:13][                        Main()] Calling ConnectDICompSSO()
+[06/20/2017 10:18:13][            ConnectDICompSSO()] Starting function
+[06/20/2017 10:18:24][            ConnectDICompSSO()] Completed with SUCCESS
+[06/20/2017 10:18:24][                        Main()] Calling AddMenus Functions
+[06/20/2017 10:18:24][                        Main()] AddMenus Functions Completed Successfully.
+[06/20/2017 10:18:24][                        Main()] Creating Event handler class
+[06/20/2017 10:18:24][            Class_Initialize()] Starting function
+[06/20/2017 10:18:24][            Class_Initialize()] Retriving SBO Application handle
+[06/20/2017 10:18:24][            Class_Initialize()] Completed with SUCCESS
+[06/20/2017 10:18:24][                        Main()] Calling SetApplication Function
+[06/20/2017 10:18:24][                        Main()] Calling GetSystemIntializeInfo()
+[06/20/2017 10:18:24][      GetSystemIntializeInfo()] Starting Function
+[06/20/2017 10:18:24][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/20/2017 10:18:24][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/20/2017 10:18:24][                        Main()] Addon started successfully
+[06/20/2017 10:18:24][                        Main()] Calling EndStatus()
+[06/20/2017 10:18:42][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:18:55][                              ] Completed with ERROR
+[06/20/2017 10:20:25][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:21:06][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:21:25][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:22:08][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:22:40][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:23:16][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:23:56][                              ] User Authorization CREATE AND UPDATE
+[06/20/2017 10:24:53][                        Main()] Starting Addon startup function
+[06/20/2017 10:24:53][                        Main()] Initializing public SBO Application object
+[06/20/2017 10:24:53][                        Main()] Retriving SBO application company handle
+[06/20/2017 10:24:56][                        Main()] Calling ConnectDICompSSO()
+[06/20/2017 10:24:56][            ConnectDICompSSO()] Starting function
+[06/20/2017 10:25:08][            ConnectDICompSSO()] Completed with SUCCESS
+[06/20/2017 10:25:08][                        Main()] Calling AddMenus Functions
+[06/20/2017 10:25:08][                        Main()] AddMenus Functions Completed Successfully.
+[06/20/2017 10:25:08][                        Main()] Creating Event handler class
+[06/20/2017 10:25:08][            Class_Initialize()] Starting function
+[06/20/2017 10:25:08][            Class_Initialize()] Retriving SBO Application handle
+[06/20/2017 10:25:08][            Class_Initialize()] Completed with SUCCESS
+[06/20/2017 10:25:08][                        Main()] Calling SetApplication Function
+[06/20/2017 10:25:08][                        Main()] Calling GetSystemIntializeInfo()
+[06/20/2017 10:25:08][      GetSystemIntializeInfo()] Starting Function
+[06/20/2017 10:25:08][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/20/2017 10:25:08][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/20/2017 10:25:08][                        Main()] Addon started successfully
+[06/20/2017 10:25:08][                        Main()] Calling EndStatus()
+[06/20/2017 18:38:24][                        Main()] Starting Addon startup function
+[06/20/2017 18:38:24][                        Main()] Initializing public SBO Application object
+[06/20/2017 18:38:24][                        Main()] Retriving SBO application company handle
+[06/20/2017 18:38:27][                        Main()] Calling ConnectDICompSSO()
+[06/20/2017 18:38:27][            ConnectDICompSSO()] Starting function
+[06/20/2017 18:38:39][            ConnectDICompSSO()] Completed with SUCCESS
+[06/20/2017 18:38:39][                        Main()] Calling AddMenus Functions
+[06/20/2017 18:38:39][                        Main()] AddMenus Functions Completed Successfully.
+[06/20/2017 18:38:39][                        Main()] Creating Event handler class
+[06/20/2017 18:38:39][            Class_Initialize()] Starting function
+[06/20/2017 18:38:39][            Class_Initialize()] Retriving SBO Application handle
+[06/20/2017 18:38:39][            Class_Initialize()] Completed with SUCCESS
+[06/20/2017 18:38:39][                        Main()] Calling SetApplication Function
+[06/20/2017 18:38:39][                        Main()] Calling GetSystemIntializeInfo()
+[06/20/2017 18:38:39][      GetSystemIntializeInfo()] Starting Function
+[06/20/2017 18:38:39][      GetSystemIntializeInfo()] SQL-Authorization  SELECT T0.[U_AB_AUTHORIZATION] FROM OUSR T0 WHERE T0.[USER_CODE]  = 'manager'
+[06/20/2017 18:38:39][      GetSystemIntializeInfo()] Completed with SUCCESS
+[06/20/2017 18:38:39][                        Main()] Addon started successfully
+[06/20/2017 18:38:39][                        Main()] Calling EndStatus()

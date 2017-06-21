@@ -513,15 +513,19 @@ Public Class clsEventHandler
                             Try
                                 If oform.Mode = SAPbouiCOM.BoFormMode.fm_ADD_MODE Or oform.Mode = SAPbouiCOM.BoFormMode.fm_UPDATE_MODE Then
                                     Dim sUDF As String = String.Empty
+                                    Dim oCombobox As SAPbouiCOM.ComboBox = Nothing
                                     p_FormTypecount = pVal.FormTypeCount
 
                                     oform_UDF = p_oSBOApplication.Forms.GetFormByTypeAndCount(-134, pVal.FormTypeCount)
                                     sUDF = oform_UDF.Items.Item("U_AB_STATUS").Specific.value.ToString.Trim().ToUpper
+                                    oCombobox = oform_UDF.Items.Item("U_AB_STATUS").Specific
                                     If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("User Authorization " & p_oCompDef.sAuthorization, sFuncName)
                                     Select Case p_oCompDef.sAuthorization
                                         Case "CREATE AND UPDATE"
+                                            oform_UDF.Items.Item("U_AB_STATUS").Specific.Select("PENDING")
                                             oform.Items.Item("3").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                                             oform.Items.Item("10002045").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+
                                             ''If sUDF = "PENDING" Then
                                             ''    oform.Items.Item("10002045").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                                             ''ElseIf sUDF = "APPROVED" Then

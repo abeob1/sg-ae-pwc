@@ -1,0 +1,32 @@
+D:\Others\My Projects\WS\Addon\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Others\My Projects\WS\Addon\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.vbproj.ResolveComReference.cache
+D:\Others\My Projects\WS\Addon\obj\Debug\ResolveAssemblyReference.cache
+D:\Others\My Projects\WS\Addon\obj\Debug\Import_UDT_UDF.frmBPIndustry.resources
+D:\Others\My Projects\WS\Addon\obj\Debug\Import_UDT_UDF.Resources.resources
+D:\Others\My Projects\WS\Addon\obj\Debug\Import_UDT_UDF.myLabel.resources
+D:\Others\My Projects\WS\Addon\obj\Debug\Import_UDT_UDF.SAP_FakeForm.resources
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.vbproj.GenerateResource.Cache
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.exe.licenses
+D:\Others\My Projects\WS\Addon\bin\Debug\WS Addon.exe
+D:\Others\My Projects\WS\Addon\bin\Debug\WS Addon.pdb
+D:\Others\My Projects\WS\Addon\bin\Debug\WS Addon.xml
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Data.v3.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.Common.v3.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.GridEX.v3.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.Ribbon.v3.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.UI.v3.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.UI.v3.xml
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.GridEX.v3.xml
+D:\Others\My Projects\WS\Addon\bin\Debug\Janus.Windows.Ribbon.v3.xml
+D:\Others\My Projects\WS\Addon\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Others\My Projects\WS\Addon\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.exe
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.xml
+D:\Others\My Projects\WS\Addon\obj\Debug\WS Addon.pdb
+D:\Working Folder\WS\Addon\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Working Folder\WS\Addon\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Working Folder\WS\Addon\obj\Debug\WS Addon.vbproj.ResolveComReference.cache
+D:\Working Folder\WS\Addon\obj\Debug\WS Addon.exe
+D:\Working Folder\WS\Addon\obj\Debug\WS Addon.xml
+D:\Working Folder\WS\Addon\obj\Debug\WS Addon.pdb

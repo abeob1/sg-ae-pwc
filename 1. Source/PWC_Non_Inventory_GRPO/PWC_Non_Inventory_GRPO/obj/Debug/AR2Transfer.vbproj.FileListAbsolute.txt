@@ -1,0 +1,36 @@
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\AR2Transfer.exe.config
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.vbproj.ResolveComReference.cache
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\AR2Transfer.exe
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\AR2Transfer.pdb
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\AR2Transfer.xml
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Data.v3.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.Common.v3.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.GridEX.v3.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.Ribbon.v3.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.UI.v3.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.GridEX.v3.xml
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.Ribbon.v3.xml
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Janus.Windows.UI.v3.xml
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.frmIntegrationMonitor.resources
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.Resources.resources
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.myLabel.resources
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.SAP_FakeForm.resources
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.Service1.resources
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\ResGen.read.1.tlog
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\ResGen.write.1.tlog
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.exe.licenses
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.exe
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.xml
+C:\Working Folder\ABEO\AR2Transfer\AR2Transfer Service\obj\Debug\AR2Transfer.pdb
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\bin\Debug\AR2Transfer.exe.config
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\AR2Transfer.vbproj.ResolveComReference.cache
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\AR2Transfer.exe
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\AR2Transfer.xml
+C:\Working Folder\ABEO\Singapore Elush\Integration\Integration Souce Code\obj\Debug\AR2Transfer.pdb

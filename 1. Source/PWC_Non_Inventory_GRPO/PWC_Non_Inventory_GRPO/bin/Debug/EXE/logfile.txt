@@ -1,0 +1,6 @@
+04/07/2016 4:47:44 PM:Integration_RunQuery: select 'All' St union All select 'Pending' St union All select 'Successfull' St union All select 'Failed' St ERROR:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+04/07/2016 4:47:44 PM:LoadComboBox_Status:InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex
+04/07/2016 4:47:44 PM:Integration_RunQuery: SELECT T0.Name FROM [dbo].[@AB_COMPANYDATA]  T0 order by T0.Name ERROR:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+04/07/2016 4:47:44 PM:LoadComboBox_DB:InvalidArgument=Value of '0' is not valid for 'SelectedIndex'.
+Parameter name: SelectedIndex

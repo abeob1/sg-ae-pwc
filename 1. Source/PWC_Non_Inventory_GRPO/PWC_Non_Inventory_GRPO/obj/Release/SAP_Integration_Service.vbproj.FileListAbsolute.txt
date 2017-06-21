@@ -1,0 +1,112 @@
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Data.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Common.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.GridEX.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Ribbon.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.UI.v3.dll
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.UI.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Ribbon.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.GridEX.v3.xml
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\Interop.SAPbobsCOM.dll
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\ResolveAssemblyReference.cache
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\Interop.SAPbobsCOM.dll
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration_Service.vbproj.ResolveComReference.cache
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration_Service.vbproj.GenerateResource.Cache
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.exe.config
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.exe
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.pdb
+D:\Working Folder\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.xml
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.frmSetup.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.frmIntegrationMonitor.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.Resources.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.myLabel.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.SAP_FakeForm.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.Service1.resources
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.exe.licenses
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.exe
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.xml
+D:\Working Folder\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.pdb
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.exe.config
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\Interop.SAPbobsCOM.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration_Service.vbproj.ResolveComReference.cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.exe
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.pdb
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.exe
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Data.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Common.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.GridEX.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Ribbon.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.UI.v3.dll
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.UI.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.GridEX.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Janus.Windows.Ribbon.v3.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\ResolveAssemblyReference.cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.frmSetup.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.frmIntegrationMonitor.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.Resources.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.myLabel.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.SAP_FakeForm.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.Service1.resources
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration_Service.vbproj.GenerateResource.Cache
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\obj\Release\SAP_Integration.exe.licenses
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.pdb
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\SAP_Integration.xml
+D:\Working Folder\Hoang Duc\Integration SAP\IntegrationSource\bin\Release\Interop.SAPbobsCOM.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\SAP_Integration.exe.config
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\Interop.SAPbobsCOM.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration_Service.vbproj.ResolveComReference.cache
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.exe
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.xml
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.pdb
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\ResolveAssemblyReference.cache
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.frmSetup.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.frmIntegrationMonitor.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.Resources.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.myLabel.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.SAP_FakeForm.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.Service1.resources
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\ResGen.read.1.tlog
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\ResGen.write.1.tlog
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\obj\Release\SAP_Integration.exe.licenses
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\SAP_Integration.exe
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\SAP_Integration.pdb
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\SAP_Integration.xml
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Data.v3.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.Common.v3.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.GridEX.v3.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.Ribbon.v3.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.UI.v3.dll
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.GridEX.v3.xml
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.Ribbon.v3.xml
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Janus.Windows.UI.v3.xml
+C:\Working Folder\ABEO\VHF DMS\DMS INTERATION\bin\Release\Interop.SAPbobsCOM.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\SAP_Integration.exe.config
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\Interop.SAPbobsCOM.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration_Service.vbproj.ResolveComReference.cache
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.exe
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.xml
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.pdb
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\SAP_Integration.exe
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\SAP_Integration.pdb
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\SAP_Integration.xml
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Data.v3.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.Common.v3.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.GridEX.v3.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.Ribbon.v3.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.UI.v3.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.GridEX.v3.xml
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.Ribbon.v3.xml
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Janus.Windows.UI.v3.xml
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\Interop.SAPbobsCOM.dll
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\ResolveAssemblyReference.cache
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.frmSetup.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.frmIntegrationMonitor.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.Resources.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.myLabel.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.SAP_FakeForm.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.Service1.resources
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\ResGen.read.1.tlog
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\ResGen.write.1.tlog
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\obj\Release\SAP_Integration.exe.licenses
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\General Journal.rdl
+C:\Working Folder\ICC\LONGSON\WS_SendRS2Email\Service_SendRS2Email\bin\Release\SendRS2Email.exe.config

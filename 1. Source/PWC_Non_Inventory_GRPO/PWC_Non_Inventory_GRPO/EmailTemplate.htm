@@ -1,0 +1,155 @@
+﻿ <head>
+     <style type="text/css">
+         .style1
+         {
+             width: 684px;
+         }
+         .style2
+         {
+             width: 145px;
+         }
+         .style3
+         {
+             width: 341px;
+         }
+         .style4
+         {
+             width: 400px;
+         }
+         .style5
+         {
+             width: 1243px;
+         }
+         .style10
+         {
+             width: 472px;
+             font-weight: bold;
+         }
+         .style11
+         {
+             width: 472px;
+             height: 24px;
+             font-weight: bold;
+         }
+         .style12
+         {
+             height: 24px;
+         }
+         .style15
+         {
+             width: 71px;
+             font-weight: bold;
+         }
+         .style16
+         {
+             width: 320px;
+             font-weight: bold;
+         }
+         .style17
+         {
+             width: 98px;
+             font-weight: bold;
+         }
+         .style18
+         {
+             width: 102px;
+         }
+     </style>
+ </head>
+ <table bgcolor="White" >
+    <tr>
+        <td class="style1" >
+                <table style="width:100%;">
+                    <tr>
+                        <td align="center" style="font-weight: bold" bgcolor="#99CCFF">
+                            PURCHASE ORDER</td>
+                    </tr>
+                </table>
+                <br />
+                <table id="tblHeader" style="width:100%;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="style2" style="font-weight: bold">
+                            Code</td>
+                        <td class="style5">
+                            <@Code></td>
+                        <td class="style4" style="font-weight: bold">
+                            &nbsp;</td>
+                        <td class="style3">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="style2" style="font-weight: bold">
+                            Name</td>
+                        <td class="style5">
+                            <@Name></td>
+                        <td class="style4" style="font-weight: bold">
+                            &nbsp;</td>
+                        <td class="style3">
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="style2" style="font-weight: bold">
+                            Date</td>
+                        <td class="style5">
+                            <@Date></td>
+                        <td class="style4" style="font-weight: bold">
+                            &nbsp;</td>
+                        <td class="style3">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+                <br />
+                <table id="tblLine" style="width:100%;" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="center" class="style17" 
+                            style="border: thin solid #008080; " bgcolor="#FFCCFF" colspan="0" 
+                            rowspan="0">
+                            Item Code</td>
+                        <td align="center" class="style16" 
+                            style="border: thin solid #008080; " bgcolor="#FFCCFF" colspan="0" 
+                            rowspan="0">
+                            Description</td>
+                        <td align="center" class="style15" 
+                            style="border: thin solid #008080; " bgcolor="#FFCCFF" colspan="0" 
+                            rowspan="0">
+                            Quantity</td>
+                        <td align="center" style="border: thin solid #008080; " bgcolor="#FFCCFF" 
+                            colspan="0" rowspan="0" class="style18">
+                            <b>Price</b></td>
+                        <td align="center" style="border: thin solid #008080; " bgcolor="#FFCCFF" 
+                            colspan="0" rowspan="0" class="style18">
+                            <b>Line Total</b></td>
+                        <td align="center" style="border: thin solid #008080; " bgcolor="#FFCCFF" 
+                            rowspan="0">
+                            <strong>Location</strong></td>
+                    </tr>
+                    <@ITEMLINEHERE>
+                </table>
+                <br />
+                <table id="tblFooter" style="border: thin solid #008080; width:100%;" 
+                    cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td align="right" class="style11">
+                            Sub Total</td>
+                        <td align="right" class="style12">
+                            <@SubTotal></td>
+                    </tr>
+
+                    <tr>
+                        <td align="right" class="style11">
+                            GST</td>
+                        <td align="right" class="style12">
+                            <@Tax></td>
+                    </tr>
+                   
+                    <tr>
+                        <td align="right" class="style10">
+                            Grand Total</td>
+                        <td align="right">
+                            <@AmountDue></td>
+                    </tr>
+                </table>
+                <br />
+        </td>
+    </tr>
+    </table>
