@@ -1,0 +1,11 @@
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\bin\AE_PWC_IN05.exe
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\bin\AE_PWC_IN05.xml
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.BaseControl.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.BaseForm.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AE_PWC_IN05.vbproj.GenerateResource.Cache
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AE_PWC_IN05.exe
+E:\Abeo Projects\PWC\trunk\3. Addon or Installer\AE_PWC_IN05\AE_PWC_IN05\AE_PWC_IN05\obj\Release\AE_PWC_IN05.xml
