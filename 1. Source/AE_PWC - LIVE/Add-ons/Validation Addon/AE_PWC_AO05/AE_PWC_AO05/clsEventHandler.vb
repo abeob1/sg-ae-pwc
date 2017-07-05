@@ -469,34 +469,50 @@ Public Class clsEventHandler
 
                         If pVal.EventType = SAPbouiCOM.BoEventTypes.et_ITEM_PRESSED And pVal.ItemUID = "btnapprove" Then
                             Dim oform As SAPbouiCOM.Form = p_oSBOApplication.Forms.GetFormByTypeAndCount(pVal.FormTypeEx, pVal.FormTypeCount)
-                            '' Dim oform_UDF As SAPbouiCOM.Form = p_oSBOApplication.Forms.GetFormByTypeAndCount(-134, pVal.FormTypeCount)
+                            Dim oform_UDF As SAPbouiCOM.Form = p_oSBOApplication.Forms.GetFormByTypeAndCount(-134, pVal.FormTypeCount)
                             ''oform.Items.Item("10002044").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                             Dim sBPcode As String = String.Empty
                             Dim oBP As SAPbobsCOM.BusinessPartners = Nothing
                             Dim irlt As Integer = 0
                             Try
-                                If oform.Mode = SAPbouiCOM.BoFormMode.fm_VIEW_MODE And p_oCompDef.sAuthorization = "APPROVE" Then
-                                    oBP = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oBusinessPartners)
-                                    sBPcode = oform.Items.Item("5").Specific.String
-                                    If oBP.GetByKey(sBPcode) Then
-                                        oBP.Frozen = SAPbobsCOM.BoYesNoEnum.tNO
-                                        oBP.Valid = SAPbobsCOM.BoYesNoEnum.tYES
-                                        oBP.UserFields.Fields.Item("U_AB_STATUS").Value = "APPROVED"
-                                        irlt = oBP.Update()
-                                        If irlt <> 0 Then
-                                            p_oSBOApplication.SetStatusBarMessage(p_oDICompany.GetLastErrorCode & " - " & p_oDICompany.GetLastErrorDescription, SAPbouiCOM.BoMessageTime.bmt_Short, True)
-                                            BubbleEvent = False
-                                            Exit Try
-                                        Else
-                                            oform.Close()
-                                            p_oSBOApplication.ActivateMenuItem("2561")
-                                            oform = p_oSBOApplication.Forms.ActiveForm
-                                            oform.Items.Item("5").Specific.String = sBPcode
-                                            oform.Items.Item("1").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
-                                            oform.Items.Item("btnapprove").Enabled = False
+                                If p_oCompDef.sAuthorization = "APPROVE" Then
 
+                                    If oform.Mode = SAPbouiCOM.BoFormMode.fm_VIEW_MODE Then
+                                        oBP = p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oBusinessPartners)
+                                        p_sApproval = False
+                                        sBPcode = oform.Items.Item("5").Specific.String
+                                        If oBP.GetByKey(sBPcode) Then
+                                            oBP.Frozen = SAPbobsCOM.BoYesNoEnum.tNO
+                                            oBP.Valid = SAPbobsCOM.BoYesNoEnum.tYES
+                                            oBP.UserFields.Fields.Item("U_AB_STATUS").Value = "APPROVED"
+                                            irlt = oBP.Update()
+                                            If irlt <> 0 Then
+                                                p_oSBOApplication.SetStatusBarMessage(p_oDICompany.GetLastErrorCode & " - " & p_oDICompany.GetLastErrorDescription, SAPbouiCOM.BoMessageTime.bmt_Short, True)
+                                                BubbleEvent = False
+                                                Exit Try
+                                            Else
+                                                oform.Close()
+                                                p_oSBOApplication.ActivateMenuItem("2561")
+                                                oform = p_oSBOApplication.Forms.ActiveForm
+                                                oform.Items.Item("5").Specific.String = sBPcode
+                                                oform.Items.Item("1").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+                                                oform.Items.Item("btnapprove").Enabled = False
+
+                                            End If
                                         End If
+                                    Else
+                                        p_sApproval = True
+                                        oform_UDF.Items.Item("U_AB_STATUS").Specific.Select("APPROVED")
+                                        oform.Items.Item("3").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+                                        oform.Items.Item("10002044").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+                                        oform.Items.Item("1").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+                                        oform.Items.Item("btnapprove").Enabled = False
                                     End If
+
+                                    ''oform.Mode = SAPbouiCOM.BoFormMode.fm_VIEW_MODE And p_oCompDef.sAuthorization = "APPROVE" Then
+                                   
+                                Else
+                                    p_sApproval = False
                                 End If
 
                             Catch ex As Exception
@@ -520,6 +536,10 @@ Public Class clsEventHandler
                                     sUDF = oform_UDF.Items.Item("U_AB_STATUS").Specific.value.ToString.Trim().ToUpper
                                     oCombobox = oform_UDF.Items.Item("U_AB_STATUS").Specific
                                     If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("User Authorization " & p_oCompDef.sAuthorization, sFuncName)
+                                    If p_sApproval = True Then
+                                        p_sApproval = False
+                                        Exit Sub
+                                    End If
                                     Select Case p_oCompDef.sAuthorization
                                         Case "CREATE AND UPDATE"
                                             oform_UDF.Items.Item("U_AB_STATUS").Specific.Select("PENDING")

@@ -1670,7 +1670,12 @@ Namespace AE_PWC_AO03
 
                         p_stype = "Error while Sync Business partner Master data"
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Attempting BP Master Sync Function ", sFuncName)
-                        sSQL = "SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between '" & sMasterdatacodeF & "' and '" & sMasterdatacodeT & "' order by T0.[CardCode]"  ' and  T0.[frozenFor] = 'N' order by T0.[CardCode]"
+                        ''  sSQL = "SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between '" & sMasterdatacodeF & "' and '" & sMasterdatacodeT & "' order by T0.[CardCode]"  ' and  T0.[frozenFor] = 'N' order by T0.[CardCode]"
+                        sSQL = "select * from ( " & _
+"SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE T0.[CardCode] between '" & sMasterdatacodeF & "' and '" & sMasterdatacodeT & "' and  T0.[frozenFor] = 'N'  " & _
+"union all " & _
+"SELECT T0.[CardCode], T0.[CardName] FROM OCRD T0 WHERE  T0.[CardName] like 'Inactive-%' and T0.[U_AB_STATUS] = 'PENDING' " & _
+") as Tmp order by Tmp.CardCode"
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Listing BP Master Query " & sSQL, sFuncName)
                         oRset.DoQuery(sSQL)
                         ' oMatrix.Columns.Item("Col_3").Cells.Item(irow).Specific.String = ""
@@ -1722,7 +1727,7 @@ Namespace AE_PWC_AO03
 
                         oMatrix.Columns.Item("Col_3").Cells.Item(irow).Specific.String = sStatus
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS (BP Master)", sFuncName)
-                      
+
                         oDT_MasterCode.Dispose()
                     Case "OOCR" ' Distribution
 
@@ -1741,7 +1746,7 @@ Namespace AE_PWC_AO03
                             ost_form.Items.Item("4").Specific.caption = "Processing " & sMasterCode
                             ost_form.Refresh()
                             sMasterCode = oRset.Fields.Item("OcrCode").Value
-                           
+
                             If DistributionSync(oHoldingCompany, oTragetCompany, sMasterCode, sErrDesc) = RTN_SUCCESS Then
                                 oMatrix.Columns.Item("Col_3").Cells.Item(irow).Specific.String += " " & sMasterCode & " - SUCCESS: "
                             Else
@@ -1759,7 +1764,7 @@ Namespace AE_PWC_AO03
 
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Attempting Users Sync Function ", sFuncName)
                         p_stype = "Error while Sync Users Master data"
-                       
+
 
                         sSQL = "SELECT T0.[USER_CODE], T0.[U_NAME] FROM OUSR T0 WHERE T0.[USER_CODE] between '" & sMasterdatacodeF & "' and '" & sMasterdatacodeT & "' and T0.[Locked] = 'N' order by T0.[USER_CODE]"
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Listing BP Master Query " & sSQL, sFuncName)
@@ -1786,7 +1791,7 @@ Namespace AE_PWC_AO03
                     Case "OSLP"
                         If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Attempting Sales Employee ", sFuncName)
                         p_stype = "Error while Sync Sales Employee Master data"
-                      
+
                         If oForm.Items.Item("Item_3").Specific.checked = True Then
                             sOSLPFlag = "S"
                             sSQL = "SELECT T0.[SlpCode], T0.[SlpName] FROM OSLP T0 WHERE T0.[Active] = 'Y' and  T0.[SlpName] between '" & sMasterdatacodeF & "' and '" & sMasterdatacodeT & "' order by T0.[SlpCode]"

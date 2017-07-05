@@ -17,6 +17,7 @@ Module modMain
 
     Public Const ERR_DISPLAY_STATUS As Int16 = 1
     Public Const ERR_DISPLAY_DIALOGUE As Int16 = 2
+    Public p_sApproval As Boolean = False
 
     Public Structure CompanyDefault
         'Public sSMTPServer As String

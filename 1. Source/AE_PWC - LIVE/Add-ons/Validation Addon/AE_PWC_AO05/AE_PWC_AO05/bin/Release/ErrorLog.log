@@ -4,3 +4,5 @@
 [05/04/2017 14:02:23][                        Main()] Connection - Could not find SBO that match the connection string
 [06/15/2017 12:59:36][                        Main()] 
 [06/20/2017 10:18:55][                              ] 
+[07/03/2017 17:13:33][            ConnectDICompSSO()] Connect of Single SignOn failed : Unable to initialize OBServerDLL.dll
+[07/03/2017 17:13:33][                        Main()] Connect of Single SignOn failed : Unable to initialize OBServerDLL.dll
